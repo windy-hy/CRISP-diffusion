@@ -1,0 +1,1792 @@
+,pos_ratio,model,cov_drug,cell_type
+0,0.7400000095367432,CRISP,Myeloid cells_Belinostat,Myeloid cells
+1,0.7400000095367432,CRISP,Myeloid cells_CHIR99021,Myeloid cells
+2,0.7599999904632568,CRISP,Myeloid cells_Crizotinib,Myeloid cells
+3,0.6800000071525574,CRISP,Myeloid cells_Dabrafenib,Myeloid cells
+4,0.7799999713897705,CRISP,Myeloid cells_Dactolisib,Myeloid cells
+5,0.7799999713897705,CRISP,Myeloid cells_Foretinib,Myeloid cells
+6,0.8600000143051147,CRISP,Myeloid cells_Idelalisib,Myeloid cells
+7,0.9399999976158142,CRISP,Myeloid cells_LDN193189,Myeloid cells
+8,0.8399999737739563,CRISP,Myeloid cells_Linagliptin,Myeloid cells
+9,0.8199999928474426,CRISP,Myeloid cells_ODemethylatedAdapalene,Myeloid cells
+10,0.7799999713897705,CRISP,Myeloid cells_Palbociclib,Myeloid cells
+11,0.8600000143051147,CRISP,Myeloid cells_Penfluridol,Myeloid cells
+12,0.25999999046325684,CRISP,Myeloid cells_PorcnInhibitorIII,Myeloid cells
+13,0.2199999988079071,CRISP,Myeloid cells_R428,Myeloid cells
+14,0.9200000166893005,CRISP,T regulatory cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T regulatory cells
+15,0.4000000059604645,CRISP,T regulatory cells_ABT199GDC0199,T regulatory cells
+16,0.41999998688697815,CRISP,T regulatory cells_ABT737,T regulatory cells
+17,0.6600000262260437,CRISP,T regulatory cells_AMD070hydrochloride,T regulatory cells
+18,0.9800000190734863,CRISP,T regulatory cells_AT13387,T regulatory cells
+19,0.7200000286102295,CRISP,T regulatory cells_AT7867,T regulatory cells
+20,0.6600000262260437,CRISP,T regulatory cells_AVL292,T regulatory cells
+21,0.6600000262260437,CRISP,T regulatory cells_AZ628,T regulatory cells
+22,0.41999998688697815,CRISP,T regulatory cells_AZD3514,T regulatory cells
+23,0.4399999976158142,CRISP,T regulatory cells_AZD4547,T regulatory cells
+24,0.699999988079071,CRISP,T regulatory cells_AZD8330,T regulatory cells
+25,0.46000000834465027,CRISP,T regulatory cells_Alogliptin,T regulatory cells
+26,0.9599999785423279,CRISP,T regulatory cells_Alvocidib,T regulatory cells
+27,0.3400000035762787,CRISP,T regulatory cells_Amiodarone,T regulatory cells
+28,0.5,CRISP,T regulatory cells_Atorvastatin,T regulatory cells
+29,0.3199999928474426,CRISP,T regulatory cells_Azacitidine,T regulatory cells
+30,0.9800000190734863,CRISP,T regulatory cells_BAY613606,T regulatory cells
+31,0.8799999952316284,CRISP,T regulatory cells_BAY872243,T regulatory cells
+32,0.41999998688697815,CRISP,T regulatory cells_BID1870,T regulatory cells
+33,0.6000000238418579,CRISP,T regulatory cells_BMS265246,T regulatory cells
+34,1.0,CRISP,T regulatory cells_BMS387032,T regulatory cells
+35,0.9399999976158142,CRISP,T regulatory cells_BMS536924,T regulatory cells
+36,0.6000000238418579,CRISP,T regulatory cells_BMS777607,T regulatory cells
+37,0.8199999928474426,CRISP,T regulatory cells_BX912,T regulatory cells
+38,0.8399999737739563,CRISP,T regulatory cells_Belinostat,T regulatory cells
+39,0.8399999737739563,CRISP,T regulatory cells_Bosutinib,T regulatory cells
+40,0.6000000238418579,CRISP,T regulatory cells_Buspirone,T regulatory cells
+41,0.6200000047683716,CRISP,T regulatory cells_CC401,T regulatory cells
+42,0.5400000214576721,CRISP,T regulatory cells_CEP37440,T regulatory cells
+43,0.6800000071525574,CRISP,T regulatory cells_CGM097,T regulatory cells
+44,0.8999999761581421,CRISP,T regulatory cells_CGP60474,T regulatory cells
+45,0.5400000214576721,CRISP,T regulatory cells_CHIR99021,T regulatory cells
+46,0.3799999952316284,CRISP,T regulatory cells_Cabozantinib,T regulatory cells
+47,0.6200000047683716,CRISP,T regulatory cells_Canertinib,T regulatory cells
+48,0.6399999856948853,CRISP,T regulatory cells_Ceritinib,T regulatory cells
+49,0.7599999904632568,CRISP,T regulatory cells_Chlorpheniramine,T regulatory cells
+50,0.5400000214576721,CRISP,T regulatory cells_Clemastine,T regulatory cells
+51,0.5,CRISP,T regulatory cells_Clomipramine,T regulatory cells
+52,0.7599999904632568,CRISP,T regulatory cells_Clotrimazole,T regulatory cells
+53,0.5199999809265137,CRISP,T regulatory cells_Colchicine,T regulatory cells
+54,0.47999998927116394,CRISP,T regulatory cells_Colforsin,T regulatory cells
+55,0.7599999904632568,CRISP,T regulatory cells_Crizotinib,T regulatory cells
+56,0.7599999904632568,CRISP,T regulatory cells_Dabrafenib,T regulatory cells
+57,0.8999999761581421,CRISP,T regulatory cells_Dactolisib,T regulatory cells
+58,0.9599999785423279,CRISP,T regulatory cells_Dasatinib,T regulatory cells
+59,0.5400000214576721,CRISP,T regulatory cells_Decitabine,T regulatory cells
+60,0.46000000834465027,CRISP,T regulatory cells_Defactinib,T regulatory cells
+61,0.6000000238418579,CRISP,T regulatory cells_Desloratadine,T regulatory cells
+62,0.47999998927116394,CRISP,T regulatory cells_Disulfiram,T regulatory cells
+63,0.699999988079071,CRISP,T regulatory cells_Dovitinib,T regulatory cells
+64,0.7400000095367432,CRISP,T regulatory cells_Doxorubicin,T regulatory cells
+65,0.6800000071525574,CRISP,T regulatory cells_FK866,T regulatory cells
+66,0.3799999952316284,CRISP,T regulatory cells_Flutamide,T regulatory cells
+67,0.6800000071525574,CRISP,T regulatory cells_Foretinib,T regulatory cells
+68,0.9800000190734863,CRISP,T regulatory cells_GLPG0634,T regulatory cells
+69,0.4399999976158142,CRISP,T regulatory cells_GO6976,T regulatory cells
+70,0.6600000262260437,CRISP,T regulatory cells_GSK1070916,T regulatory cells
+71,0.6600000262260437,CRISP,T regulatory cells_GSK256066,T regulatory cells
+72,0.46000000834465027,CRISP,T regulatory cells_GW843682X,T regulatory cells
+73,0.5199999809265137,CRISP,T regulatory cells_HMN214,T regulatory cells
+74,0.7599999904632568,CRISP,T regulatory cells_HYDROXYUREA,T regulatory cells
+75,0.8600000143051147,CRISP,T regulatory cells_IBET151,T regulatory cells
+76,0.8999999761581421,CRISP,T regulatory cells_IKKInhibitorVII,T regulatory cells
+77,0.8999999761581421,CRISP,T regulatory cells_IMD0354,T regulatory cells
+78,1.0,CRISP,T regulatory cells_IN1451,T regulatory cells
+79,0.800000011920929,CRISP,T regulatory cells_Idelalisib,T regulatory cells
+80,0.5199999809265137,CRISP,T regulatory cells_Imatinib,T regulatory cells
+81,0.4399999976158142,CRISP,T regulatory cells_Isoniazid,T regulatory cells
+82,0.5400000214576721,CRISP,T regulatory cells_Ixabepilone,T regulatory cells
+83,0.5799999833106995,CRISP,T regulatory cells_K02288,T regulatory cells
+84,0.5600000023841858,CRISP,T regulatory cells_Ketoconazole,T regulatory cells
+85,0.5400000214576721,CRISP,T regulatory cells_LDN193189,T regulatory cells
+86,0.6800000071525574,CRISP,T regulatory cells_LY2090314,T regulatory cells
+87,0.47999998927116394,CRISP,T regulatory cells_Lamivudine,T regulatory cells
+88,0.5199999809265137,CRISP,T regulatory cells_Lapatinib,T regulatory cells
+89,0.36000001430511475,CRISP,T regulatory cells_Linagliptin,T regulatory cells
+90,0.41999998688697815,CRISP,T regulatory cells_MGCD265,T regulatory cells
+91,0.5199999809265137,CRISP,T regulatory cells_MK5108,T regulatory cells
+92,0.5799999833106995,CRISP,T regulatory cells_Masitinib,T regulatory cells
+93,0.5600000023841858,CRISP,T regulatory cells_Methotrexate,T regulatory cells
+94,0.9800000190734863,CRISP,T regulatory cells_Midostaurin,T regulatory cells
+95,0.8199999928474426,CRISP,T regulatory cells_MometasoneFuroate,T regulatory cells
+96,0.800000011920929,CRISP,T regulatory cells_MubritinibTAK165,T regulatory cells
+97,0.5400000214576721,CRISP,T regulatory cells_Navitoclax,T regulatory cells
+98,0.5,CRISP,T regulatory cells_Nefazodone,T regulatory cells
+99,0.7599999904632568,CRISP,T regulatory cells_Nilotinib,T regulatory cells
+100,0.6000000238418579,CRISP,T regulatory cells_ODemethylatedAdapalene,T regulatory cells
+101,0.6800000071525574,CRISP,T regulatory cells_OSI930,T regulatory cells
+102,1.0,CRISP,T regulatory cells_OprozomibONX0912,T regulatory cells
+103,0.5,CRISP,T regulatory cells_Oxybenzone,T regulatory cells
+104,0.5199999809265137,CRISP,T regulatory cells_PD0325901,T regulatory cells
+105,0.8199999928474426,CRISP,T regulatory cells_PF03814735,T regulatory cells
+106,1.0,CRISP,T regulatory cells_PF04691502,T regulatory cells
+107,0.8600000143051147,CRISP,T regulatory cells_PRT062607,T regulatory cells
+108,0.5600000023841858,CRISP,T regulatory cells_Palbociclib,T regulatory cells
+109,0.47999998927116394,CRISP,T regulatory cells_Penfluridol,T regulatory cells
+110,0.8600000143051147,CRISP,T regulatory cells_Perhexiline,T regulatory cells
+111,0.7799999713897705,CRISP,T regulatory cells_Phenylbutazone,T regulatory cells
+112,0.5199999809265137,CRISP,T regulatory cells_PitavastatinCalcium,T regulatory cells
+113,0.4399999976158142,CRISP,T regulatory cells_Pomalidomide,T regulatory cells
+114,0.5,CRISP,T regulatory cells_PorcnInhibitorIII,T regulatory cells
+115,0.7599999904632568,CRISP,T regulatory cells_Prednisolone,T regulatory cells
+116,0.4000000059604645,CRISP,T regulatory cells_Protriptyline,T regulatory cells
+117,0.5799999833106995,CRISP,T regulatory cells_Quizartinib,T regulatory cells
+118,0.6200000047683716,CRISP,T regulatory cells_R428,T regulatory cells
+119,0.699999988079071,CRISP,T regulatory cells_RG7090,T regulatory cells
+120,0.5799999833106995,CRISP,T regulatory cells_RG7112,T regulatory cells
+121,0.47999998927116394,CRISP,T regulatory cells_RN486,T regulatory cells
+122,0.6200000047683716,CRISP,T regulatory cells_RVX208,T regulatory cells
+123,0.5799999833106995,CRISP,T regulatory cells_Raloxifene,T regulatory cells
+124,0.7799999713897705,CRISP,T regulatory cells_Resminostat,T regulatory cells
+125,0.6600000262260437,CRISP,T regulatory cells_Ricolinostat,T regulatory cells
+126,0.5,CRISP,T regulatory cells_Riociguat,T regulatory cells
+127,0.8199999928474426,CRISP,T regulatory cells_Ruxolitinib,T regulatory cells
+128,0.5600000023841858,CRISP,T regulatory cells_SB525334,T regulatory cells
+129,0.5600000023841858,CRISP,T regulatory cells_SCH58261,T regulatory cells
+130,0.5600000023841858,CRISP,T regulatory cells_SLx2119,T regulatory cells
+131,0.5600000023841858,CRISP,T regulatory cells_STK219801,T regulatory cells
+132,0.8199999928474426,CRISP,T regulatory cells_Saracatinib,T regulatory cells
+133,0.7200000286102295,CRISP,T regulatory cells_Selumetinib,T regulatory cells
+134,0.5600000023841858,CRISP,T regulatory cells_Sgccbp30,T regulatory cells
+135,0.7400000095367432,CRISP,T regulatory cells_Sunitinib,T regulatory cells
+136,0.699999988079071,CRISP,T regulatory cells_TGX221,T regulatory cells
+137,0.5600000023841858,CRISP,T regulatory cells_TIE2KinaseInhibitor,T regulatory cells
+138,0.4399999976158142,CRISP,T regulatory cells_TLHRAS26,T regulatory cells
+139,0.9399999976158142,CRISP,T regulatory cells_TPCA1,T regulatory cells
+140,0.5799999833106995,CRISP,T regulatory cells_TR14035,T regulatory cells
+141,0.8399999737739563,CRISP,T regulatory cells_Tacalcitol,T regulatory cells
+142,0.8199999928474426,CRISP,T regulatory cells_Tamatinib,T regulatory cells
+143,0.46000000834465027,CRISP,T regulatory cells_Tipifarnib,T regulatory cells
+144,0.5400000214576721,CRISP,T regulatory cells_Tivantinib,T regulatory cells
+145,0.5799999833106995,CRISP,T regulatory cells_Tivozanib,T regulatory cells
+146,0.800000011920929,CRISP,T regulatory cells_Topotecan,T regulatory cells
+147,0.5199999809265137,CRISP,T regulatory cells_Tosedostat,T regulatory cells
+148,0.6399999856948853,CRISP,T regulatory cells_Trametinib,T regulatory cells
+149,0.8799999952316284,CRISP,T regulatory cells_UNIIBXU45ZH6LI,T regulatory cells
+150,0.5600000023841858,CRISP,T regulatory cells_Vandetanib,T regulatory cells
+151,0.8799999952316284,CRISP,T regulatory cells_Vanoxerine,T regulatory cells
+152,0.7799999713897705,CRISP,T regulatory cells_Vardenafil,T regulatory cells
+153,0.699999988079071,CRISP,T regulatory cells_YK4279,T regulatory cells
+154,0.6600000262260437,CRISP,B cells_Belinostat,B cells
+155,0.5799999833106995,CRISP,B cells_CHIR99021,B cells
+156,0.8999999761581421,CRISP,B cells_Crizotinib,B cells
+157,0.4000000059604645,CRISP,B cells_Dabrafenib,B cells
+158,0.8999999761581421,CRISP,B cells_Dactolisib,B cells
+159,0.8600000143051147,CRISP,B cells_Foretinib,B cells
+160,0.800000011920929,CRISP,B cells_Idelalisib,B cells
+161,0.7200000286102295,CRISP,B cells_LDN193189,B cells
+162,0.6800000071525574,CRISP,B cells_Linagliptin,B cells
+163,0.6399999856948853,CRISP,B cells_ODemethylatedAdapalene,B cells
+164,0.7799999713897705,CRISP,B cells_Palbociclib,B cells
+165,0.8199999928474426,CRISP,B cells_Penfluridol,B cells
+166,0.6399999856948853,CRISP,B cells_PorcnInhibitorIII,B cells
+167,0.7400000095367432,CRISP,B cells_R428,B cells
+168,0.9800000190734863,CRISP,T cells CD4+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD4+
+169,0.8399999737739563,CRISP,T cells CD4+_ABT199GDC0199,T cells CD4+
+170,0.800000011920929,CRISP,T cells CD4+_ABT737,T cells CD4+
+171,0.9800000190734863,CRISP,T cells CD4+_AMD070hydrochloride,T cells CD4+
+172,0.9800000190734863,CRISP,T cells CD4+_AT13387,T cells CD4+
+173,1.0,CRISP,T cells CD4+_AT7867,T cells CD4+
+174,0.8999999761581421,CRISP,T cells CD4+_AVL292,T cells CD4+
+175,0.9599999785423279,CRISP,T cells CD4+_AZ628,T cells CD4+
+176,0.8999999761581421,CRISP,T cells CD4+_AZD3514,T cells CD4+
+177,0.8600000143051147,CRISP,T cells CD4+_AZD4547,T cells CD4+
+178,0.7799999713897705,CRISP,T cells CD4+_AZD8330,T cells CD4+
+179,0.9800000190734863,CRISP,T cells CD4+_Alogliptin,T cells CD4+
+180,0.9599999785423279,CRISP,T cells CD4+_Alvocidib,T cells CD4+
+181,0.7200000286102295,CRISP,T cells CD4+_Amiodarone,T cells CD4+
+182,0.7200000286102295,CRISP,T cells CD4+_Atorvastatin,T cells CD4+
+183,0.8600000143051147,CRISP,T cells CD4+_Azacitidine,T cells CD4+
+184,1.0,CRISP,T cells CD4+_BAY613606,T cells CD4+
+185,0.7799999713897705,CRISP,T cells CD4+_BAY872243,T cells CD4+
+186,0.7799999713897705,CRISP,T cells CD4+_BID1870,T cells CD4+
+187,0.9200000166893005,CRISP,T cells CD4+_BMS265246,T cells CD4+
+188,0.8600000143051147,CRISP,T cells CD4+_BMS387032,T cells CD4+
+189,0.8199999928474426,CRISP,T cells CD4+_BMS536924,T cells CD4+
+190,0.9599999785423279,CRISP,T cells CD4+_BMS777607,T cells CD4+
+191,0.8600000143051147,CRISP,T cells CD4+_BX912,T cells CD4+
+192,1.0,CRISP,T cells CD4+_Belinostat,T cells CD4+
+193,0.8999999761581421,CRISP,T cells CD4+_Bosutinib,T cells CD4+
+194,0.8399999737739563,CRISP,T cells CD4+_Buspirone,T cells CD4+
+195,0.8600000143051147,CRISP,T cells CD4+_CC401,T cells CD4+
+196,1.0,CRISP,T cells CD4+_CEP18770Delanzomib,T cells CD4+
+197,0.9200000166893005,CRISP,T cells CD4+_CEP37440,T cells CD4+
+198,0.7400000095367432,CRISP,T cells CD4+_CGM097,T cells CD4+
+199,0.9599999785423279,CRISP,T cells CD4+_CGP60474,T cells CD4+
+200,0.9200000166893005,CRISP,T cells CD4+_CHIR99021,T cells CD4+
+201,0.9599999785423279,CRISP,T cells CD4+_Cabozantinib,T cells CD4+
+202,0.8600000143051147,CRISP,T cells CD4+_Canertinib,T cells CD4+
+203,0.6800000071525574,CRISP,T cells CD4+_Ceritinib,T cells CD4+
+204,0.9599999785423279,CRISP,T cells CD4+_Chlorpheniramine,T cells CD4+
+205,0.9599999785423279,CRISP,T cells CD4+_Clemastine,T cells CD4+
+206,0.9599999785423279,CRISP,T cells CD4+_Clomipramine,T cells CD4+
+207,0.5799999833106995,CRISP,T cells CD4+_Clotrimazole,T cells CD4+
+208,0.6399999856948853,CRISP,T cells CD4+_Colchicine,T cells CD4+
+209,0.9399999976158142,CRISP,T cells CD4+_Colforsin,T cells CD4+
+210,0.9800000190734863,CRISP,T cells CD4+_Crizotinib,T cells CD4+
+211,0.7599999904632568,CRISP,T cells CD4+_Dabrafenib,T cells CD4+
+212,0.9599999785423279,CRISP,T cells CD4+_Dactolisib,T cells CD4+
+213,0.9800000190734863,CRISP,T cells CD4+_Dasatinib,T cells CD4+
+214,0.8999999761581421,CRISP,T cells CD4+_Decitabine,T cells CD4+
+215,0.7799999713897705,CRISP,T cells CD4+_Defactinib,T cells CD4+
+216,0.8799999952316284,CRISP,T cells CD4+_Desloratadine,T cells CD4+
+217,0.7599999904632568,CRISP,T cells CD4+_Disulfiram,T cells CD4+
+218,0.9399999976158142,CRISP,T cells CD4+_Dovitinib,T cells CD4+
+219,0.9599999785423279,CRISP,T cells CD4+_Doxorubicin,T cells CD4+
+220,0.8199999928474426,CRISP,T cells CD4+_FK866,T cells CD4+
+221,0.9200000166893005,CRISP,T cells CD4+_Flutamide,T cells CD4+
+222,0.9800000190734863,CRISP,T cells CD4+_Foretinib,T cells CD4+
+223,0.9200000166893005,CRISP,T cells CD4+_GLPG0634,T cells CD4+
+224,0.9599999785423279,CRISP,T cells CD4+_GO6976,T cells CD4+
+225,0.8799999952316284,CRISP,T cells CD4+_GSK1070916,T cells CD4+
+226,0.8799999952316284,CRISP,T cells CD4+_GSK256066,T cells CD4+
+227,0.8999999761581421,CRISP,T cells CD4+_GW843682X,T cells CD4+
+228,0.9800000190734863,CRISP,T cells CD4+_GanetespibSTA9090,T cells CD4+
+229,0.9800000190734863,CRISP,T cells CD4+_HMN214,T cells CD4+
+230,0.8199999928474426,CRISP,T cells CD4+_HYDROXYUREA,T cells CD4+
+231,0.9399999976158142,CRISP,T cells CD4+_IBET151,T cells CD4+
+232,0.9599999785423279,CRISP,T cells CD4+_IKKInhibitorVII,T cells CD4+
+233,0.9399999976158142,CRISP,T cells CD4+_IMD0354,T cells CD4+
+234,1.0,CRISP,T cells CD4+_IN1451,T cells CD4+
+235,0.8999999761581421,CRISP,T cells CD4+_Idelalisib,T cells CD4+
+236,0.6200000047683716,CRISP,T cells CD4+_Imatinib,T cells CD4+
+237,0.9599999785423279,CRISP,T cells CD4+_Isoniazid,T cells CD4+
+238,0.7599999904632568,CRISP,T cells CD4+_Ixabepilone,T cells CD4+
+239,0.9200000166893005,CRISP,T cells CD4+_K02288,T cells CD4+
+240,1.0,CRISP,T cells CD4+_Ketoconazole,T cells CD4+
+241,0.8399999737739563,CRISP,T cells CD4+_LDN193189,T cells CD4+
+242,0.9800000190734863,CRISP,T cells CD4+_LY2090314,T cells CD4+
+243,0.8600000143051147,CRISP,T cells CD4+_Lamivudine,T cells CD4+
+244,0.8600000143051147,CRISP,T cells CD4+_Lapatinib,T cells CD4+
+245,0.9399999976158142,CRISP,T cells CD4+_Linagliptin,T cells CD4+
+246,0.8999999761581421,CRISP,T cells CD4+_MGCD265,T cells CD4+
+247,0.9800000190734863,CRISP,T cells CD4+_MK5108,T cells CD4+
+248,1.0,CRISP,T cells CD4+_MLN2238,T cells CD4+
+249,0.6600000262260437,CRISP,T cells CD4+_Masitinib,T cells CD4+
+250,0.9599999785423279,CRISP,T cells CD4+_Methotrexate,T cells CD4+
+251,0.8199999928474426,CRISP,T cells CD4+_Midostaurin,T cells CD4+
+252,1.0,CRISP,T cells CD4+_MometasoneFuroate,T cells CD4+
+253,0.7799999713897705,CRISP,T cells CD4+_MubritinibTAK165,T cells CD4+
+254,0.8199999928474426,CRISP,T cells CD4+_Navitoclax,T cells CD4+
+255,0.9200000166893005,CRISP,T cells CD4+_Nefazodone,T cells CD4+
+256,0.9599999785423279,CRISP,T cells CD4+_Nilotinib,T cells CD4+
+257,0.8999999761581421,CRISP,T cells CD4+_ODemethylatedAdapalene,T cells CD4+
+258,0.8799999952316284,CRISP,T cells CD4+_OSI930,T cells CD4+
+259,1.0,CRISP,T cells CD4+_OprozomibONX0912,T cells CD4+
+260,0.9200000166893005,CRISP,T cells CD4+_Oxybenzone,T cells CD4+
+261,0.9800000190734863,CRISP,T cells CD4+_PD0325901,T cells CD4+
+262,0.9599999785423279,CRISP,T cells CD4+_PF03814735,T cells CD4+
+263,0.9200000166893005,CRISP,T cells CD4+_PF04691502,T cells CD4+
+264,0.9800000190734863,CRISP,T cells CD4+_PRT062607,T cells CD4+
+265,0.7400000095367432,CRISP,T cells CD4+_Palbociclib,T cells CD4+
+266,0.8399999737739563,CRISP,T cells CD4+_Penfluridol,T cells CD4+
+267,1.0,CRISP,T cells CD4+_Perhexiline,T cells CD4+
+268,0.9599999785423279,CRISP,T cells CD4+_Phenylbutazone,T cells CD4+
+269,0.9800000190734863,CRISP,T cells CD4+_PitavastatinCalcium,T cells CD4+
+270,0.9200000166893005,CRISP,T cells CD4+_Pomalidomide,T cells CD4+
+271,0.9200000166893005,CRISP,T cells CD4+_PorcnInhibitorIII,T cells CD4+
+272,1.0,CRISP,T cells CD4+_Prednisolone,T cells CD4+
+273,0.8799999952316284,CRISP,T cells CD4+_ProscillaridinAProscillaridinA,T cells CD4+
+274,0.9399999976158142,CRISP,T cells CD4+_Protriptyline,T cells CD4+
+275,0.7599999904632568,CRISP,T cells CD4+_Quizartinib,T cells CD4+
+276,0.9200000166893005,CRISP,T cells CD4+_R428,T cells CD4+
+277,0.8799999952316284,CRISP,T cells CD4+_RG7090,T cells CD4+
+278,0.9800000190734863,CRISP,T cells CD4+_RG7112,T cells CD4+
+279,0.9399999976158142,CRISP,T cells CD4+_RN486,T cells CD4+
+280,0.7799999713897705,CRISP,T cells CD4+_RVX208,T cells CD4+
+281,0.019999999552965164,CRISP,T cells CD4+_Raloxifene,T cells CD4+
+282,0.9599999785423279,CRISP,T cells CD4+_Resminostat,T cells CD4+
+283,0.6399999856948853,CRISP,T cells CD4+_Ricolinostat,T cells CD4+
+284,0.8999999761581421,CRISP,T cells CD4+_Riociguat,T cells CD4+
+285,0.9200000166893005,CRISP,T cells CD4+_Ruxolitinib,T cells CD4+
+286,0.699999988079071,CRISP,T cells CD4+_SB525334,T cells CD4+
+287,0.699999988079071,CRISP,T cells CD4+_SCH58261,T cells CD4+
+288,0.9399999976158142,CRISP,T cells CD4+_SLx2119,T cells CD4+
+289,0.8999999761581421,CRISP,T cells CD4+_STK219801,T cells CD4+
+290,0.9399999976158142,CRISP,T cells CD4+_Saracatinib,T cells CD4+
+291,0.9399999976158142,CRISP,T cells CD4+_Scriptaid,T cells CD4+
+292,0.9599999785423279,CRISP,T cells CD4+_Selumetinib,T cells CD4+
+293,0.8600000143051147,CRISP,T cells CD4+_Sgccbp30,T cells CD4+
+294,0.9200000166893005,CRISP,T cells CD4+_Sunitinib,T cells CD4+
+295,0.6600000262260437,CRISP,T cells CD4+_TGX221,T cells CD4+
+296,0.8199999928474426,CRISP,T cells CD4+_TIE2KinaseInhibitor,T cells CD4+
+297,0.8799999952316284,CRISP,T cells CD4+_TLHRAS26,T cells CD4+
+298,0.9800000190734863,CRISP,T cells CD4+_TPCA1,T cells CD4+
+299,0.9399999976158142,CRISP,T cells CD4+_TR14035,T cells CD4+
+300,0.9599999785423279,CRISP,T cells CD4+_Tacalcitol,T cells CD4+
+301,1.0,CRISP,T cells CD4+_Tamatinib,T cells CD4+
+302,0.7599999904632568,CRISP,T cells CD4+_Tipifarnib,T cells CD4+
+303,0.7200000286102295,CRISP,T cells CD4+_Tivantinib,T cells CD4+
+304,0.9599999785423279,CRISP,T cells CD4+_Tivozanib,T cells CD4+
+305,0.8799999952316284,CRISP,T cells CD4+_Topotecan,T cells CD4+
+306,0.9399999976158142,CRISP,T cells CD4+_Tosedostat,T cells CD4+
+307,0.7400000095367432,CRISP,T cells CD4+_Trametinib,T cells CD4+
+308,0.7799999713897705,CRISP,T cells CD4+_UNIIBXU45ZH6LI,T cells CD4+
+309,0.6399999856948853,CRISP,T cells CD4+_Vandetanib,T cells CD4+
+310,0.7200000286102295,CRISP,T cells CD4+_Vanoxerine,T cells CD4+
+311,0.5799999833106995,CRISP,T cells CD4+_Vardenafil,T cells CD4+
+312,0.9399999976158142,CRISP,T cells CD4+_Vorinostat,T cells CD4+
+313,0.8199999928474426,CRISP,T cells CD4+_YK4279,T cells CD4+
+314,0.7799999713897705,CRISP,NK cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,NK cells
+315,0.7200000286102295,CRISP,NK cells_ABT199GDC0199,NK cells
+316,0.699999988079071,CRISP,NK cells_ABT737,NK cells
+317,0.7599999904632568,CRISP,NK cells_AMD070hydrochloride,NK cells
+318,0.8799999952316284,CRISP,NK cells_AT13387,NK cells
+319,0.9200000166893005,CRISP,NK cells_AT7867,NK cells
+320,0.8999999761581421,CRISP,NK cells_AVL292,NK cells
+321,0.8600000143051147,CRISP,NK cells_AZ628,NK cells
+322,0.6600000262260437,CRISP,NK cells_AZD3514,NK cells
+323,0.8199999928474426,CRISP,NK cells_AZD4547,NK cells
+324,0.8199999928474426,CRISP,NK cells_AZD8330,NK cells
+325,0.6200000047683716,CRISP,NK cells_Alogliptin,NK cells
+326,0.9800000190734863,CRISP,NK cells_Alvocidib,NK cells
+327,0.6200000047683716,CRISP,NK cells_Amiodarone,NK cells
+328,0.8799999952316284,CRISP,NK cells_Atorvastatin,NK cells
+329,0.8199999928474426,CRISP,NK cells_Azacitidine,NK cells
+330,0.9399999976158142,CRISP,NK cells_BAY613606,NK cells
+331,0.8199999928474426,CRISP,NK cells_BAY872243,NK cells
+332,0.8199999928474426,CRISP,NK cells_BID1870,NK cells
+333,0.9399999976158142,CRISP,NK cells_BMS265246,NK cells
+334,0.7799999713897705,CRISP,NK cells_BMS387032,NK cells
+335,0.8999999761581421,CRISP,NK cells_BMS536924,NK cells
+336,0.7400000095367432,CRISP,NK cells_BMS777607,NK cells
+337,0.8799999952316284,CRISP,NK cells_BX912,NK cells
+338,0.7200000286102295,CRISP,NK cells_Belinostat,NK cells
+339,0.800000011920929,CRISP,NK cells_Bosutinib,NK cells
+340,0.7200000286102295,CRISP,NK cells_Buspirone,NK cells
+341,0.7200000286102295,CRISP,NK cells_CC401,NK cells
+342,0.7200000286102295,CRISP,NK cells_CEP37440,NK cells
+343,0.5,CRISP,NK cells_CGM097,NK cells
+344,0.9800000190734863,CRISP,NK cells_CGP60474,NK cells
+345,0.8600000143051147,CRISP,NK cells_CHIR99021,NK cells
+346,0.7200000286102295,CRISP,NK cells_Cabozantinib,NK cells
+347,0.7599999904632568,CRISP,NK cells_Canertinib,NK cells
+348,0.6600000262260437,CRISP,NK cells_Ceritinib,NK cells
+349,0.7599999904632568,CRISP,NK cells_Chlorpheniramine,NK cells
+350,0.8199999928474426,CRISP,NK cells_Clemastine,NK cells
+351,0.699999988079071,CRISP,NK cells_Clomipramine,NK cells
+352,0.8999999761581421,CRISP,NK cells_Clotrimazole,NK cells
+353,0.8199999928474426,CRISP,NK cells_Colchicine,NK cells
+354,0.6800000071525574,CRISP,NK cells_Colforsin,NK cells
+355,0.7200000286102295,CRISP,NK cells_Crizotinib,NK cells
+356,0.46000000834465027,CRISP,NK cells_Dabrafenib,NK cells
+357,0.8999999761581421,CRISP,NK cells_Dactolisib,NK cells
+358,0.800000011920929,CRISP,NK cells_Dasatinib,NK cells
+359,0.6600000262260437,CRISP,NK cells_Decitabine,NK cells
+360,0.8600000143051147,CRISP,NK cells_Defactinib,NK cells
+361,0.6800000071525574,CRISP,NK cells_Desloratadine,NK cells
+362,0.699999988079071,CRISP,NK cells_Disulfiram,NK cells
+363,0.8600000143051147,CRISP,NK cells_Dovitinib,NK cells
+364,0.7599999904632568,CRISP,NK cells_Doxorubicin,NK cells
+365,0.8399999737739563,CRISP,NK cells_FK866,NK cells
+366,0.800000011920929,CRISP,NK cells_Flutamide,NK cells
+367,0.7799999713897705,CRISP,NK cells_Foretinib,NK cells
+368,0.9399999976158142,CRISP,NK cells_GLPG0634,NK cells
+369,0.8399999737739563,CRISP,NK cells_GO6976,NK cells
+370,0.8600000143051147,CRISP,NK cells_GSK1070916,NK cells
+371,0.8199999928474426,CRISP,NK cells_GSK256066,NK cells
+372,0.7400000095367432,CRISP,NK cells_GW843682X,NK cells
+373,1.0,CRISP,NK cells_GanetespibSTA9090,NK cells
+374,0.9399999976158142,CRISP,NK cells_HMN214,NK cells
+375,0.5799999833106995,CRISP,NK cells_HYDROXYUREA,NK cells
+376,0.8399999737739563,CRISP,NK cells_IBET151,NK cells
+377,0.8799999952316284,CRISP,NK cells_IKKInhibitorVII,NK cells
+378,0.699999988079071,CRISP,NK cells_IMD0354,NK cells
+379,0.9399999976158142,CRISP,NK cells_IN1451,NK cells
+380,0.6800000071525574,CRISP,NK cells_Idelalisib,NK cells
+381,0.7400000095367432,CRISP,NK cells_Imatinib,NK cells
+382,0.6200000047683716,CRISP,NK cells_Isoniazid,NK cells
+383,0.7200000286102295,CRISP,NK cells_Ixabepilone,NK cells
+384,0.7400000095367432,CRISP,NK cells_K02288,NK cells
+385,0.7200000286102295,CRISP,NK cells_Ketoconazole,NK cells
+386,0.7599999904632568,CRISP,NK cells_LDN193189,NK cells
+387,0.8799999952316284,CRISP,NK cells_LY2090314,NK cells
+388,0.4399999976158142,CRISP,NK cells_Lamivudine,NK cells
+389,0.6600000262260437,CRISP,NK cells_Lapatinib,NK cells
+390,0.8600000143051147,CRISP,NK cells_Linagliptin,NK cells
+391,0.7200000286102295,CRISP,NK cells_MGCD265,NK cells
+392,0.7599999904632568,CRISP,NK cells_MK5108,NK cells
+393,0.8799999952316284,CRISP,NK cells_Masitinib,NK cells
+394,0.800000011920929,CRISP,NK cells_Methotrexate,NK cells
+395,0.8999999761581421,CRISP,NK cells_Midostaurin,NK cells
+396,0.8600000143051147,CRISP,NK cells_MometasoneFuroate,NK cells
+397,0.7400000095367432,CRISP,NK cells_MubritinibTAK165,NK cells
+398,0.699999988079071,CRISP,NK cells_Navitoclax,NK cells
+399,0.800000011920929,CRISP,NK cells_Nefazodone,NK cells
+400,0.8199999928474426,CRISP,NK cells_Nilotinib,NK cells
+401,0.699999988079071,CRISP,NK cells_ODemethylatedAdapalene,NK cells
+402,0.8399999737739563,CRISP,NK cells_OSI930,NK cells
+403,0.800000011920929,CRISP,NK cells_Oxybenzone,NK cells
+404,0.699999988079071,CRISP,NK cells_PD0325901,NK cells
+405,0.8799999952316284,CRISP,NK cells_PF03814735,NK cells
+406,0.8199999928474426,CRISP,NK cells_PF04691502,NK cells
+407,0.9200000166893005,CRISP,NK cells_PRT062607,NK cells
+408,0.7200000286102295,CRISP,NK cells_Palbociclib,NK cells
+409,0.7400000095367432,CRISP,NK cells_Penfluridol,NK cells
+410,0.8999999761581421,CRISP,NK cells_Perhexiline,NK cells
+411,0.8199999928474426,CRISP,NK cells_Phenylbutazone,NK cells
+412,0.8600000143051147,CRISP,NK cells_PitavastatinCalcium,NK cells
+413,0.8199999928474426,CRISP,NK cells_Pomalidomide,NK cells
+414,0.7799999713897705,CRISP,NK cells_PorcnInhibitorIII,NK cells
+415,0.8600000143051147,CRISP,NK cells_Prednisolone,NK cells
+416,0.8999999761581421,CRISP,NK cells_ProscillaridinAProscillaridinA,NK cells
+417,0.6399999856948853,CRISP,NK cells_Protriptyline,NK cells
+418,0.8199999928474426,CRISP,NK cells_Quizartinib,NK cells
+419,0.6399999856948853,CRISP,NK cells_R428,NK cells
+420,0.6800000071525574,CRISP,NK cells_RG7090,NK cells
+421,0.8199999928474426,CRISP,NK cells_RG7112,NK cells
+422,0.8799999952316284,CRISP,NK cells_RN486,NK cells
+423,0.8199999928474426,CRISP,NK cells_RVX208,NK cells
+424,0.7799999713897705,CRISP,NK cells_Raloxifene,NK cells
+425,0.9599999785423279,CRISP,NK cells_Resminostat,NK cells
+426,0.8399999737739563,CRISP,NK cells_Ricolinostat,NK cells
+427,0.8199999928474426,CRISP,NK cells_Riociguat,NK cells
+428,0.9200000166893005,CRISP,NK cells_Ruxolitinib,NK cells
+429,0.8199999928474426,CRISP,NK cells_SB525334,NK cells
+430,0.7200000286102295,CRISP,NK cells_SCH58261,NK cells
+431,0.8199999928474426,CRISP,NK cells_SLx2119,NK cells
+432,0.6800000071525574,CRISP,NK cells_STK219801,NK cells
+433,0.8999999761581421,CRISP,NK cells_Saracatinib,NK cells
+434,0.9599999785423279,CRISP,NK cells_Scriptaid,NK cells
+435,0.7799999713897705,CRISP,NK cells_Selumetinib,NK cells
+436,0.7200000286102295,CRISP,NK cells_Sgccbp30,NK cells
+437,0.7200000286102295,CRISP,NK cells_Sunitinib,NK cells
+438,0.7599999904632568,CRISP,NK cells_TGX221,NK cells
+439,0.800000011920929,CRISP,NK cells_TIE2KinaseInhibitor,NK cells
+440,0.7599999904632568,CRISP,NK cells_TLHRAS26,NK cells
+441,0.9200000166893005,CRISP,NK cells_TPCA1,NK cells
+442,0.800000011920929,CRISP,NK cells_TR14035,NK cells
+443,0.8799999952316284,CRISP,NK cells_Tacalcitol,NK cells
+444,0.9599999785423279,CRISP,NK cells_Tamatinib,NK cells
+445,0.699999988079071,CRISP,NK cells_Tipifarnib,NK cells
+446,0.6800000071525574,CRISP,NK cells_Tivantinib,NK cells
+447,0.7599999904632568,CRISP,NK cells_Tivozanib,NK cells
+448,0.800000011920929,CRISP,NK cells_Topotecan,NK cells
+449,0.7400000095367432,CRISP,NK cells_Tosedostat,NK cells
+450,0.8600000143051147,CRISP,NK cells_Trametinib,NK cells
+451,0.7599999904632568,CRISP,NK cells_UNIIBXU45ZH6LI,NK cells
+452,0.7200000286102295,CRISP,NK cells_Vandetanib,NK cells
+453,0.7599999904632568,CRISP,NK cells_Vanoxerine,NK cells
+454,0.7799999713897705,CRISP,NK cells_Vardenafil,NK cells
+455,0.9200000166893005,CRISP,NK cells_Vorinostat,NK cells
+456,0.699999988079071,CRISP,NK cells_YK4279,NK cells
+457,0.699999988079071,CRISP,T cells CD8+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD8+
+458,0.6200000047683716,CRISP,T cells CD8+_ABT199GDC0199,T cells CD8+
+459,0.7799999713897705,CRISP,T cells CD8+_ABT737,T cells CD8+
+460,0.5,CRISP,T cells CD8+_AMD070hydrochloride,T cells CD8+
+461,0.6399999856948853,CRISP,T cells CD8+_AT13387,T cells CD8+
+462,0.8199999928474426,CRISP,T cells CD8+_AT7867,T cells CD8+
+463,0.5199999809265137,CRISP,T cells CD8+_AVL292,T cells CD8+
+464,0.7200000286102295,CRISP,T cells CD8+_AZ628,T cells CD8+
+465,0.5799999833106995,CRISP,T cells CD8+_AZD3514,T cells CD8+
+466,0.47999998927116394,CRISP,T cells CD8+_AZD4547,T cells CD8+
+467,0.7200000286102295,CRISP,T cells CD8+_AZD8330,T cells CD8+
+468,0.4399999976158142,CRISP,T cells CD8+_Alogliptin,T cells CD8+
+469,0.6200000047683716,CRISP,T cells CD8+_Amiodarone,T cells CD8+
+470,0.5799999833106995,CRISP,T cells CD8+_Atorvastatin,T cells CD8+
+471,0.6000000238418579,CRISP,T cells CD8+_Azacitidine,T cells CD8+
+472,0.8999999761581421,CRISP,T cells CD8+_BAY613606,T cells CD8+
+473,0.699999988079071,CRISP,T cells CD8+_BAY872243,T cells CD8+
+474,0.46000000834465027,CRISP,T cells CD8+_BID1870,T cells CD8+
+475,0.7799999713897705,CRISP,T cells CD8+_BMS265246,T cells CD8+
+476,0.9399999976158142,CRISP,T cells CD8+_BMS387032,T cells CD8+
+477,0.7200000286102295,CRISP,T cells CD8+_BMS536924,T cells CD8+
+478,0.6200000047683716,CRISP,T cells CD8+_BMS777607,T cells CD8+
+479,0.6399999856948853,CRISP,T cells CD8+_BX912,T cells CD8+
+480,0.7799999713897705,CRISP,T cells CD8+_Belinostat,T cells CD8+
+481,0.7400000095367432,CRISP,T cells CD8+_Bosutinib,T cells CD8+
+482,0.47999998927116394,CRISP,T cells CD8+_Buspirone,T cells CD8+
+483,0.6800000071525574,CRISP,T cells CD8+_CC401,T cells CD8+
+484,1.0,CRISP,T cells CD8+_CEP18770Delanzomib,T cells CD8+
+485,0.7599999904632568,CRISP,T cells CD8+_CEP37440,T cells CD8+
+486,1.0,CRISP,T cells CD8+_CGM097,T cells CD8+
+487,0.6800000071525574,CRISP,T cells CD8+_CHIR99021,T cells CD8+
+488,0.47999998927116394,CRISP,T cells CD8+_Cabozantinib,T cells CD8+
+489,0.5799999833106995,CRISP,T cells CD8+_Canertinib,T cells CD8+
+490,0.5199999809265137,CRISP,T cells CD8+_Ceritinib,T cells CD8+
+491,0.5600000023841858,CRISP,T cells CD8+_Chlorpheniramine,T cells CD8+
+492,0.6399999856948853,CRISP,T cells CD8+_Clemastine,T cells CD8+
+493,0.5199999809265137,CRISP,T cells CD8+_Clomipramine,T cells CD8+
+494,0.699999988079071,CRISP,T cells CD8+_Clotrimazole,T cells CD8+
+495,0.699999988079071,CRISP,T cells CD8+_Colchicine,T cells CD8+
+496,0.46000000834465027,CRISP,T cells CD8+_Colforsin,T cells CD8+
+497,0.5600000023841858,CRISP,T cells CD8+_Crizotinib,T cells CD8+
+498,0.8799999952316284,CRISP,T cells CD8+_Dabrafenib,T cells CD8+
+499,0.699999988079071,CRISP,T cells CD8+_Dactolisib,T cells CD8+
+500,0.7599999904632568,CRISP,T cells CD8+_Dasatinib,T cells CD8+
+501,0.46000000834465027,CRISP,T cells CD8+_Decitabine,T cells CD8+
+502,0.6000000238418579,CRISP,T cells CD8+_Defactinib,T cells CD8+
+503,0.5600000023841858,CRISP,T cells CD8+_Desloratadine,T cells CD8+
+504,0.5199999809265137,CRISP,T cells CD8+_Disulfiram,T cells CD8+
+505,0.6000000238418579,CRISP,T cells CD8+_Dovitinib,T cells CD8+
+506,0.800000011920929,CRISP,T cells CD8+_Doxorubicin,T cells CD8+
+507,0.6600000262260437,CRISP,T cells CD8+_FK866,T cells CD8+
+508,0.6200000047683716,CRISP,T cells CD8+_Flutamide,T cells CD8+
+509,0.6399999856948853,CRISP,T cells CD8+_Foretinib,T cells CD8+
+510,0.7799999713897705,CRISP,T cells CD8+_GLPG0634,T cells CD8+
+511,0.41999998688697815,CRISP,T cells CD8+_GO6976,T cells CD8+
+512,0.7599999904632568,CRISP,T cells CD8+_GSK1070916,T cells CD8+
+513,0.8199999928474426,CRISP,T cells CD8+_GSK256066,T cells CD8+
+514,0.5600000023841858,CRISP,T cells CD8+_GW843682X,T cells CD8+
+515,0.699999988079071,CRISP,T cells CD8+_GanetespibSTA9090,T cells CD8+
+516,0.5400000214576721,CRISP,T cells CD8+_HMN214,T cells CD8+
+517,0.6000000238418579,CRISP,T cells CD8+_HYDROXYUREA,T cells CD8+
+518,1.0,CRISP,T cells CD8+_IBET151,T cells CD8+
+519,0.7200000286102295,CRISP,T cells CD8+_IKKInhibitorVII,T cells CD8+
+520,0.7799999713897705,CRISP,T cells CD8+_IMD0354,T cells CD8+
+521,0.6399999856948853,CRISP,T cells CD8+_Idelalisib,T cells CD8+
+522,0.7200000286102295,CRISP,T cells CD8+_Imatinib,T cells CD8+
+523,0.5600000023841858,CRISP,T cells CD8+_Isoniazid,T cells CD8+
+524,0.4000000059604645,CRISP,T cells CD8+_Ixabepilone,T cells CD8+
+525,0.5400000214576721,CRISP,T cells CD8+_K02288,T cells CD8+
+526,0.5199999809265137,CRISP,T cells CD8+_Ketoconazole,T cells CD8+
+527,0.7400000095367432,CRISP,T cells CD8+_LDN193189,T cells CD8+
+528,0.6000000238418579,CRISP,T cells CD8+_LY2090314,T cells CD8+
+529,0.5600000023841858,CRISP,T cells CD8+_Lamivudine,T cells CD8+
+530,0.6600000262260437,CRISP,T cells CD8+_Lapatinib,T cells CD8+
+531,0.3199999928474426,CRISP,T cells CD8+_Linagliptin,T cells CD8+
+532,0.6200000047683716,CRISP,T cells CD8+_MGCD265,T cells CD8+
+533,0.5199999809265137,CRISP,T cells CD8+_MK5108,T cells CD8+
+534,1.0,CRISP,T cells CD8+_MLN2238,T cells CD8+
+535,0.7400000095367432,CRISP,T cells CD8+_Masitinib,T cells CD8+
+536,0.6600000262260437,CRISP,T cells CD8+_Methotrexate,T cells CD8+
+537,0.800000011920929,CRISP,T cells CD8+_Midostaurin,T cells CD8+
+538,0.6600000262260437,CRISP,T cells CD8+_MometasoneFuroate,T cells CD8+
+539,0.7200000286102295,CRISP,T cells CD8+_MubritinibTAK165,T cells CD8+
+540,0.5199999809265137,CRISP,T cells CD8+_Navitoclax,T cells CD8+
+541,0.5799999833106995,CRISP,T cells CD8+_Nefazodone,T cells CD8+
+542,0.800000011920929,CRISP,T cells CD8+_Nilotinib,T cells CD8+
+543,0.5400000214576721,CRISP,T cells CD8+_ODemethylatedAdapalene,T cells CD8+
+544,0.6399999856948853,CRISP,T cells CD8+_OSI930,T cells CD8+
+545,0.6800000071525574,CRISP,T cells CD8+_Oxybenzone,T cells CD8+
+546,0.6000000238418579,CRISP,T cells CD8+_PD0325901,T cells CD8+
+547,0.7400000095367432,CRISP,T cells CD8+_PF03814735,T cells CD8+
+548,0.7400000095367432,CRISP,T cells CD8+_PF04691502,T cells CD8+
+549,0.800000011920929,CRISP,T cells CD8+_PRT062607,T cells CD8+
+550,0.5400000214576721,CRISP,T cells CD8+_Palbociclib,T cells CD8+
+551,0.5400000214576721,CRISP,T cells CD8+_Penfluridol,T cells CD8+
+552,0.7200000286102295,CRISP,T cells CD8+_Perhexiline,T cells CD8+
+553,0.5199999809265137,CRISP,T cells CD8+_Phenylbutazone,T cells CD8+
+554,0.46000000834465027,CRISP,T cells CD8+_PitavastatinCalcium,T cells CD8+
+555,0.5,CRISP,T cells CD8+_Pomalidomide,T cells CD8+
+556,0.47999998927116394,CRISP,T cells CD8+_PorcnInhibitorIII,T cells CD8+
+557,0.800000011920929,CRISP,T cells CD8+_Prednisolone,T cells CD8+
+558,0.6200000047683716,CRISP,T cells CD8+_Protriptyline,T cells CD8+
+559,0.6000000238418579,CRISP,T cells CD8+_Quizartinib,T cells CD8+
+560,0.6000000238418579,CRISP,T cells CD8+_R428,T cells CD8+
+561,0.5799999833106995,CRISP,T cells CD8+_RG7090,T cells CD8+
+562,0.5600000023841858,CRISP,T cells CD8+_RG7112,T cells CD8+
+563,0.6600000262260437,CRISP,T cells CD8+_RN486,T cells CD8+
+564,0.6800000071525574,CRISP,T cells CD8+_RVX208,T cells CD8+
+565,0.5799999833106995,CRISP,T cells CD8+_Raloxifene,T cells CD8+
+566,0.7200000286102295,CRISP,T cells CD8+_Ricolinostat,T cells CD8+
+567,0.6200000047683716,CRISP,T cells CD8+_Riociguat,T cells CD8+
+568,0.7599999904632568,CRISP,T cells CD8+_Ruxolitinib,T cells CD8+
+569,0.5600000023841858,CRISP,T cells CD8+_SB525334,T cells CD8+
+570,0.5,CRISP,T cells CD8+_SCH58261,T cells CD8+
+571,0.6000000238418579,CRISP,T cells CD8+_SLx2119,T cells CD8+
+572,0.5,CRISP,T cells CD8+_STK219801,T cells CD8+
+573,0.7200000286102295,CRISP,T cells CD8+_Saracatinib,T cells CD8+
+574,0.9599999785423279,CRISP,T cells CD8+_Scriptaid,T cells CD8+
+575,0.6200000047683716,CRISP,T cells CD8+_Selumetinib,T cells CD8+
+576,0.5400000214576721,CRISP,T cells CD8+_Sgccbp30,T cells CD8+
+577,0.6000000238418579,CRISP,T cells CD8+_Sunitinib,T cells CD8+
+578,0.7200000286102295,CRISP,T cells CD8+_TGX221,T cells CD8+
+579,0.5,CRISP,T cells CD8+_TIE2KinaseInhibitor,T cells CD8+
+580,0.5199999809265137,CRISP,T cells CD8+_TLHRAS26,T cells CD8+
+581,0.7599999904632568,CRISP,T cells CD8+_TPCA1,T cells CD8+
+582,0.7400000095367432,CRISP,T cells CD8+_TR14035,T cells CD8+
+583,0.7799999713897705,CRISP,T cells CD8+_Tacalcitol,T cells CD8+
+584,0.6800000071525574,CRISP,T cells CD8+_Tamatinib,T cells CD8+
+585,0.5,CRISP,T cells CD8+_Tipifarnib,T cells CD8+
+586,0.6000000238418579,CRISP,T cells CD8+_Tivantinib,T cells CD8+
+587,0.6200000047683716,CRISP,T cells CD8+_Tivozanib,T cells CD8+
+588,0.5400000214576721,CRISP,T cells CD8+_Topotecan,T cells CD8+
+589,0.5400000214576721,CRISP,T cells CD8+_Tosedostat,T cells CD8+
+590,0.46000000834465027,CRISP,T cells CD8+_Trametinib,T cells CD8+
+591,0.7400000095367432,CRISP,T cells CD8+_UNIIBXU45ZH6LI,T cells CD8+
+592,0.6000000238418579,CRISP,T cells CD8+_Vandetanib,T cells CD8+
+593,0.699999988079071,CRISP,T cells CD8+_Vanoxerine,T cells CD8+
+594,0.5,CRISP,T cells CD8+_Vardenafil,T cells CD8+
+595,0.9599999785423279,CRISP,T cells CD8+_Vorinostat,T cells CD8+
+596,0.47999998927116394,CRISP,T cells CD8+_YK4279,T cells CD8+
+597,0.8999999761581421,CellOT,T regulatory cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T regulatory cells
+598,0.46000000834465027,CellOT,T regulatory cells_ABT199GDC0199,T regulatory cells
+599,0.6000000238418579,CellOT,T regulatory cells_ABT737,T regulatory cells
+600,0.6399999856948853,CellOT,T regulatory cells_AMD070hydrochloride,T regulatory cells
+601,0.9599999785423279,CellOT,T regulatory cells_AT13387,T regulatory cells
+602,0.7200000286102295,CellOT,T regulatory cells_AT7867,T regulatory cells
+603,0.8199999928474426,CellOT,T regulatory cells_AVL292,T regulatory cells
+604,0.7400000095367432,CellOT,T regulatory cells_AZ628,T regulatory cells
+605,0.5799999833106995,CellOT,T regulatory cells_AZD3514,T regulatory cells
+606,0.7200000286102295,CellOT,T regulatory cells_AZD4547,T regulatory cells
+607,0.699999988079071,CellOT,T regulatory cells_AZD8330,T regulatory cells
+608,0.5799999833106995,CellOT,T regulatory cells_Alogliptin,T regulatory cells
+609,0.7200000286102295,CellOT,T regulatory cells_Alvocidib,T regulatory cells
+610,0.6600000262260437,CellOT,T regulatory cells_Amiodarone,T regulatory cells
+611,0.6600000262260437,CellOT,T regulatory cells_Atorvastatin,T regulatory cells
+612,0.46000000834465027,CellOT,T regulatory cells_Azacitidine,T regulatory cells
+613,0.9399999976158142,CellOT,T regulatory cells_BAY613606,T regulatory cells
+614,0.800000011920929,CellOT,T regulatory cells_BAY872243,T regulatory cells
+615,0.6000000238418579,CellOT,T regulatory cells_BID1870,T regulatory cells
+616,0.6000000238418579,CellOT,T regulatory cells_BMS265246,T regulatory cells
+617,0.9200000166893005,CellOT,T regulatory cells_BMS387032,T regulatory cells
+618,0.7400000095367432,CellOT,T regulatory cells_BMS536924,T regulatory cells
+619,0.6600000262260437,CellOT,T regulatory cells_BMS777607,T regulatory cells
+620,0.8999999761581421,CellOT,T regulatory cells_BX912,T regulatory cells
+621,0.7400000095367432,CellOT,Myeloid cells_Belinostat,Myeloid cells
+622,0.8600000143051147,CellOT,T regulatory cells_Belinostat,T regulatory cells
+623,0.7599999904632568,CellOT,T regulatory cells_Bosutinib,T regulatory cells
+624,0.6399999856948853,CellOT,T regulatory cells_Buspirone,T regulatory cells
+625,0.7400000095367432,CellOT,T regulatory cells_CC401,T regulatory cells
+626,0.5799999833106995,CellOT,T regulatory cells_CEP37440,T regulatory cells
+627,0.6399999856948853,CellOT,T regulatory cells_CGM097,T regulatory cells
+628,0.8399999737739563,CellOT,T regulatory cells_CGP60474,T regulatory cells
+629,0.47999998927116394,CellOT,Myeloid cells_CHIR99021,Myeloid cells
+630,0.5799999833106995,CellOT,T regulatory cells_CHIR99021,T regulatory cells
+631,0.47999998927116394,CellOT,T regulatory cells_Cabozantinib,T regulatory cells
+632,0.699999988079071,CellOT,T regulatory cells_Canertinib,T regulatory cells
+633,0.6399999856948853,CellOT,T regulatory cells_Ceritinib,T regulatory cells
+634,0.7400000095367432,CellOT,T regulatory cells_Chlorpheniramine,T regulatory cells
+635,0.6399999856948853,CellOT,T regulatory cells_Clemastine,T regulatory cells
+636,0.6000000238418579,CellOT,T regulatory cells_Clomipramine,T regulatory cells
+637,0.7200000286102295,CellOT,T regulatory cells_Clotrimazole,T regulatory cells
+638,0.7200000286102295,CellOT,T regulatory cells_Colchicine,T regulatory cells
+639,0.6000000238418579,CellOT,T regulatory cells_Colforsin,T regulatory cells
+640,0.7599999904632568,CellOT,Myeloid cells_Crizotinib,Myeloid cells
+641,0.7799999713897705,CellOT,T regulatory cells_Crizotinib,T regulatory cells
+642,0.25999999046325684,CellOT,Myeloid cells_Dabrafenib,Myeloid cells
+643,0.699999988079071,CellOT,T regulatory cells_Dabrafenib,T regulatory cells
+644,0.6800000071525574,CellOT,Myeloid cells_Dactolisib,Myeloid cells
+645,0.8799999952316284,CellOT,T regulatory cells_Dactolisib,T regulatory cells
+646,0.8999999761581421,CellOT,T regulatory cells_Dasatinib,T regulatory cells
+647,0.7599999904632568,CellOT,T regulatory cells_Decitabine,T regulatory cells
+648,0.699999988079071,CellOT,T regulatory cells_Defactinib,T regulatory cells
+649,0.699999988079071,CellOT,T regulatory cells_Desloratadine,T regulatory cells
+650,0.5600000023841858,CellOT,T regulatory cells_Disulfiram,T regulatory cells
+651,0.7799999713897705,CellOT,T regulatory cells_Dovitinib,T regulatory cells
+652,0.7799999713897705,CellOT,T regulatory cells_Doxorubicin,T regulatory cells
+653,0.7400000095367432,CellOT,T regulatory cells_FK866,T regulatory cells
+654,0.5400000214576721,CellOT,T regulatory cells_Flutamide,T regulatory cells
+655,0.8199999928474426,CellOT,Myeloid cells_Foretinib,Myeloid cells
+656,0.7200000286102295,CellOT,T regulatory cells_Foretinib,T regulatory cells
+657,0.9200000166893005,CellOT,T regulatory cells_GLPG0634,T regulatory cells
+658,0.6000000238418579,CellOT,T regulatory cells_GO6976,T regulatory cells
+659,0.6200000047683716,CellOT,T regulatory cells_GSK1070916,T regulatory cells
+660,0.46000000834465027,CellOT,T regulatory cells_GSK256066,T regulatory cells
+661,0.6200000047683716,CellOT,T regulatory cells_GW843682X,T regulatory cells
+662,0.6600000262260437,CellOT,T regulatory cells_HMN214,T regulatory cells
+663,0.7200000286102295,CellOT,T regulatory cells_HYDROXYUREA,T regulatory cells
+664,0.7599999904632568,CellOT,T regulatory cells_IBET151,T regulatory cells
+665,0.8799999952316284,CellOT,T regulatory cells_IKKInhibitorVII,T regulatory cells
+666,0.8199999928474426,CellOT,T regulatory cells_IMD0354,T regulatory cells
+667,0.8999999761581421,CellOT,T regulatory cells_IN1451,T regulatory cells
+668,0.7599999904632568,CellOT,Myeloid cells_Idelalisib,Myeloid cells
+669,0.800000011920929,CellOT,T regulatory cells_Idelalisib,T regulatory cells
+670,0.699999988079071,CellOT,T regulatory cells_Imatinib,T regulatory cells
+671,0.5799999833106995,CellOT,T regulatory cells_Isoniazid,T regulatory cells
+672,0.8199999928474426,CellOT,T regulatory cells_Ixabepilone,T regulatory cells
+673,0.6600000262260437,CellOT,T regulatory cells_K02288,T regulatory cells
+674,0.800000011920929,CellOT,T regulatory cells_Ketoconazole,T regulatory cells
+675,0.5199999809265137,CellOT,Myeloid cells_LDN193189,Myeloid cells
+676,0.6399999856948853,CellOT,T regulatory cells_LDN193189,T regulatory cells
+677,0.7200000286102295,CellOT,T regulatory cells_LY2090314,T regulatory cells
+678,0.5199999809265137,CellOT,T regulatory cells_Lamivudine,T regulatory cells
+679,0.6800000071525574,CellOT,T regulatory cells_Lapatinib,T regulatory cells
+680,0.6399999856948853,CellOT,Myeloid cells_Linagliptin,Myeloid cells
+681,0.47999998927116394,CellOT,T regulatory cells_Linagliptin,T regulatory cells
+682,0.5199999809265137,CellOT,T regulatory cells_MGCD265,T regulatory cells
+683,0.699999988079071,CellOT,T regulatory cells_MK5108,T regulatory cells
+684,0.6399999856948853,CellOT,T regulatory cells_Masitinib,T regulatory cells
+685,0.7400000095367432,CellOT,T regulatory cells_Methotrexate,T regulatory cells
+686,0.9200000166893005,CellOT,T regulatory cells_Midostaurin,T regulatory cells
+687,0.699999988079071,CellOT,T regulatory cells_MometasoneFuroate,T regulatory cells
+688,0.7200000286102295,CellOT,T regulatory cells_MubritinibTAK165,T regulatory cells
+689,0.699999988079071,CellOT,T regulatory cells_Navitoclax,T regulatory cells
+690,0.5600000023841858,CellOT,T regulatory cells_Nefazodone,T regulatory cells
+691,0.7799999713897705,CellOT,T regulatory cells_Nilotinib,T regulatory cells
+692,0.5799999833106995,CellOT,Myeloid cells_ODemethylatedAdapalene,Myeloid cells
+693,0.6399999856948853,CellOT,T regulatory cells_ODemethylatedAdapalene,T regulatory cells
+694,0.6000000238418579,CellOT,T regulatory cells_OSI930,T regulatory cells
+695,0.9599999785423279,CellOT,T regulatory cells_OprozomibONX0912,T regulatory cells
+696,0.7200000286102295,CellOT,T regulatory cells_Oxybenzone,T regulatory cells
+697,0.6800000071525574,CellOT,T regulatory cells_PD0325901,T regulatory cells
+698,0.8399999737739563,CellOT,T regulatory cells_PF03814735,T regulatory cells
+699,0.9800000190734863,CellOT,T regulatory cells_PF04691502,T regulatory cells
+700,0.9800000190734863,CellOT,T regulatory cells_PRT062607,T regulatory cells
+701,0.8199999928474426,CellOT,Myeloid cells_Palbociclib,Myeloid cells
+702,0.6600000262260437,CellOT,T regulatory cells_Palbociclib,T regulatory cells
+703,0.6200000047683716,CellOT,Myeloid cells_Penfluridol,Myeloid cells
+704,0.6000000238418579,CellOT,T regulatory cells_Penfluridol,T regulatory cells
+705,0.800000011920929,CellOT,T regulatory cells_Perhexiline,T regulatory cells
+706,0.7400000095367432,CellOT,T regulatory cells_Phenylbutazone,T regulatory cells
+707,0.6000000238418579,CellOT,T regulatory cells_PitavastatinCalcium,T regulatory cells
+708,0.6200000047683716,CellOT,T regulatory cells_Pomalidomide,T regulatory cells
+709,0.2199999988079071,CellOT,Myeloid cells_PorcnInhibitorIII,Myeloid cells
+710,0.699999988079071,CellOT,T regulatory cells_PorcnInhibitorIII,T regulatory cells
+711,0.7599999904632568,CellOT,T regulatory cells_Prednisolone,T regulatory cells
+712,0.6000000238418579,CellOT,T regulatory cells_Protriptyline,T regulatory cells
+713,0.7200000286102295,CellOT,T regulatory cells_Quizartinib,T regulatory cells
+714,0.23999999463558197,CellOT,Myeloid cells_R428,Myeloid cells
+715,0.7200000286102295,CellOT,T regulatory cells_R428,T regulatory cells
+716,0.7599999904632568,CellOT,T regulatory cells_RG7090,T regulatory cells
+717,0.5400000214576721,CellOT,T regulatory cells_RG7112,T regulatory cells
+718,0.5400000214576721,CellOT,T regulatory cells_RN486,T regulatory cells
+719,0.699999988079071,CellOT,T regulatory cells_RVX208,T regulatory cells
+720,0.699999988079071,CellOT,T regulatory cells_Raloxifene,T regulatory cells
+721,0.8199999928474426,CellOT,T regulatory cells_Resminostat,T regulatory cells
+722,0.7599999904632568,CellOT,T regulatory cells_Ricolinostat,T regulatory cells
+723,0.7200000286102295,CellOT,T regulatory cells_Riociguat,T regulatory cells
+724,0.8999999761581421,CellOT,T regulatory cells_Ruxolitinib,T regulatory cells
+725,0.6600000262260437,CellOT,T regulatory cells_SB525334,T regulatory cells
+726,0.5799999833106995,CellOT,T regulatory cells_SCH58261,T regulatory cells
+727,0.7799999713897705,CellOT,T regulatory cells_SLx2119,T regulatory cells
+728,0.7200000286102295,CellOT,T regulatory cells_STK219801,T regulatory cells
+729,0.8600000143051147,CellOT,T regulatory cells_Saracatinib,T regulatory cells
+730,0.6600000262260437,CellOT,T regulatory cells_Selumetinib,T regulatory cells
+731,0.5600000023841858,CellOT,T regulatory cells_Sgccbp30,T regulatory cells
+732,0.699999988079071,CellOT,T regulatory cells_Sunitinib,T regulatory cells
+733,0.8199999928474426,CellOT,T regulatory cells_TGX221,T regulatory cells
+734,0.6399999856948853,CellOT,T regulatory cells_TIE2KinaseInhibitor,T regulatory cells
+735,0.6800000071525574,CellOT,T regulatory cells_TLHRAS26,T regulatory cells
+736,0.9599999785423279,CellOT,T regulatory cells_TPCA1,T regulatory cells
+737,0.5799999833106995,CellOT,T regulatory cells_TR14035,T regulatory cells
+738,0.9399999976158142,CellOT,T regulatory cells_Tacalcitol,T regulatory cells
+739,0.9399999976158142,CellOT,T regulatory cells_Tamatinib,T regulatory cells
+740,0.5400000214576721,CellOT,T regulatory cells_Tipifarnib,T regulatory cells
+741,0.4399999976158142,CellOT,T regulatory cells_Tivantinib,T regulatory cells
+742,0.699999988079071,CellOT,T regulatory cells_Tivozanib,T regulatory cells
+743,0.5799999833106995,CellOT,T regulatory cells_Topotecan,T regulatory cells
+744,0.6000000238418579,CellOT,T regulatory cells_Tosedostat,T regulatory cells
+745,0.7200000286102295,CellOT,T regulatory cells_Trametinib,T regulatory cells
+746,0.9599999785423279,CellOT,T regulatory cells_UNIIBXU45ZH6LI,T regulatory cells
+747,0.5600000023841858,CellOT,T regulatory cells_Vandetanib,T regulatory cells
+748,0.8399999737739563,CellOT,T regulatory cells_Vanoxerine,T regulatory cells
+749,0.7599999904632568,CellOT,T regulatory cells_Vardenafil,T regulatory cells
+750,0.7599999904632568,CellOT,T regulatory cells_YK4279,T regulatory cells
+751,0.8999999761581421,CellOT,T cells CD4+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD4+
+752,0.6399999856948853,CellOT,T cells CD4+_ABT199GDC0199,T cells CD4+
+753,0.5799999833106995,CellOT,T cells CD4+_ABT737,T cells CD4+
+754,0.699999988079071,CellOT,T cells CD4+_AMD070hydrochloride,T cells CD4+
+755,0.699999988079071,CellOT,T cells CD4+_AT13387,T cells CD4+
+756,0.7799999713897705,CellOT,T cells CD4+_AT7867,T cells CD4+
+757,0.7400000095367432,CellOT,T cells CD4+_AVL292,T cells CD4+
+758,0.699999988079071,CellOT,T cells CD4+_AZ628,T cells CD4+
+759,0.5400000214576721,CellOT,T cells CD4+_AZD3514,T cells CD4+
+760,0.6200000047683716,CellOT,T cells CD4+_AZD4547,T cells CD4+
+761,0.6399999856948853,CellOT,T cells CD4+_AZD8330,T cells CD4+
+762,0.5199999809265137,CellOT,T cells CD4+_Alogliptin,T cells CD4+
+763,1.0,CellOT,T cells CD4+_Alvocidib,T cells CD4+
+764,0.7799999713897705,CellOT,T cells CD4+_Amiodarone,T cells CD4+
+765,0.5600000023841858,CellOT,T cells CD4+_Atorvastatin,T cells CD4+
+766,0.7200000286102295,CellOT,T cells CD4+_Azacitidine,T cells CD4+
+767,0.7200000286102295,CellOT,T cells CD4+_BAY613606,T cells CD4+
+768,0.5799999833106995,CellOT,T cells CD4+_BAY872243,T cells CD4+
+769,0.5400000214576721,CellOT,T cells CD4+_BID1870,T cells CD4+
+770,0.6800000071525574,CellOT,T cells CD4+_BMS265246,T cells CD4+
+771,0.8600000143051147,CellOT,T cells CD4+_BMS387032,T cells CD4+
+772,0.8799999952316284,CellOT,T cells CD4+_BMS536924,T cells CD4+
+773,0.7599999904632568,CellOT,T cells CD4+_BMS777607,T cells CD4+
+774,0.7799999713897705,CellOT,T cells CD4+_BX912,T cells CD4+
+775,0.6000000238418579,CellOT,B cells_Belinostat,B cells
+776,0.5799999833106995,CellOT,T cells CD4+_Belinostat,T cells CD4+
+777,0.8399999737739563,CellOT,T cells CD4+_Bosutinib,T cells CD4+
+778,0.5600000023841858,CellOT,T cells CD4+_Buspirone,T cells CD4+
+779,0.6399999856948853,CellOT,T cells CD4+_CC401,T cells CD4+
+780,0.9599999785423279,CellOT,T cells CD4+_CEP18770Delanzomib,T cells CD4+
+781,0.7200000286102295,CellOT,T cells CD4+_CEP37440,T cells CD4+
+782,0.5199999809265137,CellOT,T cells CD4+_CGM097,T cells CD4+
+783,1.0,CellOT,T cells CD4+_CGP60474,T cells CD4+
+784,0.3799999952316284,CellOT,B cells_CHIR99021,B cells
+785,0.23999999463558197,CellOT,T cells CD4+_CHIR99021,T cells CD4+
+786,0.5400000214576721,CellOT,T cells CD4+_Cabozantinib,T cells CD4+
+787,0.5199999809265137,CellOT,T cells CD4+_Canertinib,T cells CD4+
+788,0.5199999809265137,CellOT,T cells CD4+_Ceritinib,T cells CD4+
+789,0.8600000143051147,CellOT,T cells CD4+_Chlorpheniramine,T cells CD4+
+790,0.8199999928474426,CellOT,T cells CD4+_Clemastine,T cells CD4+
+791,0.8199999928474426,CellOT,T cells CD4+_Clomipramine,T cells CD4+
+792,0.5,CellOT,T cells CD4+_Clotrimazole,T cells CD4+
+793,0.5600000023841858,CellOT,T cells CD4+_Colchicine,T cells CD4+
+794,0.6200000047683716,CellOT,T cells CD4+_Colforsin,T cells CD4+
+795,0.8999999761581421,CellOT,B cells_Crizotinib,B cells
+796,0.8999999761581421,CellOT,T cells CD4+_Crizotinib,T cells CD4+
+797,0.5799999833106995,CellOT,B cells_Dabrafenib,B cells
+798,0.5799999833106995,CellOT,T cells CD4+_Dabrafenib,T cells CD4+
+799,0.8199999928474426,CellOT,B cells_Dactolisib,B cells
+800,0.7799999713897705,CellOT,T cells CD4+_Dactolisib,T cells CD4+
+801,0.8399999737739563,CellOT,T cells CD4+_Dasatinib,T cells CD4+
+802,0.5799999833106995,CellOT,T cells CD4+_Decitabine,T cells CD4+
+803,0.7200000286102295,CellOT,T cells CD4+_Defactinib,T cells CD4+
+804,0.6399999856948853,CellOT,T cells CD4+_Desloratadine,T cells CD4+
+805,0.46000000834465027,CellOT,T cells CD4+_Disulfiram,T cells CD4+
+806,0.5400000214576721,CellOT,T cells CD4+_Dovitinib,T cells CD4+
+807,0.41999998688697815,CellOT,T cells CD4+_Doxorubicin,T cells CD4+
+808,0.5400000214576721,CellOT,T cells CD4+_FK866,T cells CD4+
+809,0.5400000214576721,CellOT,T cells CD4+_Flutamide,T cells CD4+
+810,0.8199999928474426,CellOT,B cells_Foretinib,B cells
+811,0.9599999785423279,CellOT,T cells CD4+_Foretinib,T cells CD4+
+812,0.699999988079071,CellOT,T cells CD4+_GLPG0634,T cells CD4+
+813,0.8199999928474426,CellOT,T cells CD4+_GO6976,T cells CD4+
+814,0.6600000262260437,CellOT,T cells CD4+_GSK1070916,T cells CD4+
+815,0.6600000262260437,CellOT,T cells CD4+_GSK256066,T cells CD4+
+816,0.5600000023841858,CellOT,T cells CD4+_GW843682X,T cells CD4+
+817,0.8799999952316284,CellOT,T cells CD4+_GanetespibSTA9090,T cells CD4+
+818,0.6200000047683716,CellOT,T cells CD4+_HMN214,T cells CD4+
+819,0.6800000071525574,CellOT,T cells CD4+_HYDROXYUREA,T cells CD4+
+820,0.8600000143051147,CellOT,T cells CD4+_IBET151,T cells CD4+
+821,0.8399999737739563,CellOT,T cells CD4+_IKKInhibitorVII,T cells CD4+
+822,0.47999998927116394,CellOT,T cells CD4+_IMD0354,T cells CD4+
+823,0.8799999952316284,CellOT,T cells CD4+_IN1451,T cells CD4+
+824,0.8199999928474426,CellOT,B cells_Idelalisib,B cells
+825,0.7400000095367432,CellOT,T cells CD4+_Idelalisib,T cells CD4+
+826,0.46000000834465027,CellOT,T cells CD4+_Imatinib,T cells CD4+
+827,0.5,CellOT,T cells CD4+_Isoniazid,T cells CD4+
+828,0.36000001430511475,CellOT,T cells CD4+_Ixabepilone,T cells CD4+
+829,0.3400000035762787,CellOT,T cells CD4+_K02288,T cells CD4+
+830,0.9200000166893005,CellOT,T cells CD4+_Ketoconazole,T cells CD4+
+831,0.47999998927116394,CellOT,B cells_LDN193189,B cells
+832,0.5400000214576721,CellOT,T cells CD4+_LDN193189,T cells CD4+
+833,0.6800000071525574,CellOT,T cells CD4+_LY2090314,T cells CD4+
+834,0.5400000214576721,CellOT,T cells CD4+_Lamivudine,T cells CD4+
+835,0.6800000071525574,CellOT,T cells CD4+_Lapatinib,T cells CD4+
+836,0.5600000023841858,CellOT,B cells_Linagliptin,B cells
+837,0.5799999833106995,CellOT,T cells CD4+_Linagliptin,T cells CD4+
+838,0.6600000262260437,CellOT,T cells CD4+_MGCD265,T cells CD4+
+839,0.7400000095367432,CellOT,T cells CD4+_MK5108,T cells CD4+
+840,0.8600000143051147,CellOT,T cells CD4+_MLN2238,T cells CD4+
+841,0.46000000834465027,CellOT,T cells CD4+_Masitinib,T cells CD4+
+842,0.5600000023841858,CellOT,T cells CD4+_Methotrexate,T cells CD4+
+843,0.699999988079071,CellOT,T cells CD4+_Midostaurin,T cells CD4+
+844,0.7400000095367432,CellOT,T cells CD4+_MometasoneFuroate,T cells CD4+
+845,0.5400000214576721,CellOT,T cells CD4+_MubritinibTAK165,T cells CD4+
+846,0.47999998927116394,CellOT,T cells CD4+_Navitoclax,T cells CD4+
+847,0.5400000214576721,CellOT,T cells CD4+_Nefazodone,T cells CD4+
+848,0.8199999928474426,CellOT,T cells CD4+_Nilotinib,T cells CD4+
+849,0.3199999928474426,CellOT,B cells_ODemethylatedAdapalene,B cells
+850,0.46000000834465027,CellOT,T cells CD4+_ODemethylatedAdapalene,T cells CD4+
+851,0.3199999928474426,CellOT,T cells CD4+_OSI930,T cells CD4+
+852,0.8999999761581421,CellOT,T cells CD4+_OprozomibONX0912,T cells CD4+
+853,0.699999988079071,CellOT,T cells CD4+_Oxybenzone,T cells CD4+
+854,0.6800000071525574,CellOT,T cells CD4+_PD0325901,T cells CD4+
+855,0.7200000286102295,CellOT,T cells CD4+_PF03814735,T cells CD4+
+856,0.6800000071525574,CellOT,T cells CD4+_PF04691502,T cells CD4+
+857,0.7200000286102295,CellOT,T cells CD4+_PRT062607,T cells CD4+
+858,0.47999998927116394,CellOT,B cells_Palbociclib,B cells
+859,0.6000000238418579,CellOT,T cells CD4+_Palbociclib,T cells CD4+
+860,0.23999999463558197,CellOT,B cells_Penfluridol,B cells
+861,0.5400000214576721,CellOT,T cells CD4+_Penfluridol,T cells CD4+
+862,0.7400000095367432,CellOT,T cells CD4+_Perhexiline,T cells CD4+
+863,0.6200000047683716,CellOT,T cells CD4+_Phenylbutazone,T cells CD4+
+864,0.800000011920929,CellOT,T cells CD4+_PitavastatinCalcium,T cells CD4+
+865,0.3400000035762787,CellOT,T cells CD4+_Pomalidomide,T cells CD4+
+866,0.4000000059604645,CellOT,B cells_PorcnInhibitorIII,B cells
+867,0.6399999856948853,CellOT,T cells CD4+_PorcnInhibitorIII,T cells CD4+
+868,0.7200000286102295,CellOT,T cells CD4+_Prednisolone,T cells CD4+
+869,0.9599999785423279,CellOT,T cells CD4+_ProscillaridinAProscillaridinA,T cells CD4+
+870,0.699999988079071,CellOT,T cells CD4+_Protriptyline,T cells CD4+
+871,0.6200000047683716,CellOT,T cells CD4+_Quizartinib,T cells CD4+
+872,0.5199999809265137,CellOT,B cells_R428,B cells
+873,0.7200000286102295,CellOT,T cells CD4+_R428,T cells CD4+
+874,0.7599999904632568,CellOT,T cells CD4+_RG7090,T cells CD4+
+875,0.6000000238418579,CellOT,T cells CD4+_RG7112,T cells CD4+
+876,0.6800000071525574,CellOT,T cells CD4+_RN486,T cells CD4+
+877,0.5400000214576721,CellOT,T cells CD4+_RVX208,T cells CD4+
+878,0.14000000059604645,CellOT,T cells CD4+_Raloxifene,T cells CD4+
+879,0.5,CellOT,T cells CD4+_Resminostat,T cells CD4+
+880,0.7599999904632568,CellOT,T cells CD4+_Ricolinostat,T cells CD4+
+881,0.5799999833106995,CellOT,T cells CD4+_Riociguat,T cells CD4+
+882,0.7599999904632568,CellOT,T cells CD4+_Ruxolitinib,T cells CD4+
+883,0.7400000095367432,CellOT,T cells CD4+_SB525334,T cells CD4+
+884,0.6200000047683716,CellOT,T cells CD4+_SCH58261,T cells CD4+
+885,0.7200000286102295,CellOT,T cells CD4+_SLx2119,T cells CD4+
+886,0.6000000238418579,CellOT,T cells CD4+_STK219801,T cells CD4+
+887,0.800000011920929,CellOT,T cells CD4+_Saracatinib,T cells CD4+
+888,0.8399999737739563,CellOT,T cells CD4+_Scriptaid,T cells CD4+
+889,0.7200000286102295,CellOT,T cells CD4+_Selumetinib,T cells CD4+
+890,0.6200000047683716,CellOT,T cells CD4+_Sgccbp30,T cells CD4+
+891,0.6000000238418579,CellOT,T cells CD4+_Sunitinib,T cells CD4+
+892,0.5400000214576721,CellOT,T cells CD4+_TGX221,T cells CD4+
+893,0.5799999833106995,CellOT,T cells CD4+_TIE2KinaseInhibitor,T cells CD4+
+894,0.6200000047683716,CellOT,T cells CD4+_TLHRAS26,T cells CD4+
+895,0.8600000143051147,CellOT,T cells CD4+_TPCA1,T cells CD4+
+896,0.5600000023841858,CellOT,T cells CD4+_TR14035,T cells CD4+
+897,0.7599999904632568,CellOT,T cells CD4+_Tacalcitol,T cells CD4+
+898,0.8199999928474426,CellOT,T cells CD4+_Tamatinib,T cells CD4+
+899,0.4399999976158142,CellOT,T cells CD4+_Tipifarnib,T cells CD4+
+900,0.5799999833106995,CellOT,T cells CD4+_Tivantinib,T cells CD4+
+901,0.7799999713897705,CellOT,T cells CD4+_Tivozanib,T cells CD4+
+902,0.5199999809265137,CellOT,T cells CD4+_Topotecan,T cells CD4+
+903,0.6800000071525574,CellOT,T cells CD4+_Tosedostat,T cells CD4+
+904,0.5799999833106995,CellOT,T cells CD4+_Trametinib,T cells CD4+
+905,0.8199999928474426,CellOT,T cells CD4+_UNIIBXU45ZH6LI,T cells CD4+
+906,0.5600000023841858,CellOT,T cells CD4+_Vandetanib,T cells CD4+
+907,0.6000000238418579,CellOT,T cells CD4+_Vanoxerine,T cells CD4+
+908,0.6399999856948853,CellOT,T cells CD4+_Vardenafil,T cells CD4+
+909,0.8199999928474426,CellOT,T cells CD4+_Vorinostat,T cells CD4+
+910,0.25999999046325684,CellOT,T cells CD4+_YK4279,T cells CD4+
+911,0.8799999952316284,CellOT,NK cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,NK cells
+912,0.5,CellOT,T cells CD8+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD8+
+913,0.4399999976158142,CellOT,NK cells_ABT199GDC0199,NK cells
+914,0.2800000011920929,CellOT,T cells CD8+_ABT199GDC0199,T cells CD8+
+915,0.46000000834465027,CellOT,NK cells_ABT737,NK cells
+916,0.36000001430511475,CellOT,T cells CD8+_ABT737,T cells CD8+
+917,0.5799999833106995,CellOT,NK cells_AMD070hydrochloride,NK cells
+918,0.6200000047683716,CellOT,T cells CD8+_AMD070hydrochloride,T cells CD8+
+919,1.0,CellOT,NK cells_AT13387,NK cells
+920,0.6000000238418579,CellOT,T cells CD8+_AT13387,T cells CD8+
+921,0.800000011920929,CellOT,NK cells_AT7867,NK cells
+922,0.6399999856948853,CellOT,T cells CD8+_AT7867,T cells CD8+
+923,0.699999988079071,CellOT,NK cells_AVL292,NK cells
+924,0.5400000214576721,CellOT,T cells CD8+_AVL292,T cells CD8+
+925,0.7400000095367432,CellOT,NK cells_AZ628,NK cells
+926,0.6600000262260437,CellOT,T cells CD8+_AZ628,T cells CD8+
+927,0.47999998927116394,CellOT,NK cells_AZD3514,NK cells
+928,0.46000000834465027,CellOT,T cells CD8+_AZD3514,T cells CD8+
+929,0.5,CellOT,NK cells_AZD4547,NK cells
+930,0.4399999976158142,CellOT,T cells CD8+_AZD4547,T cells CD8+
+931,0.699999988079071,CellOT,NK cells_AZD8330,NK cells
+932,0.6600000262260437,CellOT,T cells CD8+_AZD8330,T cells CD8+
+933,0.4399999976158142,CellOT,NK cells_Alogliptin,NK cells
+934,0.6000000238418579,CellOT,T cells CD8+_Alogliptin,T cells CD8+
+935,1.0,CellOT,NK cells_Alvocidib,NK cells
+936,0.5600000023841858,CellOT,NK cells_Amiodarone,NK cells
+937,0.5600000023841858,CellOT,T cells CD8+_Amiodarone,T cells CD8+
+938,0.7599999904632568,CellOT,NK cells_Atorvastatin,NK cells
+939,0.5799999833106995,CellOT,T cells CD8+_Atorvastatin,T cells CD8+
+940,0.6200000047683716,CellOT,NK cells_Azacitidine,NK cells
+941,0.6200000047683716,CellOT,T cells CD8+_Azacitidine,T cells CD8+
+942,0.7200000286102295,CellOT,NK cells_BAY613606,NK cells
+943,0.6200000047683716,CellOT,T cells CD8+_BAY613606,T cells CD8+
+944,0.8999999761581421,CellOT,NK cells_BAY872243,NK cells
+945,0.7799999713897705,CellOT,T cells CD8+_BAY872243,T cells CD8+
+946,0.5199999809265137,CellOT,NK cells_BID1870,NK cells
+947,0.3799999952316284,CellOT,T cells CD8+_BID1870,T cells CD8+
+948,0.699999988079071,CellOT,NK cells_BMS265246,NK cells
+949,0.5799999833106995,CellOT,T cells CD8+_BMS265246,T cells CD8+
+950,0.8600000143051147,CellOT,NK cells_BMS387032,NK cells
+951,0.9599999785423279,CellOT,T cells CD8+_BMS387032,T cells CD8+
+952,0.7599999904632568,CellOT,NK cells_BMS536924,NK cells
+953,0.6800000071525574,CellOT,T cells CD8+_BMS536924,T cells CD8+
+954,0.7400000095367432,CellOT,NK cells_BMS777607,NK cells
+955,0.6200000047683716,CellOT,T cells CD8+_BMS777607,T cells CD8+
+956,0.800000011920929,CellOT,NK cells_BX912,NK cells
+957,0.5799999833106995,CellOT,T cells CD8+_BX912,T cells CD8+
+958,0.9800000190734863,CellOT,NK cells_Belinostat,NK cells
+959,0.9800000190734863,CellOT,T cells CD8+_Belinostat,T cells CD8+
+960,0.6600000262260437,CellOT,NK cells_Bosutinib,NK cells
+961,0.6200000047683716,CellOT,T cells CD8+_Bosutinib,T cells CD8+
+962,0.6000000238418579,CellOT,NK cells_Buspirone,NK cells
+963,0.5600000023841858,CellOT,T cells CD8+_Buspirone,T cells CD8+
+964,0.6200000047683716,CellOT,NK cells_CC401,NK cells
+965,0.5199999809265137,CellOT,T cells CD8+_CC401,T cells CD8+
+966,0.9599999785423279,CellOT,T cells CD8+_CEP18770Delanzomib,T cells CD8+
+967,0.5799999833106995,CellOT,NK cells_CEP37440,NK cells
+968,0.5600000023841858,CellOT,T cells CD8+_CEP37440,T cells CD8+
+969,0.5199999809265137,CellOT,NK cells_CGM097,NK cells
+970,0.10000000149011612,CellOT,T cells CD8+_CGM097,T cells CD8+
+971,0.9599999785423279,CellOT,NK cells_CGP60474,NK cells
+972,0.5600000023841858,CellOT,NK cells_CHIR99021,NK cells
+973,0.8399999737739563,CellOT,T cells CD8+_CHIR99021,T cells CD8+
+974,0.6600000262260437,CellOT,NK cells_Cabozantinib,NK cells
+975,0.5400000214576721,CellOT,T cells CD8+_Cabozantinib,T cells CD8+
+976,0.6000000238418579,CellOT,NK cells_Canertinib,NK cells
+977,0.5600000023841858,CellOT,T cells CD8+_Canertinib,T cells CD8+
+978,0.6200000047683716,CellOT,NK cells_Ceritinib,NK cells
+979,0.5600000023841858,CellOT,T cells CD8+_Ceritinib,T cells CD8+
+980,0.6200000047683716,CellOT,NK cells_Chlorpheniramine,NK cells
+981,0.5400000214576721,CellOT,T cells CD8+_Chlorpheniramine,T cells CD8+
+982,0.800000011920929,CellOT,NK cells_Clemastine,NK cells
+983,0.8199999928474426,CellOT,T cells CD8+_Clemastine,T cells CD8+
+984,0.6200000047683716,CellOT,NK cells_Clomipramine,NK cells
+985,0.5400000214576721,CellOT,T cells CD8+_Clomipramine,T cells CD8+
+986,0.6000000238418579,CellOT,NK cells_Clotrimazole,NK cells
+987,0.6399999856948853,CellOT,T cells CD8+_Clotrimazole,T cells CD8+
+988,0.7599999904632568,CellOT,NK cells_Colchicine,NK cells
+989,0.8600000143051147,CellOT,T cells CD8+_Colchicine,T cells CD8+
+990,0.6000000238418579,CellOT,NK cells_Colforsin,NK cells
+991,0.6200000047683716,CellOT,T cells CD8+_Colforsin,T cells CD8+
+992,0.6800000071525574,CellOT,NK cells_Crizotinib,NK cells
+993,0.5199999809265137,CellOT,T cells CD8+_Crizotinib,T cells CD8+
+994,0.699999988079071,CellOT,NK cells_Dabrafenib,NK cells
+995,0.6200000047683716,CellOT,T cells CD8+_Dabrafenib,T cells CD8+
+996,0.9399999976158142,CellOT,NK cells_Dactolisib,NK cells
+997,0.699999988079071,CellOT,T cells CD8+_Dactolisib,T cells CD8+
+998,0.6800000071525574,CellOT,NK cells_Dasatinib,NK cells
+999,0.8199999928474426,CellOT,T cells CD8+_Dasatinib,T cells CD8+
+1000,0.5400000214576721,CellOT,NK cells_Decitabine,NK cells
+1001,0.5400000214576721,CellOT,T cells CD8+_Decitabine,T cells CD8+
+1002,0.6200000047683716,CellOT,NK cells_Defactinib,NK cells
+1003,0.6399999856948853,CellOT,T cells CD8+_Defactinib,T cells CD8+
+1004,0.800000011920929,CellOT,NK cells_Desloratadine,NK cells
+1005,0.699999988079071,CellOT,T cells CD8+_Desloratadine,T cells CD8+
+1006,0.5400000214576721,CellOT,NK cells_Disulfiram,NK cells
+1007,0.6399999856948853,CellOT,T cells CD8+_Disulfiram,T cells CD8+
+1008,0.7200000286102295,CellOT,NK cells_Dovitinib,NK cells
+1009,0.5400000214576721,CellOT,T cells CD8+_Dovitinib,T cells CD8+
+1010,0.6800000071525574,CellOT,NK cells_Doxorubicin,NK cells
+1011,0.7200000286102295,CellOT,T cells CD8+_Doxorubicin,T cells CD8+
+1012,0.5799999833106995,CellOT,NK cells_FK866,NK cells
+1013,0.6000000238418579,CellOT,T cells CD8+_FK866,T cells CD8+
+1014,0.6200000047683716,CellOT,NK cells_Flutamide,NK cells
+1015,0.7200000286102295,CellOT,T cells CD8+_Flutamide,T cells CD8+
+1016,0.5600000023841858,CellOT,NK cells_Foretinib,NK cells
+1017,0.5600000023841858,CellOT,T cells CD8+_Foretinib,T cells CD8+
+1018,0.8399999737739563,CellOT,NK cells_GLPG0634,NK cells
+1019,0.7599999904632568,CellOT,T cells CD8+_GLPG0634,T cells CD8+
+1020,0.5400000214576721,CellOT,NK cells_GO6976,NK cells
+1021,0.25999999046325684,CellOT,T cells CD8+_GO6976,T cells CD8+
+1022,0.5600000023841858,CellOT,NK cells_GSK1070916,NK cells
+1023,0.6399999856948853,CellOT,T cells CD8+_GSK1070916,T cells CD8+
+1024,0.5600000023841858,CellOT,NK cells_GSK256066,NK cells
+1025,0.6600000262260437,CellOT,T cells CD8+_GSK256066,T cells CD8+
+1026,0.5600000023841858,CellOT,NK cells_GW843682X,NK cells
+1027,0.5600000023841858,CellOT,T cells CD8+_GW843682X,T cells CD8+
+1028,1.0,CellOT,NK cells_GanetespibSTA9090,NK cells
+1029,0.6200000047683716,CellOT,T cells CD8+_GanetespibSTA9090,T cells CD8+
+1030,0.7599999904632568,CellOT,NK cells_HMN214,NK cells
+1031,0.47999998927116394,CellOT,T cells CD8+_HMN214,T cells CD8+
+1032,0.5600000023841858,CellOT,NK cells_HYDROXYUREA,NK cells
+1033,0.6399999856948853,CellOT,T cells CD8+_HYDROXYUREA,T cells CD8+
+1034,0.8999999761581421,CellOT,NK cells_IBET151,NK cells
+1035,0.9599999785423279,CellOT,T cells CD8+_IBET151,T cells CD8+
+1036,0.9399999976158142,CellOT,NK cells_IKKInhibitorVII,NK cells
+1037,0.6800000071525574,CellOT,T cells CD8+_IKKInhibitorVII,T cells CD8+
+1038,0.7400000095367432,CellOT,NK cells_IMD0354,NK cells
+1039,0.800000011920929,CellOT,T cells CD8+_IMD0354,T cells CD8+
+1040,0.9200000166893005,CellOT,NK cells_IN1451,NK cells
+1041,0.5199999809265137,CellOT,NK cells_Idelalisib,NK cells
+1042,0.6000000238418579,CellOT,T cells CD8+_Idelalisib,T cells CD8+
+1043,0.46000000834465027,CellOT,NK cells_Imatinib,NK cells
+1044,0.5400000214576721,CellOT,T cells CD8+_Imatinib,T cells CD8+
+1045,0.3199999928474426,CellOT,NK cells_Isoniazid,NK cells
+1046,0.6399999856948853,CellOT,T cells CD8+_Isoniazid,T cells CD8+
+1047,0.6399999856948853,CellOT,NK cells_Ixabepilone,NK cells
+1048,0.4000000059604645,CellOT,T cells CD8+_Ixabepilone,T cells CD8+
+1049,0.6000000238418579,CellOT,NK cells_K02288,NK cells
+1050,0.5600000023841858,CellOT,T cells CD8+_K02288,T cells CD8+
+1051,0.4399999976158142,CellOT,NK cells_Ketoconazole,NK cells
+1052,0.3799999952316284,CellOT,T cells CD8+_Ketoconazole,T cells CD8+
+1053,0.47999998927116394,CellOT,NK cells_LDN193189,NK cells
+1054,0.5799999833106995,CellOT,T cells CD8+_LDN193189,T cells CD8+
+1055,0.8600000143051147,CellOT,NK cells_LY2090314,NK cells
+1056,0.4000000059604645,CellOT,T cells CD8+_LY2090314,T cells CD8+
+1057,0.46000000834465027,CellOT,NK cells_Lamivudine,NK cells
+1058,0.6000000238418579,CellOT,T cells CD8+_Lamivudine,T cells CD8+
+1059,0.4399999976158142,CellOT,NK cells_Lapatinib,NK cells
+1060,0.5799999833106995,CellOT,T cells CD8+_Lapatinib,T cells CD8+
+1061,0.47999998927116394,CellOT,NK cells_Linagliptin,NK cells
+1062,0.5400000214576721,CellOT,T cells CD8+_Linagliptin,T cells CD8+
+1063,0.5199999809265137,CellOT,NK cells_MGCD265,NK cells
+1064,0.5,CellOT,T cells CD8+_MGCD265,T cells CD8+
+1065,0.7400000095367432,CellOT,NK cells_MK5108,NK cells
+1066,0.6000000238418579,CellOT,T cells CD8+_MK5108,T cells CD8+
+1067,0.9800000190734863,CellOT,T cells CD8+_MLN2238,T cells CD8+
+1068,0.8199999928474426,CellOT,NK cells_Masitinib,NK cells
+1069,0.7200000286102295,CellOT,T cells CD8+_Masitinib,T cells CD8+
+1070,0.5199999809265137,CellOT,NK cells_Methotrexate,NK cells
+1071,0.5199999809265137,CellOT,T cells CD8+_Methotrexate,T cells CD8+
+1072,0.699999988079071,CellOT,NK cells_Midostaurin,NK cells
+1073,0.7200000286102295,CellOT,T cells CD8+_Midostaurin,T cells CD8+
+1074,0.8799999952316284,CellOT,NK cells_MometasoneFuroate,NK cells
+1075,0.6200000047683716,CellOT,T cells CD8+_MometasoneFuroate,T cells CD8+
+1076,0.6399999856948853,CellOT,NK cells_MubritinibTAK165,NK cells
+1077,0.699999988079071,CellOT,T cells CD8+_MubritinibTAK165,T cells CD8+
+1078,0.46000000834465027,CellOT,NK cells_Navitoclax,NK cells
+1079,0.4000000059604645,CellOT,T cells CD8+_Navitoclax,T cells CD8+
+1080,0.5799999833106995,CellOT,NK cells_Nefazodone,NK cells
+1081,0.46000000834465027,CellOT,T cells CD8+_Nefazodone,T cells CD8+
+1082,0.7599999904632568,CellOT,NK cells_Nilotinib,NK cells
+1083,0.699999988079071,CellOT,T cells CD8+_Nilotinib,T cells CD8+
+1084,0.4000000059604645,CellOT,NK cells_ODemethylatedAdapalene,NK cells
+1085,0.5600000023841858,CellOT,T cells CD8+_ODemethylatedAdapalene,T cells CD8+
+1086,0.41999998688697815,CellOT,NK cells_OSI930,NK cells
+1087,0.5400000214576721,CellOT,T cells CD8+_OSI930,T cells CD8+
+1088,0.6399999856948853,CellOT,NK cells_Oxybenzone,NK cells
+1089,0.7400000095367432,CellOT,T cells CD8+_Oxybenzone,T cells CD8+
+1090,0.6000000238418579,CellOT,NK cells_PD0325901,NK cells
+1091,0.6200000047683716,CellOT,T cells CD8+_PD0325901,T cells CD8+
+1092,0.7799999713897705,CellOT,NK cells_PF03814735,NK cells
+1093,0.5400000214576721,CellOT,T cells CD8+_PF03814735,T cells CD8+
+1094,0.6399999856948853,CellOT,NK cells_PF04691502,NK cells
+1095,0.6800000071525574,CellOT,T cells CD8+_PF04691502,T cells CD8+
+1096,0.7599999904632568,CellOT,NK cells_PRT062607,NK cells
+1097,0.7599999904632568,CellOT,T cells CD8+_PRT062607,T cells CD8+
+1098,0.5799999833106995,CellOT,NK cells_Palbociclib,NK cells
+1099,0.6200000047683716,CellOT,T cells CD8+_Palbociclib,T cells CD8+
+1100,0.41999998688697815,CellOT,NK cells_Penfluridol,NK cells
+1101,0.4000000059604645,CellOT,T cells CD8+_Penfluridol,T cells CD8+
+1102,0.8999999761581421,CellOT,NK cells_Perhexiline,NK cells
+1103,0.6399999856948853,CellOT,T cells CD8+_Perhexiline,T cells CD8+
+1104,0.699999988079071,CellOT,NK cells_Phenylbutazone,NK cells
+1105,0.4399999976158142,CellOT,T cells CD8+_Phenylbutazone,T cells CD8+
+1106,0.8399999737739563,CellOT,NK cells_PitavastatinCalcium,NK cells
+1107,0.5199999809265137,CellOT,T cells CD8+_PitavastatinCalcium,T cells CD8+
+1108,0.5600000023841858,CellOT,NK cells_Pomalidomide,NK cells
+1109,0.6200000047683716,CellOT,T cells CD8+_Pomalidomide,T cells CD8+
+1110,0.46000000834465027,CellOT,NK cells_PorcnInhibitorIII,NK cells
+1111,0.47999998927116394,CellOT,T cells CD8+_PorcnInhibitorIII,T cells CD8+
+1112,0.8799999952316284,CellOT,NK cells_Prednisolone,NK cells
+1113,0.7400000095367432,CellOT,T cells CD8+_Prednisolone,T cells CD8+
+1114,0.9399999976158142,CellOT,NK cells_ProscillaridinAProscillaridinA,NK cells
+1115,0.5199999809265137,CellOT,NK cells_Protriptyline,NK cells
+1116,0.5199999809265137,CellOT,T cells CD8+_Protriptyline,T cells CD8+
+1117,0.5,CellOT,NK cells_Quizartinib,NK cells
+1118,0.4399999976158142,CellOT,T cells CD8+_Quizartinib,T cells CD8+
+1119,0.5199999809265137,CellOT,NK cells_R428,NK cells
+1120,0.6399999856948853,CellOT,T cells CD8+_R428,T cells CD8+
+1121,0.5799999833106995,CellOT,NK cells_RG7090,NK cells
+1122,0.5400000214576721,CellOT,T cells CD8+_RG7090,T cells CD8+
+1123,0.6800000071525574,CellOT,NK cells_RG7112,NK cells
+1124,0.5600000023841858,CellOT,T cells CD8+_RG7112,T cells CD8+
+1125,0.6000000238418579,CellOT,NK cells_RN486,NK cells
+1126,0.5,CellOT,T cells CD8+_RN486,T cells CD8+
+1127,0.5799999833106995,CellOT,NK cells_RVX208,NK cells
+1128,0.6399999856948853,CellOT,T cells CD8+_RVX208,T cells CD8+
+1129,0.41999998688697815,CellOT,NK cells_Raloxifene,NK cells
+1130,0.5199999809265137,CellOT,T cells CD8+_Raloxifene,T cells CD8+
+1131,0.9399999976158142,CellOT,NK cells_Resminostat,NK cells
+1132,0.7400000095367432,CellOT,NK cells_Ricolinostat,NK cells
+1133,0.5400000214576721,CellOT,T cells CD8+_Ricolinostat,T cells CD8+
+1134,0.5,CellOT,NK cells_Riociguat,NK cells
+1135,0.5799999833106995,CellOT,T cells CD8+_Riociguat,T cells CD8+
+1136,0.7400000095367432,CellOT,NK cells_Ruxolitinib,NK cells
+1137,0.7200000286102295,CellOT,T cells CD8+_Ruxolitinib,T cells CD8+
+1138,0.5799999833106995,CellOT,NK cells_SB525334,NK cells
+1139,0.4399999976158142,CellOT,T cells CD8+_SB525334,T cells CD8+
+1140,0.5400000214576721,CellOT,NK cells_SCH58261,NK cells
+1141,0.6200000047683716,CellOT,T cells CD8+_SCH58261,T cells CD8+
+1142,0.47999998927116394,CellOT,NK cells_SLx2119,NK cells
+1143,0.5799999833106995,CellOT,T cells CD8+_SLx2119,T cells CD8+
+1144,0.4399999976158142,CellOT,NK cells_STK219801,NK cells
+1145,0.5600000023841858,CellOT,T cells CD8+_STK219801,T cells CD8+
+1146,0.7400000095367432,CellOT,NK cells_Saracatinib,NK cells
+1147,0.7400000095367432,CellOT,T cells CD8+_Saracatinib,T cells CD8+
+1148,0.9800000190734863,CellOT,NK cells_Scriptaid,NK cells
+1149,0.9399999976158142,CellOT,T cells CD8+_Scriptaid,T cells CD8+
+1150,0.6600000262260437,CellOT,NK cells_Selumetinib,NK cells
+1151,0.6200000047683716,CellOT,T cells CD8+_Selumetinib,T cells CD8+
+1152,0.6399999856948853,CellOT,NK cells_Sgccbp30,NK cells
+1153,0.6600000262260437,CellOT,T cells CD8+_Sgccbp30,T cells CD8+
+1154,0.6200000047683716,CellOT,NK cells_Sunitinib,NK cells
+1155,0.3400000035762787,CellOT,T cells CD8+_Sunitinib,T cells CD8+
+1156,0.6600000262260437,CellOT,NK cells_TGX221,NK cells
+1157,0.5,CellOT,T cells CD8+_TGX221,T cells CD8+
+1158,0.5199999809265137,CellOT,NK cells_TIE2KinaseInhibitor,NK cells
+1159,0.6000000238418579,CellOT,T cells CD8+_TIE2KinaseInhibitor,T cells CD8+
+1160,0.5,CellOT,NK cells_TLHRAS26,NK cells
+1161,0.5400000214576721,CellOT,T cells CD8+_TLHRAS26,T cells CD8+
+1162,0.8799999952316284,CellOT,NK cells_TPCA1,NK cells
+1163,0.7799999713897705,CellOT,T cells CD8+_TPCA1,T cells CD8+
+1164,0.6399999856948853,CellOT,NK cells_TR14035,NK cells
+1165,0.6200000047683716,CellOT,T cells CD8+_TR14035,T cells CD8+
+1166,0.8199999928474426,CellOT,NK cells_Tacalcitol,NK cells
+1167,0.6600000262260437,CellOT,T cells CD8+_Tacalcitol,T cells CD8+
+1168,0.9399999976158142,CellOT,NK cells_Tamatinib,NK cells
+1169,0.6200000047683716,CellOT,T cells CD8+_Tamatinib,T cells CD8+
+1170,0.5600000023841858,CellOT,NK cells_Tipifarnib,NK cells
+1171,0.5,CellOT,T cells CD8+_Tipifarnib,T cells CD8+
+1172,0.6200000047683716,CellOT,NK cells_Tivantinib,NK cells
+1173,0.4399999976158142,CellOT,T cells CD8+_Tivantinib,T cells CD8+
+1174,0.5400000214576721,CellOT,NK cells_Tivozanib,NK cells
+1175,0.6200000047683716,CellOT,T cells CD8+_Tivozanib,T cells CD8+
+1176,0.6000000238418579,CellOT,NK cells_Topotecan,NK cells
+1177,0.7599999904632568,CellOT,T cells CD8+_Topotecan,T cells CD8+
+1178,0.5199999809265137,CellOT,NK cells_Tosedostat,NK cells
+1179,0.6000000238418579,CellOT,T cells CD8+_Tosedostat,T cells CD8+
+1180,0.6000000238418579,CellOT,NK cells_Trametinib,NK cells
+1181,0.47999998927116394,CellOT,T cells CD8+_Trametinib,T cells CD8+
+1182,0.8799999952316284,CellOT,NK cells_UNIIBXU45ZH6LI,NK cells
+1183,0.6200000047683716,CellOT,T cells CD8+_UNIIBXU45ZH6LI,T cells CD8+
+1184,0.5799999833106995,CellOT,NK cells_Vandetanib,NK cells
+1185,0.41999998688697815,CellOT,T cells CD8+_Vandetanib,T cells CD8+
+1186,0.6399999856948853,CellOT,NK cells_Vanoxerine,NK cells
+1187,0.6200000047683716,CellOT,T cells CD8+_Vanoxerine,T cells CD8+
+1188,0.6600000262260437,CellOT,NK cells_Vardenafil,NK cells
+1189,0.6000000238418579,CellOT,T cells CD8+_Vardenafil,T cells CD8+
+1190,0.7799999713897705,CellOT,NK cells_Vorinostat,NK cells
+1191,0.9200000166893005,CellOT,T cells CD8+_Vorinostat,T cells CD8+
+1192,0.6399999856948853,CellOT,NK cells_YK4279,NK cells
+1193,0.5,CellOT,T cells CD8+_YK4279,T cells CD8+
+1194,0.699999988079071,ChemCPA_Pre,Myeloid cells_Belinostat,Myeloid cells
+1195,0.47999998927116394,ChemCPA_Pre,Myeloid cells_CHIR99021,Myeloid cells
+1196,0.6600000262260437,ChemCPA_Pre,Myeloid cells_Crizotinib,Myeloid cells
+1197,0.23999999463558197,ChemCPA_Pre,Myeloid cells_Dabrafenib,Myeloid cells
+1198,0.7799999713897705,ChemCPA_Pre,Myeloid cells_Dactolisib,Myeloid cells
+1199,0.5799999833106995,ChemCPA_Pre,Myeloid cells_Foretinib,Myeloid cells
+1200,0.6000000238418579,ChemCPA_Pre,Myeloid cells_Idelalisib,Myeloid cells
+1201,0.25999999046325684,ChemCPA_Pre,Myeloid cells_LDN193189,Myeloid cells
+1202,0.47999998927116394,ChemCPA_Pre,Myeloid cells_Linagliptin,Myeloid cells
+1203,0.5199999809265137,ChemCPA_Pre,Myeloid cells_ODemethylatedAdapalene,Myeloid cells
+1204,0.6399999856948853,ChemCPA_Pre,Myeloid cells_Palbociclib,Myeloid cells
+1205,0.46000000834465027,ChemCPA_Pre,Myeloid cells_Penfluridol,Myeloid cells
+1206,0.23999999463558197,ChemCPA_Pre,Myeloid cells_PorcnInhibitorIII,Myeloid cells
+1207,0.2199999988079071,ChemCPA_Pre,Myeloid cells_R428,Myeloid cells
+1208,0.800000011920929,ChemCPA_Pre,T regulatory cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T regulatory cells
+1209,0.5,ChemCPA_Pre,T regulatory cells_ABT199GDC0199,T regulatory cells
+1210,0.7599999904632568,ChemCPA_Pre,T regulatory cells_ABT737,T regulatory cells
+1211,0.6600000262260437,ChemCPA_Pre,T regulatory cells_AMD070hydrochloride,T regulatory cells
+1212,0.9599999785423279,ChemCPA_Pre,T regulatory cells_AT13387,T regulatory cells
+1213,0.800000011920929,ChemCPA_Pre,T regulatory cells_AT7867,T regulatory cells
+1214,0.7599999904632568,ChemCPA_Pre,T regulatory cells_AVL292,T regulatory cells
+1215,0.699999988079071,ChemCPA_Pre,T regulatory cells_AZ628,T regulatory cells
+1216,0.6399999856948853,ChemCPA_Pre,T regulatory cells_AZD3514,T regulatory cells
+1217,0.699999988079071,ChemCPA_Pre,T regulatory cells_AZD4547,T regulatory cells
+1218,0.8399999737739563,ChemCPA_Pre,T regulatory cells_AZD8330,T regulatory cells
+1219,0.6000000238418579,ChemCPA_Pre,T regulatory cells_Alogliptin,T regulatory cells
+1220,0.9599999785423279,ChemCPA_Pre,T regulatory cells_Alvocidib,T regulatory cells
+1221,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Amiodarone,T regulatory cells
+1222,0.7200000286102295,ChemCPA_Pre,T regulatory cells_Atorvastatin,T regulatory cells
+1223,0.4000000059604645,ChemCPA_Pre,T regulatory cells_Azacitidine,T regulatory cells
+1224,0.8399999737739563,ChemCPA_Pre,T regulatory cells_BAY613606,T regulatory cells
+1225,0.7799999713897705,ChemCPA_Pre,T regulatory cells_BAY872243,T regulatory cells
+1226,0.7799999713897705,ChemCPA_Pre,T regulatory cells_BID1870,T regulatory cells
+1227,0.6200000047683716,ChemCPA_Pre,T regulatory cells_BMS265246,T regulatory cells
+1228,1.0,ChemCPA_Pre,T regulatory cells_BMS387032,T regulatory cells
+1229,0.8999999761581421,ChemCPA_Pre,T regulatory cells_BMS536924,T regulatory cells
+1230,0.6399999856948853,ChemCPA_Pre,T regulatory cells_BMS777607,T regulatory cells
+1231,0.8399999737739563,ChemCPA_Pre,T regulatory cells_BX912,T regulatory cells
+1232,0.800000011920929,ChemCPA_Pre,T regulatory cells_Belinostat,T regulatory cells
+1233,0.7200000286102295,ChemCPA_Pre,T regulatory cells_Bosutinib,T regulatory cells
+1234,0.6000000238418579,ChemCPA_Pre,T regulatory cells_Buspirone,T regulatory cells
+1235,0.7200000286102295,ChemCPA_Pre,T regulatory cells_CC401,T regulatory cells
+1236,0.5400000214576721,ChemCPA_Pre,T regulatory cells_CEP37440,T regulatory cells
+1237,0.6399999856948853,ChemCPA_Pre,T regulatory cells_CGM097,T regulatory cells
+1238,0.9599999785423279,ChemCPA_Pre,T regulatory cells_CGP60474,T regulatory cells
+1239,0.5600000023841858,ChemCPA_Pre,T regulatory cells_CHIR99021,T regulatory cells
+1240,0.5,ChemCPA_Pre,T regulatory cells_Cabozantinib,T regulatory cells
+1241,0.6600000262260437,ChemCPA_Pre,T regulatory cells_Canertinib,T regulatory cells
+1242,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Ceritinib,T regulatory cells
+1243,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Chlorpheniramine,T regulatory cells
+1244,0.699999988079071,ChemCPA_Pre,T regulatory cells_Clemastine,T regulatory cells
+1245,0.699999988079071,ChemCPA_Pre,T regulatory cells_Clomipramine,T regulatory cells
+1246,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Clotrimazole,T regulatory cells
+1247,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Colchicine,T regulatory cells
+1248,0.6800000071525574,ChemCPA_Pre,T regulatory cells_Colforsin,T regulatory cells
+1249,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Crizotinib,T regulatory cells
+1250,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Dabrafenib,T regulatory cells
+1251,0.8799999952316284,ChemCPA_Pre,T regulatory cells_Dactolisib,T regulatory cells
+1252,0.8199999928474426,ChemCPA_Pre,T regulatory cells_Dasatinib,T regulatory cells
+1253,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Decitabine,T regulatory cells
+1254,0.699999988079071,ChemCPA_Pre,T regulatory cells_Defactinib,T regulatory cells
+1255,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Desloratadine,T regulatory cells
+1256,0.5799999833106995,ChemCPA_Pre,T regulatory cells_Disulfiram,T regulatory cells
+1257,0.7200000286102295,ChemCPA_Pre,T regulatory cells_Dovitinib,T regulatory cells
+1258,0.6800000071525574,ChemCPA_Pre,T regulatory cells_Doxorubicin,T regulatory cells
+1259,0.7200000286102295,ChemCPA_Pre,T regulatory cells_FK866,T regulatory cells
+1260,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Flutamide,T regulatory cells
+1261,0.800000011920929,ChemCPA_Pre,T regulatory cells_Foretinib,T regulatory cells
+1262,0.7799999713897705,ChemCPA_Pre,T regulatory cells_GLPG0634,T regulatory cells
+1263,0.6000000238418579,ChemCPA_Pre,T regulatory cells_GO6976,T regulatory cells
+1264,0.7599999904632568,ChemCPA_Pre,T regulatory cells_GSK1070916,T regulatory cells
+1265,0.5,ChemCPA_Pre,T regulatory cells_GSK256066,T regulatory cells
+1266,0.6200000047683716,ChemCPA_Pre,T regulatory cells_GW843682X,T regulatory cells
+1267,0.5600000023841858,ChemCPA_Pre,T regulatory cells_HMN214,T regulatory cells
+1268,0.7200000286102295,ChemCPA_Pre,T regulatory cells_HYDROXYUREA,T regulatory cells
+1269,0.7799999713897705,ChemCPA_Pre,T regulatory cells_IBET151,T regulatory cells
+1270,0.8199999928474426,ChemCPA_Pre,T regulatory cells_IKKInhibitorVII,T regulatory cells
+1271,0.7599999904632568,ChemCPA_Pre,T regulatory cells_IMD0354,T regulatory cells
+1272,0.9800000190734863,ChemCPA_Pre,T regulatory cells_IN1451,T regulatory cells
+1273,0.7799999713897705,ChemCPA_Pre,T regulatory cells_Idelalisib,T regulatory cells
+1274,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Imatinib,T regulatory cells
+1275,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Isoniazid,T regulatory cells
+1276,0.6600000262260437,ChemCPA_Pre,T regulatory cells_Ixabepilone,T regulatory cells
+1277,0.7400000095367432,ChemCPA_Pre,T regulatory cells_K02288,T regulatory cells
+1278,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Ketoconazole,T regulatory cells
+1279,0.6600000262260437,ChemCPA_Pre,T regulatory cells_LDN193189,T regulatory cells
+1280,0.5600000023841858,ChemCPA_Pre,T regulatory cells_LY2090314,T regulatory cells
+1281,0.6600000262260437,ChemCPA_Pre,T regulatory cells_Lamivudine,T regulatory cells
+1282,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Lapatinib,T regulatory cells
+1283,0.5400000214576721,ChemCPA_Pre,T regulatory cells_Linagliptin,T regulatory cells
+1284,0.6800000071525574,ChemCPA_Pre,T regulatory cells_MGCD265,T regulatory cells
+1285,0.6399999856948853,ChemCPA_Pre,T regulatory cells_MK5108,T regulatory cells
+1286,0.699999988079071,ChemCPA_Pre,T regulatory cells_Masitinib,T regulatory cells
+1287,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Methotrexate,T regulatory cells
+1288,0.8999999761581421,ChemCPA_Pre,T regulatory cells_Midostaurin,T regulatory cells
+1289,0.6800000071525574,ChemCPA_Pre,T regulatory cells_MometasoneFuroate,T regulatory cells
+1290,0.699999988079071,ChemCPA_Pre,T regulatory cells_MubritinibTAK165,T regulatory cells
+1291,0.7799999713897705,ChemCPA_Pre,T regulatory cells_Navitoclax,T regulatory cells
+1292,0.6800000071525574,ChemCPA_Pre,T regulatory cells_Nefazodone,T regulatory cells
+1293,0.699999988079071,ChemCPA_Pre,T regulatory cells_Nilotinib,T regulatory cells
+1294,0.7400000095367432,ChemCPA_Pre,T regulatory cells_ODemethylatedAdapalene,T regulatory cells
+1295,0.6399999856948853,ChemCPA_Pre,T regulatory cells_OSI930,T regulatory cells
+1296,0.8600000143051147,ChemCPA_Pre,T regulatory cells_OprozomibONX0912,T regulatory cells
+1297,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Oxybenzone,T regulatory cells
+1298,0.7400000095367432,ChemCPA_Pre,T regulatory cells_PD0325901,T regulatory cells
+1299,0.8799999952316284,ChemCPA_Pre,T regulatory cells_PF03814735,T regulatory cells
+1300,0.8799999952316284,ChemCPA_Pre,T regulatory cells_PF04691502,T regulatory cells
+1301,0.8600000143051147,ChemCPA_Pre,T regulatory cells_PRT062607,T regulatory cells
+1302,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Palbociclib,T regulatory cells
+1303,0.6800000071525574,ChemCPA_Pre,T regulatory cells_Penfluridol,T regulatory cells
+1304,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Perhexiline,T regulatory cells
+1305,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Phenylbutazone,T regulatory cells
+1306,0.6000000238418579,ChemCPA_Pre,T regulatory cells_PitavastatinCalcium,T regulatory cells
+1307,0.5400000214576721,ChemCPA_Pre,T regulatory cells_Pomalidomide,T regulatory cells
+1308,0.699999988079071,ChemCPA_Pre,T regulatory cells_PorcnInhibitorIII,T regulatory cells
+1309,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Prednisolone,T regulatory cells
+1310,0.5799999833106995,ChemCPA_Pre,T regulatory cells_Protriptyline,T regulatory cells
+1311,0.699999988079071,ChemCPA_Pre,T regulatory cells_Quizartinib,T regulatory cells
+1312,0.7200000286102295,ChemCPA_Pre,T regulatory cells_R428,T regulatory cells
+1313,0.6399999856948853,ChemCPA_Pre,T regulatory cells_RG7090,T regulatory cells
+1314,0.5600000023841858,ChemCPA_Pre,T regulatory cells_RG7112,T regulatory cells
+1315,0.6200000047683716,ChemCPA_Pre,T regulatory cells_RN486,T regulatory cells
+1316,0.7200000286102295,ChemCPA_Pre,T regulatory cells_RVX208,T regulatory cells
+1317,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Raloxifene,T regulatory cells
+1318,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Resminostat,T regulatory cells
+1319,0.6600000262260437,ChemCPA_Pre,T regulatory cells_Ricolinostat,T regulatory cells
+1320,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Riociguat,T regulatory cells
+1321,0.8600000143051147,ChemCPA_Pre,T regulatory cells_Ruxolitinib,T regulatory cells
+1322,0.6200000047683716,ChemCPA_Pre,T regulatory cells_SB525334,T regulatory cells
+1323,0.7599999904632568,ChemCPA_Pre,T regulatory cells_SCH58261,T regulatory cells
+1324,0.7599999904632568,ChemCPA_Pre,T regulatory cells_SLx2119,T regulatory cells
+1325,0.6800000071525574,ChemCPA_Pre,T regulatory cells_STK219801,T regulatory cells
+1326,0.800000011920929,ChemCPA_Pre,T regulatory cells_Saracatinib,T regulatory cells
+1327,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Selumetinib,T regulatory cells
+1328,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Sgccbp30,T regulatory cells
+1329,0.6600000262260437,ChemCPA_Pre,T regulatory cells_Sunitinib,T regulatory cells
+1330,0.7599999904632568,ChemCPA_Pre,T regulatory cells_TGX221,T regulatory cells
+1331,0.5600000023841858,ChemCPA_Pre,T regulatory cells_TIE2KinaseInhibitor,T regulatory cells
+1332,0.7799999713897705,ChemCPA_Pre,T regulatory cells_TLHRAS26,T regulatory cells
+1333,0.8799999952316284,ChemCPA_Pre,T regulatory cells_TPCA1,T regulatory cells
+1334,0.6600000262260437,ChemCPA_Pre,T regulatory cells_TR14035,T regulatory cells
+1335,0.8399999737739563,ChemCPA_Pre,T regulatory cells_Tacalcitol,T regulatory cells
+1336,0.8600000143051147,ChemCPA_Pre,T regulatory cells_Tamatinib,T regulatory cells
+1337,0.5799999833106995,ChemCPA_Pre,T regulatory cells_Tipifarnib,T regulatory cells
+1338,0.5799999833106995,ChemCPA_Pre,T regulatory cells_Tivantinib,T regulatory cells
+1339,0.6399999856948853,ChemCPA_Pre,T regulatory cells_Tivozanib,T regulatory cells
+1340,0.6200000047683716,ChemCPA_Pre,T regulatory cells_Topotecan,T regulatory cells
+1341,0.8199999928474426,ChemCPA_Pre,T regulatory cells_Tosedostat,T regulatory cells
+1342,0.7599999904632568,ChemCPA_Pre,T regulatory cells_Trametinib,T regulatory cells
+1343,0.8799999952316284,ChemCPA_Pre,T regulatory cells_UNIIBXU45ZH6LI,T regulatory cells
+1344,0.5400000214576721,ChemCPA_Pre,T regulatory cells_Vandetanib,T regulatory cells
+1345,0.7400000095367432,ChemCPA_Pre,T regulatory cells_Vanoxerine,T regulatory cells
+1346,0.699999988079071,ChemCPA_Pre,T regulatory cells_Vardenafil,T regulatory cells
+1347,0.6800000071525574,ChemCPA_Pre,T regulatory cells_YK4279,T regulatory cells
+1348,0.5199999809265137,ChemCPA_Pre,B cells_Belinostat,B cells
+1349,0.5600000023841858,ChemCPA_Pre,B cells_CHIR99021,B cells
+1350,0.6600000262260437,ChemCPA_Pre,B cells_Crizotinib,B cells
+1351,0.3799999952316284,ChemCPA_Pre,B cells_Dabrafenib,B cells
+1352,0.6600000262260437,ChemCPA_Pre,B cells_Dactolisib,B cells
+1353,0.6399999856948853,ChemCPA_Pre,B cells_Foretinib,B cells
+1354,0.6600000262260437,ChemCPA_Pre,B cells_Idelalisib,B cells
+1355,0.5400000214576721,ChemCPA_Pre,B cells_LDN193189,B cells
+1356,0.5799999833106995,ChemCPA_Pre,B cells_Linagliptin,B cells
+1357,0.6800000071525574,ChemCPA_Pre,B cells_ODemethylatedAdapalene,B cells
+1358,0.699999988079071,ChemCPA_Pre,B cells_Palbociclib,B cells
+1359,0.6600000262260437,ChemCPA_Pre,B cells_Penfluridol,B cells
+1360,0.47999998927116394,ChemCPA_Pre,B cells_PorcnInhibitorIII,B cells
+1361,0.5199999809265137,ChemCPA_Pre,B cells_R428,B cells
+1362,0.8600000143051147,ChemCPA_Pre,T cells CD4+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD4+
+1363,0.5600000023841858,ChemCPA_Pre,T cells CD4+_ABT199GDC0199,T cells CD4+
+1364,0.6399999856948853,ChemCPA_Pre,T cells CD4+_ABT737,T cells CD4+
+1365,0.800000011920929,ChemCPA_Pre,T cells CD4+_AMD070hydrochloride,T cells CD4+
+1366,0.6600000262260437,ChemCPA_Pre,T cells CD4+_AT13387,T cells CD4+
+1367,0.8199999928474426,ChemCPA_Pre,T cells CD4+_AT7867,T cells CD4+
+1368,0.8999999761581421,ChemCPA_Pre,T cells CD4+_AVL292,T cells CD4+
+1369,0.8199999928474426,ChemCPA_Pre,T cells CD4+_AZ628,T cells CD4+
+1370,0.6600000262260437,ChemCPA_Pre,T cells CD4+_AZD3514,T cells CD4+
+1371,0.7200000286102295,ChemCPA_Pre,T cells CD4+_AZD4547,T cells CD4+
+1372,0.7599999904632568,ChemCPA_Pre,T cells CD4+_AZD8330,T cells CD4+
+1373,0.8799999952316284,ChemCPA_Pre,T cells CD4+_Alogliptin,T cells CD4+
+1374,0.6800000071525574,ChemCPA_Pre,T cells CD4+_Alvocidib,T cells CD4+
+1375,0.9599999785423279,ChemCPA_Pre,T cells CD4+_Amiodarone,T cells CD4+
+1376,0.800000011920929,ChemCPA_Pre,T cells CD4+_Atorvastatin,T cells CD4+
+1377,0.699999988079071,ChemCPA_Pre,T cells CD4+_Azacitidine,T cells CD4+
+1378,0.7799999713897705,ChemCPA_Pre,T cells CD4+_BAY613606,T cells CD4+
+1379,0.8999999761581421,ChemCPA_Pre,T cells CD4+_BAY872243,T cells CD4+
+1380,0.5,ChemCPA_Pre,T cells CD4+_BID1870,T cells CD4+
+1381,0.46000000834465027,ChemCPA_Pre,T cells CD4+_BMS265246,T cells CD4+
+1382,0.6800000071525574,ChemCPA_Pre,T cells CD4+_BMS387032,T cells CD4+
+1383,0.9200000166893005,ChemCPA_Pre,T cells CD4+_BMS536924,T cells CD4+
+1384,0.8799999952316284,ChemCPA_Pre,T cells CD4+_BMS777607,T cells CD4+
+1385,0.800000011920929,ChemCPA_Pre,T cells CD4+_BX912,T cells CD4+
+1386,0.800000011920929,ChemCPA_Pre,T cells CD4+_Belinostat,T cells CD4+
+1387,0.800000011920929,ChemCPA_Pre,T cells CD4+_Bosutinib,T cells CD4+
+1388,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Buspirone,T cells CD4+
+1389,0.6600000262260437,ChemCPA_Pre,T cells CD4+_CC401,T cells CD4+
+1390,0.3199999928474426,ChemCPA_Pre,T cells CD4+_CEP18770Delanzomib,T cells CD4+
+1391,0.7200000286102295,ChemCPA_Pre,T cells CD4+_CEP37440,T cells CD4+
+1392,0.6800000071525574,ChemCPA_Pre,T cells CD4+_CGM097,T cells CD4+
+1393,0.6600000262260437,ChemCPA_Pre,T cells CD4+_CGP60474,T cells CD4+
+1394,0.8199999928474426,ChemCPA_Pre,T cells CD4+_CHIR99021,T cells CD4+
+1395,0.23999999463558197,ChemCPA_Pre,T cells CD4+_Cabozantinib,T cells CD4+
+1396,0.6200000047683716,ChemCPA_Pre,T cells CD4+_Canertinib,T cells CD4+
+1397,0.8799999952316284,ChemCPA_Pre,T cells CD4+_Ceritinib,T cells CD4+
+1398,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Chlorpheniramine,T cells CD4+
+1399,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Clemastine,T cells CD4+
+1400,0.699999988079071,ChemCPA_Pre,T cells CD4+_Clomipramine,T cells CD4+
+1401,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Clotrimazole,T cells CD4+
+1402,0.6399999856948853,ChemCPA_Pre,T cells CD4+_Colchicine,T cells CD4+
+1403,0.8799999952316284,ChemCPA_Pre,T cells CD4+_Colforsin,T cells CD4+
+1404,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Crizotinib,T cells CD4+
+1405,0.6600000262260437,ChemCPA_Pre,T cells CD4+_Dabrafenib,T cells CD4+
+1406,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Dactolisib,T cells CD4+
+1407,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Dasatinib,T cells CD4+
+1408,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Decitabine,T cells CD4+
+1409,0.5799999833106995,ChemCPA_Pre,T cells CD4+_Defactinib,T cells CD4+
+1410,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Desloratadine,T cells CD4+
+1411,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Disulfiram,T cells CD4+
+1412,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Dovitinib,T cells CD4+
+1413,0.47999998927116394,ChemCPA_Pre,T cells CD4+_Doxorubicin,T cells CD4+
+1414,0.5600000023841858,ChemCPA_Pre,T cells CD4+_FK866,T cells CD4+
+1415,0.6800000071525574,ChemCPA_Pre,T cells CD4+_Flutamide,T cells CD4+
+1416,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Foretinib,T cells CD4+
+1417,0.8199999928474426,ChemCPA_Pre,T cells CD4+_GLPG0634,T cells CD4+
+1418,0.18000000715255737,ChemCPA_Pre,T cells CD4+_GO6976,T cells CD4+
+1419,0.8399999737739563,ChemCPA_Pre,T cells CD4+_GSK1070916,T cells CD4+
+1420,0.7599999904632568,ChemCPA_Pre,T cells CD4+_GSK256066,T cells CD4+
+1421,0.7799999713897705,ChemCPA_Pre,T cells CD4+_GW843682X,T cells CD4+
+1422,0.7799999713897705,ChemCPA_Pre,T cells CD4+_GanetespibSTA9090,T cells CD4+
+1423,0.14000000059604645,ChemCPA_Pre,T cells CD4+_HMN214,T cells CD4+
+1424,0.6399999856948853,ChemCPA_Pre,T cells CD4+_HYDROXYUREA,T cells CD4+
+1425,0.5400000214576721,ChemCPA_Pre,T cells CD4+_IBET151,T cells CD4+
+1426,0.8399999737739563,ChemCPA_Pre,T cells CD4+_IKKInhibitorVII,T cells CD4+
+1427,0.8199999928474426,ChemCPA_Pre,T cells CD4+_IMD0354,T cells CD4+
+1428,0.6800000071525574,ChemCPA_Pre,T cells CD4+_IN1451,T cells CD4+
+1429,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Idelalisib,T cells CD4+
+1430,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Imatinib,T cells CD4+
+1431,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Isoniazid,T cells CD4+
+1432,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Ixabepilone,T cells CD4+
+1433,0.9200000166893005,ChemCPA_Pre,T cells CD4+_K02288,T cells CD4+
+1434,0.07999999821186066,ChemCPA_Pre,T cells CD4+_Ketoconazole,T cells CD4+
+1435,0.699999988079071,ChemCPA_Pre,T cells CD4+_LDN193189,T cells CD4+
+1436,0.7599999904632568,ChemCPA_Pre,T cells CD4+_LY2090314,T cells CD4+
+1437,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Lamivudine,T cells CD4+
+1438,0.6200000047683716,ChemCPA_Pre,T cells CD4+_Lapatinib,T cells CD4+
+1439,0.699999988079071,ChemCPA_Pre,T cells CD4+_Linagliptin,T cells CD4+
+1440,0.7599999904632568,ChemCPA_Pre,T cells CD4+_MGCD265,T cells CD4+
+1441,0.8199999928474426,ChemCPA_Pre,T cells CD4+_MK5108,T cells CD4+
+1442,0.30000001192092896,ChemCPA_Pre,T cells CD4+_MLN2238,T cells CD4+
+1443,0.8999999761581421,ChemCPA_Pre,T cells CD4+_Masitinib,T cells CD4+
+1444,0.05999999865889549,ChemCPA_Pre,T cells CD4+_Methotrexate,T cells CD4+
+1445,0.8799999952316284,ChemCPA_Pre,T cells CD4+_Midostaurin,T cells CD4+
+1446,0.7400000095367432,ChemCPA_Pre,T cells CD4+_MometasoneFuroate,T cells CD4+
+1447,0.7799999713897705,ChemCPA_Pre,T cells CD4+_MubritinibTAK165,T cells CD4+
+1448,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Navitoclax,T cells CD4+
+1449,0.6600000262260437,ChemCPA_Pre,T cells CD4+_Nefazodone,T cells CD4+
+1450,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Nilotinib,T cells CD4+
+1451,0.6800000071525574,ChemCPA_Pre,T cells CD4+_ODemethylatedAdapalene,T cells CD4+
+1452,0.7400000095367432,ChemCPA_Pre,T cells CD4+_OSI930,T cells CD4+
+1453,0.4000000059604645,ChemCPA_Pre,T cells CD4+_OprozomibONX0912,T cells CD4+
+1454,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Oxybenzone,T cells CD4+
+1455,0.7599999904632568,ChemCPA_Pre,T cells CD4+_PD0325901,T cells CD4+
+1456,0.8600000143051147,ChemCPA_Pre,T cells CD4+_PF03814735,T cells CD4+
+1457,0.6800000071525574,ChemCPA_Pre,T cells CD4+_PF04691502,T cells CD4+
+1458,0.8399999737739563,ChemCPA_Pre,T cells CD4+_PRT062607,T cells CD4+
+1459,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Palbociclib,T cells CD4+
+1460,0.6399999856948853,ChemCPA_Pre,T cells CD4+_Penfluridol,T cells CD4+
+1461,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Perhexiline,T cells CD4+
+1462,0.9200000166893005,ChemCPA_Pre,T cells CD4+_Phenylbutazone,T cells CD4+
+1463,0.20000000298023224,ChemCPA_Pre,T cells CD4+_PitavastatinCalcium,T cells CD4+
+1464,0.4000000059604645,ChemCPA_Pre,T cells CD4+_Pomalidomide,T cells CD4+
+1465,0.14000000059604645,ChemCPA_Pre,T cells CD4+_PorcnInhibitorIII,T cells CD4+
+1466,0.7400000095367432,ChemCPA_Pre,T cells CD4+_Prednisolone,T cells CD4+
+1467,0.46000000834465027,ChemCPA_Pre,T cells CD4+_ProscillaridinAProscillaridinA,T cells CD4+
+1468,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Protriptyline,T cells CD4+
+1469,0.6600000262260437,ChemCPA_Pre,T cells CD4+_Quizartinib,T cells CD4+
+1470,0.6600000262260437,ChemCPA_Pre,T cells CD4+_R428,T cells CD4+
+1471,0.3799999952316284,ChemCPA_Pre,T cells CD4+_RG7090,T cells CD4+
+1472,0.5600000023841858,ChemCPA_Pre,T cells CD4+_RG7112,T cells CD4+
+1473,0.7200000286102295,ChemCPA_Pre,T cells CD4+_RN486,T cells CD4+
+1474,0.8399999737739563,ChemCPA_Pre,T cells CD4+_RVX208,T cells CD4+
+1475,0.14000000059604645,ChemCPA_Pre,T cells CD4+_Raloxifene,T cells CD4+
+1476,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Resminostat,T cells CD4+
+1477,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Ricolinostat,T cells CD4+
+1478,0.800000011920929,ChemCPA_Pre,T cells CD4+_Riociguat,T cells CD4+
+1479,0.8600000143051147,ChemCPA_Pre,T cells CD4+_Ruxolitinib,T cells CD4+
+1480,0.47999998927116394,ChemCPA_Pre,T cells CD4+_SB525334,T cells CD4+
+1481,0.5199999809265137,ChemCPA_Pre,T cells CD4+_SCH58261,T cells CD4+
+1482,0.8399999737739563,ChemCPA_Pre,T cells CD4+_SLx2119,T cells CD4+
+1483,0.6200000047683716,ChemCPA_Pre,T cells CD4+_STK219801,T cells CD4+
+1484,0.8600000143051147,ChemCPA_Pre,T cells CD4+_Saracatinib,T cells CD4+
+1485,0.7799999713897705,ChemCPA_Pre,T cells CD4+_Scriptaid,T cells CD4+
+1486,0.6800000071525574,ChemCPA_Pre,T cells CD4+_Selumetinib,T cells CD4+
+1487,0.7200000286102295,ChemCPA_Pre,T cells CD4+_Sgccbp30,T cells CD4+
+1488,0.800000011920929,ChemCPA_Pre,T cells CD4+_Sunitinib,T cells CD4+
+1489,0.8999999761581421,ChemCPA_Pre,T cells CD4+_TGX221,T cells CD4+
+1490,0.8600000143051147,ChemCPA_Pre,T cells CD4+_TIE2KinaseInhibitor,T cells CD4+
+1491,0.6800000071525574,ChemCPA_Pre,T cells CD4+_TLHRAS26,T cells CD4+
+1492,0.8199999928474426,ChemCPA_Pre,T cells CD4+_TPCA1,T cells CD4+
+1493,0.8399999737739563,ChemCPA_Pre,T cells CD4+_TR14035,T cells CD4+
+1494,0.9399999976158142,ChemCPA_Pre,T cells CD4+_Tacalcitol,T cells CD4+
+1495,0.8600000143051147,ChemCPA_Pre,T cells CD4+_Tamatinib,T cells CD4+
+1496,0.6600000262260437,ChemCPA_Pre,T cells CD4+_Tipifarnib,T cells CD4+
+1497,0.8399999737739563,ChemCPA_Pre,T cells CD4+_Tivantinib,T cells CD4+
+1498,0.7599999904632568,ChemCPA_Pre,T cells CD4+_Tivozanib,T cells CD4+
+1499,0.6600000262260437,ChemCPA_Pre,T cells CD4+_Topotecan,T cells CD4+
+1500,0.8199999928474426,ChemCPA_Pre,T cells CD4+_Tosedostat,T cells CD4+
+1501,0.6200000047683716,ChemCPA_Pre,T cells CD4+_Trametinib,T cells CD4+
+1502,0.47999998927116394,ChemCPA_Pre,T cells CD4+_UNIIBXU45ZH6LI,T cells CD4+
+1503,0.7599999904632568,ChemCPA_Pre,T cells CD4+_Vandetanib,T cells CD4+
+1504,0.800000011920929,ChemCPA_Pre,T cells CD4+_Vanoxerine,T cells CD4+
+1505,0.8999999761581421,ChemCPA_Pre,T cells CD4+_Vardenafil,T cells CD4+
+1506,0.800000011920929,ChemCPA_Pre,T cells CD4+_Vorinostat,T cells CD4+
+1507,0.5,ChemCPA_Pre,T cells CD4+_YK4279,T cells CD4+
+1508,0.5799999833106995,ChemCPA_Pre,NK cells_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,NK cells
+1509,0.6000000238418579,ChemCPA_Pre,NK cells_ABT199GDC0199,NK cells
+1510,0.5199999809265137,ChemCPA_Pre,NK cells_ABT737,NK cells
+1511,0.47999998927116394,ChemCPA_Pre,NK cells_AMD070hydrochloride,NK cells
+1512,0.6399999856948853,ChemCPA_Pre,NK cells_AT13387,NK cells
+1513,0.7200000286102295,ChemCPA_Pre,NK cells_AT7867,NK cells
+1514,0.6600000262260437,ChemCPA_Pre,NK cells_AVL292,NK cells
+1515,0.6200000047683716,ChemCPA_Pre,NK cells_AZ628,NK cells
+1516,0.5799999833106995,ChemCPA_Pre,NK cells_AZD3514,NK cells
+1517,0.5600000023841858,ChemCPA_Pre,NK cells_AZD4547,NK cells
+1518,0.6000000238418579,ChemCPA_Pre,NK cells_AZD8330,NK cells
+1519,0.46000000834465027,ChemCPA_Pre,NK cells_Alogliptin,NK cells
+1520,0.800000011920929,ChemCPA_Pre,NK cells_Alvocidib,NK cells
+1521,0.5799999833106995,ChemCPA_Pre,NK cells_Amiodarone,NK cells
+1522,0.699999988079071,ChemCPA_Pre,NK cells_Atorvastatin,NK cells
+1523,0.6800000071525574,ChemCPA_Pre,NK cells_Azacitidine,NK cells
+1524,0.8199999928474426,ChemCPA_Pre,NK cells_BAY613606,NK cells
+1525,0.46000000834465027,ChemCPA_Pre,NK cells_BAY872243,NK cells
+1526,0.5400000214576721,ChemCPA_Pre,NK cells_BID1870,NK cells
+1527,0.7400000095367432,ChemCPA_Pre,NK cells_BMS265246,NK cells
+1528,0.6800000071525574,ChemCPA_Pre,NK cells_BMS387032,NK cells
+1529,0.6399999856948853,ChemCPA_Pre,NK cells_BMS536924,NK cells
+1530,0.5,ChemCPA_Pre,NK cells_BMS777607,NK cells
+1531,0.6000000238418579,ChemCPA_Pre,NK cells_BX912,NK cells
+1532,0.9800000190734863,ChemCPA_Pre,NK cells_Belinostat,NK cells
+1533,0.7599999904632568,ChemCPA_Pre,NK cells_Bosutinib,NK cells
+1534,0.7400000095367432,ChemCPA_Pre,NK cells_Buspirone,NK cells
+1535,0.5,ChemCPA_Pre,NK cells_CC401,NK cells
+1536,0.5400000214576721,ChemCPA_Pre,NK cells_CEP37440,NK cells
+1537,0.5799999833106995,ChemCPA_Pre,NK cells_CGM097,NK cells
+1538,0.8399999737739563,ChemCPA_Pre,NK cells_CGP60474,NK cells
+1539,0.5600000023841858,ChemCPA_Pre,NK cells_CHIR99021,NK cells
+1540,0.5,ChemCPA_Pre,NK cells_Cabozantinib,NK cells
+1541,0.5600000023841858,ChemCPA_Pre,NK cells_Canertinib,NK cells
+1542,0.6800000071525574,ChemCPA_Pre,NK cells_Ceritinib,NK cells
+1543,0.6200000047683716,ChemCPA_Pre,NK cells_Chlorpheniramine,NK cells
+1544,0.6800000071525574,ChemCPA_Pre,NK cells_Clemastine,NK cells
+1545,0.6000000238418579,ChemCPA_Pre,NK cells_Clomipramine,NK cells
+1546,0.6200000047683716,ChemCPA_Pre,NK cells_Clotrimazole,NK cells
+1547,0.6200000047683716,ChemCPA_Pre,NK cells_Colchicine,NK cells
+1548,0.5600000023841858,ChemCPA_Pre,NK cells_Colforsin,NK cells
+1549,0.5799999833106995,ChemCPA_Pre,NK cells_Crizotinib,NK cells
+1550,0.8199999928474426,ChemCPA_Pre,NK cells_Dabrafenib,NK cells
+1551,0.699999988079071,ChemCPA_Pre,NK cells_Dactolisib,NK cells
+1552,0.6399999856948853,ChemCPA_Pre,NK cells_Dasatinib,NK cells
+1553,0.699999988079071,ChemCPA_Pre,NK cells_Decitabine,NK cells
+1554,0.3799999952316284,ChemCPA_Pre,NK cells_Defactinib,NK cells
+1555,0.6399999856948853,ChemCPA_Pre,NK cells_Desloratadine,NK cells
+1556,0.6000000238418579,ChemCPA_Pre,NK cells_Disulfiram,NK cells
+1557,0.6600000262260437,ChemCPA_Pre,NK cells_Dovitinib,NK cells
+1558,0.46000000834465027,ChemCPA_Pre,NK cells_Doxorubicin,NK cells
+1559,0.5400000214576721,ChemCPA_Pre,NK cells_FK866,NK cells
+1560,0.6200000047683716,ChemCPA_Pre,NK cells_Flutamide,NK cells
+1561,0.5799999833106995,ChemCPA_Pre,NK cells_Foretinib,NK cells
+1562,0.6600000262260437,ChemCPA_Pre,NK cells_GLPG0634,NK cells
+1563,0.3799999952316284,ChemCPA_Pre,NK cells_GO6976,NK cells
+1564,0.5400000214576721,ChemCPA_Pre,NK cells_GSK1070916,NK cells
+1565,0.5799999833106995,ChemCPA_Pre,NK cells_GSK256066,NK cells
+1566,0.6200000047683716,ChemCPA_Pre,NK cells_GW843682X,NK cells
+1567,0.9399999976158142,ChemCPA_Pre,NK cells_GanetespibSTA9090,NK cells
+1568,0.46000000834465027,ChemCPA_Pre,NK cells_HMN214,NK cells
+1569,0.6800000071525574,ChemCPA_Pre,NK cells_HYDROXYUREA,NK cells
+1570,0.5600000023841858,ChemCPA_Pre,NK cells_IBET151,NK cells
+1571,0.7200000286102295,ChemCPA_Pre,NK cells_IKKInhibitorVII,NK cells
+1572,0.7400000095367432,ChemCPA_Pre,NK cells_IMD0354,NK cells
+1573,0.8600000143051147,ChemCPA_Pre,NK cells_IN1451,NK cells
+1574,0.5799999833106995,ChemCPA_Pre,NK cells_Idelalisib,NK cells
+1575,0.46000000834465027,ChemCPA_Pre,NK cells_Imatinib,NK cells
+1576,0.6600000262260437,ChemCPA_Pre,NK cells_Isoniazid,NK cells
+1577,0.46000000834465027,ChemCPA_Pre,NK cells_Ixabepilone,NK cells
+1578,0.7599999904632568,ChemCPA_Pre,NK cells_K02288,NK cells
+1579,0.5799999833106995,ChemCPA_Pre,NK cells_Ketoconazole,NK cells
+1580,0.6600000262260437,ChemCPA_Pre,NK cells_LDN193189,NK cells
+1581,0.30000001192092896,ChemCPA_Pre,NK cells_LY2090314,NK cells
+1582,0.6200000047683716,ChemCPA_Pre,NK cells_Lamivudine,NK cells
+1583,0.6600000262260437,ChemCPA_Pre,NK cells_Lapatinib,NK cells
+1584,0.6000000238418579,ChemCPA_Pre,NK cells_Linagliptin,NK cells
+1585,0.6000000238418579,ChemCPA_Pre,NK cells_MGCD265,NK cells
+1586,0.6200000047683716,ChemCPA_Pre,NK cells_MK5108,NK cells
+1587,0.6200000047683716,ChemCPA_Pre,NK cells_Masitinib,NK cells
+1588,0.6200000047683716,ChemCPA_Pre,NK cells_Methotrexate,NK cells
+1589,0.699999988079071,ChemCPA_Pre,NK cells_Midostaurin,NK cells
+1590,0.5199999809265137,ChemCPA_Pre,NK cells_MometasoneFuroate,NK cells
+1591,0.6000000238418579,ChemCPA_Pre,NK cells_MubritinibTAK165,NK cells
+1592,0.5,ChemCPA_Pre,NK cells_Navitoclax,NK cells
+1593,0.41999998688697815,ChemCPA_Pre,NK cells_Nefazodone,NK cells
+1594,0.5,ChemCPA_Pre,NK cells_Nilotinib,NK cells
+1595,0.7400000095367432,ChemCPA_Pre,NK cells_ODemethylatedAdapalene,NK cells
+1596,0.5799999833106995,ChemCPA_Pre,NK cells_OSI930,NK cells
+1597,0.6200000047683716,ChemCPA_Pre,NK cells_Oxybenzone,NK cells
+1598,0.7400000095367432,ChemCPA_Pre,NK cells_PD0325901,NK cells
+1599,0.6399999856948853,ChemCPA_Pre,NK cells_PF03814735,NK cells
+1600,0.5600000023841858,ChemCPA_Pre,NK cells_PF04691502,NK cells
+1601,0.6200000047683716,ChemCPA_Pre,NK cells_PRT062607,NK cells
+1602,0.5799999833106995,ChemCPA_Pre,NK cells_Palbociclib,NK cells
+1603,0.5600000023841858,ChemCPA_Pre,NK cells_Penfluridol,NK cells
+1604,0.699999988079071,ChemCPA_Pre,NK cells_Perhexiline,NK cells
+1605,0.6000000238418579,ChemCPA_Pre,NK cells_Phenylbutazone,NK cells
+1606,0.4399999976158142,ChemCPA_Pre,NK cells_PitavastatinCalcium,NK cells
+1607,0.4399999976158142,ChemCPA_Pre,NK cells_Pomalidomide,NK cells
+1608,0.6200000047683716,ChemCPA_Pre,NK cells_PorcnInhibitorIII,NK cells
+1609,0.5199999809265137,ChemCPA_Pre,NK cells_Prednisolone,NK cells
+1610,0.2800000011920929,ChemCPA_Pre,NK cells_ProscillaridinAProscillaridinA,NK cells
+1611,0.47999998927116394,ChemCPA_Pre,NK cells_Protriptyline,NK cells
+1612,0.5799999833106995,ChemCPA_Pre,NK cells_Quizartinib,NK cells
+1613,0.6000000238418579,ChemCPA_Pre,NK cells_R428,NK cells
+1614,0.5600000023841858,ChemCPA_Pre,NK cells_RG7090,NK cells
+1615,0.5199999809265137,ChemCPA_Pre,NK cells_RG7112,NK cells
+1616,0.5600000023841858,ChemCPA_Pre,NK cells_RN486,NK cells
+1617,0.5400000214576721,ChemCPA_Pre,NK cells_RVX208,NK cells
+1618,0.5400000214576721,ChemCPA_Pre,NK cells_Raloxifene,NK cells
+1619,0.9599999785423279,ChemCPA_Pre,NK cells_Resminostat,NK cells
+1620,0.6600000262260437,ChemCPA_Pre,NK cells_Ricolinostat,NK cells
+1621,0.7200000286102295,ChemCPA_Pre,NK cells_Riociguat,NK cells
+1622,0.5600000023841858,ChemCPA_Pre,NK cells_Ruxolitinib,NK cells
+1623,0.6200000047683716,ChemCPA_Pre,NK cells_SB525334,NK cells
+1624,0.6600000262260437,ChemCPA_Pre,NK cells_SCH58261,NK cells
+1625,0.6000000238418579,ChemCPA_Pre,NK cells_SLx2119,NK cells
+1626,0.5,ChemCPA_Pre,NK cells_STK219801,NK cells
+1627,0.6399999856948853,ChemCPA_Pre,NK cells_Saracatinib,NK cells
+1628,0.9200000166893005,ChemCPA_Pre,NK cells_Scriptaid,NK cells
+1629,0.6800000071525574,ChemCPA_Pre,NK cells_Selumetinib,NK cells
+1630,0.6000000238418579,ChemCPA_Pre,NK cells_Sgccbp30,NK cells
+1631,0.5600000023841858,ChemCPA_Pre,NK cells_Sunitinib,NK cells
+1632,0.6399999856948853,ChemCPA_Pre,NK cells_TGX221,NK cells
+1633,0.5600000023841858,ChemCPA_Pre,NK cells_TIE2KinaseInhibitor,NK cells
+1634,0.5600000023841858,ChemCPA_Pre,NK cells_TLHRAS26,NK cells
+1635,0.8399999737739563,ChemCPA_Pre,NK cells_TPCA1,NK cells
+1636,0.7400000095367432,ChemCPA_Pre,NK cells_TR14035,NK cells
+1637,0.7400000095367432,ChemCPA_Pre,NK cells_Tacalcitol,NK cells
+1638,0.6800000071525574,ChemCPA_Pre,NK cells_Tamatinib,NK cells
+1639,0.41999998688697815,ChemCPA_Pre,NK cells_Tipifarnib,NK cells
+1640,0.6000000238418579,ChemCPA_Pre,NK cells_Tivantinib,NK cells
+1641,0.5199999809265137,ChemCPA_Pre,NK cells_Tivozanib,NK cells
+1642,0.6200000047683716,ChemCPA_Pre,NK cells_Topotecan,NK cells
+1643,0.41999998688697815,ChemCPA_Pre,NK cells_Tosedostat,NK cells
+1644,0.6200000047683716,ChemCPA_Pre,NK cells_Trametinib,NK cells
+1645,0.7200000286102295,ChemCPA_Pre,NK cells_UNIIBXU45ZH6LI,NK cells
+1646,0.5,ChemCPA_Pre,NK cells_Vandetanib,NK cells
+1647,0.5799999833106995,ChemCPA_Pre,NK cells_Vanoxerine,NK cells
+1648,0.6399999856948853,ChemCPA_Pre,NK cells_Vardenafil,NK cells
+1649,0.8799999952316284,ChemCPA_Pre,NK cells_Vorinostat,NK cells
+1650,0.5600000023841858,ChemCPA_Pre,NK cells_YK4279,NK cells
+1651,0.41999998688697815,ChemCPA_Pre,T cells CD8+_59Isopropyl8methyl2morpholino9Hpurin6ylpyrimidin2amine,T cells CD8+
+1652,0.25999999046325684,ChemCPA_Pre,T cells CD8+_ABT199GDC0199,T cells CD8+
+1653,0.2199999988079071,ChemCPA_Pre,T cells CD8+_ABT737,T cells CD8+
+1654,0.3799999952316284,ChemCPA_Pre,T cells CD8+_AMD070hydrochloride,T cells CD8+
+1655,0.23999999463558197,ChemCPA_Pre,T cells CD8+_AT13387,T cells CD8+
+1656,0.46000000834465027,ChemCPA_Pre,T cells CD8+_AT7867,T cells CD8+
+1657,0.25999999046325684,ChemCPA_Pre,T cells CD8+_AVL292,T cells CD8+
+1658,0.4399999976158142,ChemCPA_Pre,T cells CD8+_AZ628,T cells CD8+
+1659,0.3799999952316284,ChemCPA_Pre,T cells CD8+_AZD3514,T cells CD8+
+1660,0.3799999952316284,ChemCPA_Pre,T cells CD8+_AZD4547,T cells CD8+
+1661,0.36000001430511475,ChemCPA_Pre,T cells CD8+_AZD8330,T cells CD8+
+1662,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Alogliptin,T cells CD8+
+1663,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Amiodarone,T cells CD8+
+1664,0.3400000035762787,ChemCPA_Pre,T cells CD8+_Atorvastatin,T cells CD8+
+1665,0.5400000214576721,ChemCPA_Pre,T cells CD8+_Azacitidine,T cells CD8+
+1666,0.36000001430511475,ChemCPA_Pre,T cells CD8+_BAY613606,T cells CD8+
+1667,0.46000000834465027,ChemCPA_Pre,T cells CD8+_BAY872243,T cells CD8+
+1668,0.4000000059604645,ChemCPA_Pre,T cells CD8+_BID1870,T cells CD8+
+1669,0.3199999928474426,ChemCPA_Pre,T cells CD8+_BMS265246,T cells CD8+
+1670,0.30000001192092896,ChemCPA_Pre,T cells CD8+_BMS387032,T cells CD8+
+1671,0.3199999928474426,ChemCPA_Pre,T cells CD8+_BMS536924,T cells CD8+
+1672,0.25999999046325684,ChemCPA_Pre,T cells CD8+_BMS777607,T cells CD8+
+1673,0.4000000059604645,ChemCPA_Pre,T cells CD8+_BX912,T cells CD8+
+1674,0.9800000190734863,ChemCPA_Pre,T cells CD8+_Belinostat,T cells CD8+
+1675,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Bosutinib,T cells CD8+
+1676,0.5,ChemCPA_Pre,T cells CD8+_Buspirone,T cells CD8+
+1677,0.46000000834465027,ChemCPA_Pre,T cells CD8+_CC401,T cells CD8+
+1678,0.9800000190734863,ChemCPA_Pre,T cells CD8+_CEP18770Delanzomib,T cells CD8+
+1679,0.41999998688697815,ChemCPA_Pre,T cells CD8+_CEP37440,T cells CD8+
+1680,0.9599999785423279,ChemCPA_Pre,T cells CD8+_CGM097,T cells CD8+
+1681,0.6600000262260437,ChemCPA_Pre,T cells CD8+_CHIR99021,T cells CD8+
+1682,0.3400000035762787,ChemCPA_Pre,T cells CD8+_Cabozantinib,T cells CD8+
+1683,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Canertinib,T cells CD8+
+1684,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Ceritinib,T cells CD8+
+1685,0.3400000035762787,ChemCPA_Pre,T cells CD8+_Chlorpheniramine,T cells CD8+
+1686,0.5600000023841858,ChemCPA_Pre,T cells CD8+_Clemastine,T cells CD8+
+1687,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Clomipramine,T cells CD8+
+1688,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Clotrimazole,T cells CD8+
+1689,0.5600000023841858,ChemCPA_Pre,T cells CD8+_Colchicine,T cells CD8+
+1690,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Colforsin,T cells CD8+
+1691,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Crizotinib,T cells CD8+
+1692,0.6399999856948853,ChemCPA_Pre,T cells CD8+_Dabrafenib,T cells CD8+
+1693,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Dactolisib,T cells CD8+
+1694,0.3199999928474426,ChemCPA_Pre,T cells CD8+_Dasatinib,T cells CD8+
+1695,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Decitabine,T cells CD8+
+1696,0.5199999809265137,ChemCPA_Pre,T cells CD8+_Defactinib,T cells CD8+
+1697,0.46000000834465027,ChemCPA_Pre,T cells CD8+_Desloratadine,T cells CD8+
+1698,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Disulfiram,T cells CD8+
+1699,0.47999998927116394,ChemCPA_Pre,T cells CD8+_Dovitinib,T cells CD8+
+1700,0.5600000023841858,ChemCPA_Pre,T cells CD8+_Doxorubicin,T cells CD8+
+1701,0.41999998688697815,ChemCPA_Pre,T cells CD8+_FK866,T cells CD8+
+1702,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Flutamide,T cells CD8+
+1703,0.2800000011920929,ChemCPA_Pre,T cells CD8+_Foretinib,T cells CD8+
+1704,0.4000000059604645,ChemCPA_Pre,T cells CD8+_GLPG0634,T cells CD8+
+1705,0.30000001192092896,ChemCPA_Pre,T cells CD8+_GO6976,T cells CD8+
+1706,0.3400000035762787,ChemCPA_Pre,T cells CD8+_GSK1070916,T cells CD8+
+1707,0.3799999952316284,ChemCPA_Pre,T cells CD8+_GSK256066,T cells CD8+
+1708,0.4399999976158142,ChemCPA_Pre,T cells CD8+_GW843682X,T cells CD8+
+1709,0.25999999046325684,ChemCPA_Pre,T cells CD8+_GanetespibSTA9090,T cells CD8+
+1710,0.3400000035762787,ChemCPA_Pre,T cells CD8+_HMN214,T cells CD8+
+1711,0.3799999952316284,ChemCPA_Pre,T cells CD8+_HYDROXYUREA,T cells CD8+
+1712,0.699999988079071,ChemCPA_Pre,T cells CD8+_IBET151,T cells CD8+
+1713,0.36000001430511475,ChemCPA_Pre,T cells CD8+_IKKInhibitorVII,T cells CD8+
+1714,0.41999998688697815,ChemCPA_Pre,T cells CD8+_IMD0354,T cells CD8+
+1715,0.30000001192092896,ChemCPA_Pre,T cells CD8+_Idelalisib,T cells CD8+
+1716,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Imatinib,T cells CD8+
+1717,0.5,ChemCPA_Pre,T cells CD8+_Isoniazid,T cells CD8+
+1718,0.3400000035762787,ChemCPA_Pre,T cells CD8+_Ixabepilone,T cells CD8+
+1719,0.5,ChemCPA_Pre,T cells CD8+_K02288,T cells CD8+
+1720,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Ketoconazole,T cells CD8+
+1721,0.5199999809265137,ChemCPA_Pre,T cells CD8+_LDN193189,T cells CD8+
+1722,0.3199999928474426,ChemCPA_Pre,T cells CD8+_LY2090314,T cells CD8+
+1723,0.5,ChemCPA_Pre,T cells CD8+_Lamivudine,T cells CD8+
+1724,0.4000000059604645,ChemCPA_Pre,T cells CD8+_Lapatinib,T cells CD8+
+1725,0.2800000011920929,ChemCPA_Pre,T cells CD8+_Linagliptin,T cells CD8+
+1726,0.4000000059604645,ChemCPA_Pre,T cells CD8+_MGCD265,T cells CD8+
+1727,0.41999998688697815,ChemCPA_Pre,T cells CD8+_MK5108,T cells CD8+
+1728,0.9599999785423279,ChemCPA_Pre,T cells CD8+_MLN2238,T cells CD8+
+1729,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Masitinib,T cells CD8+
+1730,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Methotrexate,T cells CD8+
+1731,0.46000000834465027,ChemCPA_Pre,T cells CD8+_Midostaurin,T cells CD8+
+1732,0.3799999952316284,ChemCPA_Pre,T cells CD8+_MometasoneFuroate,T cells CD8+
+1733,0.5199999809265137,ChemCPA_Pre,T cells CD8+_MubritinibTAK165,T cells CD8+
+1734,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Navitoclax,T cells CD8+
+1735,0.4000000059604645,ChemCPA_Pre,T cells CD8+_Nefazodone,T cells CD8+
+1736,0.46000000834465027,ChemCPA_Pre,T cells CD8+_Nilotinib,T cells CD8+
+1737,0.36000001430511475,ChemCPA_Pre,T cells CD8+_ODemethylatedAdapalene,T cells CD8+
+1738,0.3799999952316284,ChemCPA_Pre,T cells CD8+_OSI930,T cells CD8+
+1739,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Oxybenzone,T cells CD8+
+1740,0.4000000059604645,ChemCPA_Pre,T cells CD8+_PD0325901,T cells CD8+
+1741,0.2800000011920929,ChemCPA_Pre,T cells CD8+_PF03814735,T cells CD8+
+1742,0.2199999988079071,ChemCPA_Pre,T cells CD8+_PF04691502,T cells CD8+
+1743,0.4000000059604645,ChemCPA_Pre,T cells CD8+_PRT062607,T cells CD8+
+1744,0.46000000834465027,ChemCPA_Pre,T cells CD8+_Palbociclib,T cells CD8+
+1745,0.4000000059604645,ChemCPA_Pre,T cells CD8+_Penfluridol,T cells CD8+
+1746,0.2800000011920929,ChemCPA_Pre,T cells CD8+_Perhexiline,T cells CD8+
+1747,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Phenylbutazone,T cells CD8+
+1748,0.36000001430511475,ChemCPA_Pre,T cells CD8+_PitavastatinCalcium,T cells CD8+
+1749,0.3400000035762787,ChemCPA_Pre,T cells CD8+_Pomalidomide,T cells CD8+
+1750,0.30000001192092896,ChemCPA_Pre,T cells CD8+_PorcnInhibitorIII,T cells CD8+
+1751,0.47999998927116394,ChemCPA_Pre,T cells CD8+_Prednisolone,T cells CD8+
+1752,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Protriptyline,T cells CD8+
+1753,0.3199999928474426,ChemCPA_Pre,T cells CD8+_Quizartinib,T cells CD8+
+1754,0.5199999809265137,ChemCPA_Pre,T cells CD8+_R428,T cells CD8+
+1755,0.3199999928474426,ChemCPA_Pre,T cells CD8+_RG7090,T cells CD8+
+1756,0.41999998688697815,ChemCPA_Pre,T cells CD8+_RG7112,T cells CD8+
+1757,0.4399999976158142,ChemCPA_Pre,T cells CD8+_RN486,T cells CD8+
+1758,0.4399999976158142,ChemCPA_Pre,T cells CD8+_RVX208,T cells CD8+
+1759,0.25999999046325684,ChemCPA_Pre,T cells CD8+_Raloxifene,T cells CD8+
+1760,0.3199999928474426,ChemCPA_Pre,T cells CD8+_Ricolinostat,T cells CD8+
+1761,0.46000000834465027,ChemCPA_Pre,T cells CD8+_Riociguat,T cells CD8+
+1762,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Ruxolitinib,T cells CD8+
+1763,0.2800000011920929,ChemCPA_Pre,T cells CD8+_SB525334,T cells CD8+
+1764,0.5400000214576721,ChemCPA_Pre,T cells CD8+_SCH58261,T cells CD8+
+1765,0.4399999976158142,ChemCPA_Pre,T cells CD8+_SLx2119,T cells CD8+
+1766,0.3400000035762787,ChemCPA_Pre,T cells CD8+_STK219801,T cells CD8+
+1767,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Saracatinib,T cells CD8+
+1768,0.9399999976158142,ChemCPA_Pre,T cells CD8+_Scriptaid,T cells CD8+
+1769,0.30000001192092896,ChemCPA_Pre,T cells CD8+_Selumetinib,T cells CD8+
+1770,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Sgccbp30,T cells CD8+
+1771,0.2199999988079071,ChemCPA_Pre,T cells CD8+_Sunitinib,T cells CD8+
+1772,0.3799999952316284,ChemCPA_Pre,T cells CD8+_TGX221,T cells CD8+
+1773,0.46000000834465027,ChemCPA_Pre,T cells CD8+_TIE2KinaseInhibitor,T cells CD8+
+1774,0.36000001430511475,ChemCPA_Pre,T cells CD8+_TLHRAS26,T cells CD8+
+1775,0.3199999928474426,ChemCPA_Pre,T cells CD8+_TPCA1,T cells CD8+
+1776,0.5,ChemCPA_Pre,T cells CD8+_TR14035,T cells CD8+
+1777,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Tacalcitol,T cells CD8+
+1778,0.2800000011920929,ChemCPA_Pre,T cells CD8+_Tamatinib,T cells CD8+
+1779,0.4399999976158142,ChemCPA_Pre,T cells CD8+_Tipifarnib,T cells CD8+
+1780,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Tivantinib,T cells CD8+
+1781,0.47999998927116394,ChemCPA_Pre,T cells CD8+_Tivozanib,T cells CD8+
+1782,0.47999998927116394,ChemCPA_Pre,T cells CD8+_Topotecan,T cells CD8+
+1783,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Tosedostat,T cells CD8+
+1784,0.2800000011920929,ChemCPA_Pre,T cells CD8+_Trametinib,T cells CD8+
+1785,0.30000001192092896,ChemCPA_Pre,T cells CD8+_UNIIBXU45ZH6LI,T cells CD8+
+1786,0.3799999952316284,ChemCPA_Pre,T cells CD8+_Vandetanib,T cells CD8+
+1787,0.41999998688697815,ChemCPA_Pre,T cells CD8+_Vanoxerine,T cells CD8+
+1788,0.36000001430511475,ChemCPA_Pre,T cells CD8+_Vardenafil,T cells CD8+
+1789,0.9599999785423279,ChemCPA_Pre,T cells CD8+_Vorinostat,T cells CD8+
+1790,0.36000001430511475,ChemCPA_Pre,T cells CD8+_YK4279,T cells CD8+

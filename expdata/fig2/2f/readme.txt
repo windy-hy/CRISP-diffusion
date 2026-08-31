@@ -1,0 +1,1 @@
+f, Single-cell expression distributions of ZFAS1 and SNHG6 in Dactolisib-treated CD4+ T cells.** Distributions are shown for control cells ((n=2,598)), observed treated cells ((n=760)), and DiffCRISP-predicted cells ((n=2,695)). For the control and observed treated groups, cells with expression values exceeding 2 s.d. from the corresponding group mean were excluded.

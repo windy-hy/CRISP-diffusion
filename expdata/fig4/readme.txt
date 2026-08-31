@@ -1,0 +1,8 @@
+\caption{
+\textbf{Recovery of drug-responsive cellular subpopulations by DiffCRISP.}
+Drug-response directions were defined for each perturbation using the top 50 genes with the largest absolute expression changes between observed treated and matched control cells. Individual cells were projected onto the corresponding response direction, and cells with response scores above the 95th percentile of the control distribution were classified as responders.
+\textbf{a,} Absolute error between predicted and observed responder proportions across three data splits for CRISP and DiffCRISP. Boxes indicate the interquartile range, center lines denote medians, whiskers extend to values within 1.5$\times$ IQR, and points represent individual perturbation conditions. $P$ values were calculated using two-sided paired Wilcoxon signed-rank tests.
+\textbf{b,} Perturbation-level comparison of responder-proportion errors between CRISP and DiffCRISP. The dashed diagonal indicates equal error; points below the diagonal correspond to perturbation conditions for which DiffCRISP achieves lower error.
+\textbf{c,} Fraction of perturbation conditions in which DiffCRISP achieves lower responder-proportion error than CRISP for each split and overall. The dashed horizontal line indicates a 50\% win rate, and $n$ denotes the number of evaluated perturbation conditions.
+\textbf{d,} Single-cell response-score distributions for Idelalisib- and Palbociclib-treated CD4$^{+}$ T cells. Curves show control, observed treated, CRISP-predicted, and DiffCRISP-predicted populations; values in parentheses indicate responder proportions, and dashed vertical lines denote the responder thresholds defined from the corresponding control populations.
+}
