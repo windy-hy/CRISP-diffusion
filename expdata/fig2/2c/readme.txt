@@ -1,0 +1,1 @@
+c, Performance of DiffCRISP and baseline methods across three data splits on the NeurIPS and SciPlex3 datasets. Heatmaps report (R^2) and (\mathrm{Pr}_{\Delta}) scores calculated on the top 50 DE genes, with each cell showing the corresponding performance value for a given method and split.

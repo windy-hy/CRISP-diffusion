@@ -1,0 +1,582 @@
+setting,direction_acc,drug,dose,cell_type,pbmc_cell_type,batch_original,n_cells,n_de_genes,method
+Seen drugs,0.6666666666666666,Belinostat,0.007092198581560284,B cells,B cell,10x Chromium (v2),862,48,DiffCRISP
+Seen drugs,0.8333333333333334,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,42,DiffCRISP
+Seen drugs,0.43478260869565216,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,46,DiffCRISP
+Seen drugs,0.425531914893617,Dabrafenib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,47,DiffCRISP
+Seen drugs,0.43478260869565216,Dactolisib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,46,DiffCRISP
+Seen drugs,0.3125,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,48,DiffCRISP
+Seen drugs,0.4772727272727273,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,44,DiffCRISP
+Seen drugs,0.7741935483870968,LDN193189,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,31,DiffCRISP
+Seen drugs,0.6774193548387096,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,31,DiffCRISP
+Seen drugs,0.5813953488372093,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,43,DiffCRISP
+Seen drugs,0.43243243243243246,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,37,DiffCRISP
+Seen drugs,0.8928571428571429,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,28,DiffCRISP
+Seen drugs,0.8787878787878788,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,33,DiffCRISP
+Seen drugs,0.5625,Belinostat,0.007092198581560284,B cells,B cell,10x Chromium (v2) A,288,48,DiffCRISP
+Seen drugs,0.6666666666666666,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,42,DiffCRISP
+Seen drugs,0.391304347826087,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,46,DiffCRISP
+Seen drugs,0.425531914893617,Dabrafenib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,47,DiffCRISP
+Seen drugs,0.391304347826087,Dactolisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,46,DiffCRISP
+Seen drugs,0.375,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,48,DiffCRISP
+Seen drugs,0.36363636363636365,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,44,DiffCRISP
+Seen drugs,0.5806451612903226,LDN193189,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,31,DiffCRISP
+Seen drugs,0.5806451612903226,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,31,DiffCRISP
+Seen drugs,0.4883720930232558,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,43,DiffCRISP
+Seen drugs,0.40540540540540543,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,37,DiffCRISP
+Seen drugs,0.6428571428571429,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,28,DiffCRISP
+Seen drugs,0.6363636363636364,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,33,DiffCRISP
+Seen drugs,0.5833333333333334,Belinostat,0.007092198581560284,B cells,B cell,10x Chromium (v2) B,388,48,DiffCRISP
+Seen drugs,0.7619047619047619,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,42,DiffCRISP
+Seen drugs,0.30434782608695654,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,46,DiffCRISP
+Seen drugs,0.40425531914893614,Dabrafenib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,47,DiffCRISP
+Seen drugs,0.4782608695652174,Dactolisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,46,DiffCRISP
+Seen drugs,0.3541666666666667,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,48,DiffCRISP
+Seen drugs,0.2727272727272727,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,44,DiffCRISP
+Seen drugs,0.6774193548387096,LDN193189,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,31,DiffCRISP
+Seen drugs,0.6774193548387096,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,31,DiffCRISP
+Seen drugs,0.5116279069767442,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,43,DiffCRISP
+Seen drugs,0.32432432432432434,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,37,DiffCRISP
+Seen drugs,0.7142857142857143,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,28,DiffCRISP
+Seen drugs,0.7575757575757576,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,33,DiffCRISP
+Seen drugs,0.6666666666666666,Belinostat,0.007092198581560284,B cells,B cell,10x Chromium (v3),346,48,DiffCRISP
+Seen drugs,0.7380952380952381,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,42,DiffCRISP
+Seen drugs,0.2826086956521739,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,46,DiffCRISP
+Seen drugs,0.3829787234042553,Dabrafenib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,47,DiffCRISP
+Seen drugs,0.45652173913043476,Dactolisib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,46,DiffCRISP
+Seen drugs,0.2916666666666667,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,48,DiffCRISP
+Seen drugs,0.4090909090909091,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,44,DiffCRISP
+Seen drugs,0.6774193548387096,LDN193189,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,31,DiffCRISP
+Seen drugs,0.6451612903225806,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,31,DiffCRISP
+Seen drugs,0.5116279069767442,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,43,DiffCRISP
+Seen drugs,0.40540540540540543,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,37,DiffCRISP
+Seen drugs,0.8214285714285714,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,28,DiffCRISP
+Seen drugs,0.7575757575757576,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,33,DiffCRISP
+Seen drugs,0.6041666666666666,Belinostat,0.007092198581560284,B cells,B cell,CEL-Seq2,80,48,DiffCRISP
+Seen drugs,0.6428571428571429,CHIR99021,0.07092198581560284,B cells,B cell,CEL-Seq2,80,42,DiffCRISP
+Seen drugs,0.43478260869565216,Crizotinib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,46,DiffCRISP
+Seen drugs,0.40425531914893614,Dabrafenib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,47,DiffCRISP
+Seen drugs,0.391304347826087,Dactolisib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,46,DiffCRISP
+Seen drugs,0.375,Foretinib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,48,DiffCRISP
+Seen drugs,0.3181818181818182,Idelalisib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,44,DiffCRISP
+Seen drugs,0.6774193548387096,LDN193189,0.07092198581560284,B cells,B cell,CEL-Seq2,80,31,DiffCRISP
+Seen drugs,0.6129032258064516,Linagliptin,0.07092198581560284,B cells,B cell,CEL-Seq2,80,31,DiffCRISP
+Seen drugs,0.4418604651162791,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,CEL-Seq2,80,43,DiffCRISP
+Seen drugs,0.40540540540540543,Palbociclib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,37,DiffCRISP
+Seen drugs,0.5714285714285714,Penfluridol,0.07092198581560284,B cells,B cell,CEL-Seq2,80,28,DiffCRISP
+Seen drugs,0.5757575757575758,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,CEL-Seq2,80,33,DiffCRISP
+Seen drugs,0.6458333333333334,Belinostat,0.007092198581560284,B cells,B cell,Drop-seq,1405,48,DiffCRISP
+Seen drugs,0.6904761904761905,CHIR99021,0.07092198581560284,B cells,B cell,Drop-seq,1405,42,DiffCRISP
+Seen drugs,0.43478260869565216,Crizotinib,0.07092198581560284,B cells,B cell,Drop-seq,1405,46,DiffCRISP
+Seen drugs,0.425531914893617,Dabrafenib,0.07092198581560284,B cells,B cell,Drop-seq,1405,47,DiffCRISP
+Seen drugs,0.43478260869565216,Dactolisib,0.07092198581560284,B cells,B cell,Drop-seq,1405,46,DiffCRISP
+Seen drugs,0.3541666666666667,Foretinib,0.07092198581560284,B cells,B cell,Drop-seq,1405,48,DiffCRISP
+Seen drugs,0.4318181818181818,Idelalisib,0.07092198581560284,B cells,B cell,Drop-seq,1405,44,DiffCRISP
+Seen drugs,0.7741935483870968,LDN193189,0.07092198581560284,B cells,B cell,Drop-seq,1405,31,DiffCRISP
+Seen drugs,0.8064516129032258,Linagliptin,0.07092198581560284,B cells,B cell,Drop-seq,1405,31,DiffCRISP
+Seen drugs,0.5813953488372093,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,Drop-seq,1405,43,DiffCRISP
+Seen drugs,0.5405405405405406,Palbociclib,0.07092198581560284,B cells,B cell,Drop-seq,1405,37,DiffCRISP
+Seen drugs,0.8214285714285714,Penfluridol,0.07092198581560284,B cells,B cell,Drop-seq,1405,28,DiffCRISP
+Seen drugs,0.8787878787878788,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Drop-seq,1405,33,DiffCRISP
+Seen drugs,0.5625,Belinostat,0.007092198581560284,B cells,B cell,Seq-Well,527,48,DiffCRISP
+Seen drugs,0.5476190476190477,CHIR99021,0.07092198581560284,B cells,B cell,Seq-Well,527,42,DiffCRISP
+Seen drugs,0.30434782608695654,Crizotinib,0.07092198581560284,B cells,B cell,Seq-Well,527,46,DiffCRISP
+Seen drugs,0.3829787234042553,Dabrafenib,0.07092198581560284,B cells,B cell,Seq-Well,527,47,DiffCRISP
+Seen drugs,0.41304347826086957,Dactolisib,0.07092198581560284,B cells,B cell,Seq-Well,527,46,DiffCRISP
+Seen drugs,0.2708333333333333,Foretinib,0.07092198581560284,B cells,B cell,Seq-Well,527,48,DiffCRISP
+Seen drugs,0.45454545454545453,Idelalisib,0.07092198581560284,B cells,B cell,Seq-Well,527,44,DiffCRISP
+Seen drugs,0.7096774193548387,LDN193189,0.07092198581560284,B cells,B cell,Seq-Well,527,31,DiffCRISP
+Seen drugs,0.5483870967741935,Linagliptin,0.07092198581560284,B cells,B cell,Seq-Well,527,31,DiffCRISP
+Seen drugs,0.4186046511627907,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,Seq-Well,527,43,DiffCRISP
+Seen drugs,0.5405405405405406,Palbociclib,0.07092198581560284,B cells,B cell,Seq-Well,527,37,DiffCRISP
+Seen drugs,0.7142857142857143,Penfluridol,0.07092198581560284,B cells,B cell,Seq-Well,527,28,DiffCRISP
+Seen drugs,0.8181818181818182,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Seq-Well,527,33,DiffCRISP
+Seen drugs,0.7291666666666666,Belinostat,0.007092198581560284,B cells,B cell,Smart-seq2,79,48,DiffCRISP
+Seen drugs,0.6190476190476191,CHIR99021,0.07092198581560284,B cells,B cell,Smart-seq2,79,42,DiffCRISP
+Seen drugs,0.30434782608695654,Crizotinib,0.07092198581560284,B cells,B cell,Smart-seq2,79,46,DiffCRISP
+Seen drugs,0.5106382978723404,Dabrafenib,0.07092198581560284,B cells,B cell,Smart-seq2,79,47,DiffCRISP
+Seen drugs,0.41304347826086957,Dactolisib,0.07092198581560284,B cells,B cell,Smart-seq2,79,46,DiffCRISP
+Seen drugs,0.2916666666666667,Foretinib,0.07092198581560284,B cells,B cell,Smart-seq2,79,48,DiffCRISP
+Seen drugs,0.4090909090909091,Idelalisib,0.07092198581560284,B cells,B cell,Smart-seq2,79,44,DiffCRISP
+Seen drugs,0.5806451612903226,LDN193189,0.07092198581560284,B cells,B cell,Smart-seq2,79,31,DiffCRISP
+Seen drugs,0.6129032258064516,Linagliptin,0.07092198581560284,B cells,B cell,Smart-seq2,79,31,DiffCRISP
+Seen drugs,0.46511627906976744,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,Smart-seq2,79,43,DiffCRISP
+Seen drugs,0.4594594594594595,Palbociclib,0.07092198581560284,B cells,B cell,Smart-seq2,79,37,DiffCRISP
+Seen drugs,0.5357142857142857,Penfluridol,0.07092198581560284,B cells,B cell,Smart-seq2,79,28,DiffCRISP
+Seen drugs,0.6060606060606061,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Smart-seq2,79,33,DiffCRISP
+Seen drugs,0.5833333333333334,Belinostat,0.007092198581560284,B cells,B cell,inDrops,1045,48,DiffCRISP
+Seen drugs,0.6666666666666666,CHIR99021,0.07092198581560284,B cells,B cell,inDrops,1045,42,DiffCRISP
+Seen drugs,0.17391304347826086,Crizotinib,0.07092198581560284,B cells,B cell,inDrops,1045,46,DiffCRISP
+Seen drugs,0.48936170212765956,Dabrafenib,0.07092198581560284,B cells,B cell,inDrops,1045,47,DiffCRISP
+Seen drugs,0.34782608695652173,Dactolisib,0.07092198581560284,B cells,B cell,inDrops,1045,46,DiffCRISP
+Seen drugs,0.25,Foretinib,0.07092198581560284,B cells,B cell,inDrops,1045,48,DiffCRISP
+Seen drugs,0.3409090909090909,Idelalisib,0.07092198581560284,B cells,B cell,inDrops,1045,44,DiffCRISP
+Seen drugs,0.6774193548387096,LDN193189,0.07092198581560284,B cells,B cell,inDrops,1045,31,DiffCRISP
+Seen drugs,0.5806451612903226,Linagliptin,0.07092198581560284,B cells,B cell,inDrops,1045,31,DiffCRISP
+Seen drugs,0.4883720930232558,ODemethylatedAdapalene,0.07092198581560284,B cells,B cell,inDrops,1045,43,DiffCRISP
+Seen drugs,0.32432432432432434,Palbociclib,0.07092198581560284,B cells,B cell,inDrops,1045,37,DiffCRISP
+Seen drugs,0.6428571428571429,Penfluridol,0.07092198581560284,B cells,B cell,inDrops,1045,28,DiffCRISP
+Seen drugs,0.7272727272727273,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,inDrops,1045,33,DiffCRISP
+Seen drugs,0.7551020408163265,Belinostat,0.007092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,49,DiffCRISP
+Seen drugs,0.6666666666666666,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,39,DiffCRISP
+Seen drugs,0.5681818181818182,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,44,DiffCRISP
+Seen drugs,0.3,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,50,DiffCRISP
+Seen drugs,0.5853658536585366,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,41,DiffCRISP
+Seen drugs,0.4090909090909091,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,44,DiffCRISP
+Seen drugs,0.6666666666666666,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,36,DiffCRISP
+Seen drugs,0.7419354838709677,LDN193189,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,31,DiffCRISP
+Seen drugs,0.5142857142857142,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,35,DiffCRISP
+Seen drugs,0.7241379310344828,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,29,DiffCRISP
+Seen drugs,0.575,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,40,DiffCRISP
+Seen drugs,0.78125,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,32,DiffCRISP
+Seen drugs,0.7073170731707317,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,41,DiffCRISP
+Seen drugs,0.7755102040816326,Belinostat,0.007092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,49,DiffCRISP
+Seen drugs,0.5384615384615384,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,39,DiffCRISP
+Seen drugs,0.6590909090909091,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,44,DiffCRISP
+Seen drugs,0.28,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,50,DiffCRISP
+Seen drugs,0.6341463414634146,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,41,DiffCRISP
+Seen drugs,0.5909090909090909,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,44,DiffCRISP
+Seen drugs,0.4444444444444444,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,36,DiffCRISP
+Seen drugs,0.4838709677419355,LDN193189,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,31,DiffCRISP
+Seen drugs,0.5714285714285714,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,35,DiffCRISP
+Seen drugs,0.5172413793103449,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,29,DiffCRISP
+Seen drugs,0.425,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,40,DiffCRISP
+Seen drugs,0.59375,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,32,DiffCRISP
+Seen drugs,0.5853658536585366,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,41,DiffCRISP
+Seen drugs,0.7755102040816326,Belinostat,0.007092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,49,DiffCRISP
+Seen drugs,0.5384615384615384,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,39,DiffCRISP
+Seen drugs,0.7727272727272727,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,44,DiffCRISP
+Seen drugs,0.22,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,50,DiffCRISP
+Seen drugs,0.6341463414634146,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,41,DiffCRISP
+Seen drugs,0.6136363636363636,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,44,DiffCRISP
+Seen drugs,0.5833333333333334,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,36,DiffCRISP
+Seen drugs,0.6451612903225806,LDN193189,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,31,DiffCRISP
+Seen drugs,0.6,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,35,DiffCRISP
+Seen drugs,0.7586206896551724,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,29,DiffCRISP
+Seen drugs,0.65,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,40,DiffCRISP
+Seen drugs,0.8125,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,32,DiffCRISP
+Seen drugs,0.6097560975609756,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,41,DiffCRISP
+Seen drugs,0.7346938775510204,Belinostat,0.007092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,49,DiffCRISP
+Seen drugs,0.7692307692307693,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,39,DiffCRISP
+Seen drugs,0.6818181818181818,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,44,DiffCRISP
+Seen drugs,0.2,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,50,DiffCRISP
+Seen drugs,0.6097560975609756,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,41,DiffCRISP
+Seen drugs,0.6818181818181818,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,44,DiffCRISP
+Seen drugs,0.5833333333333334,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,36,DiffCRISP
+Seen drugs,0.6774193548387096,LDN193189,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,31,DiffCRISP
+Seen drugs,0.6571428571428571,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,35,DiffCRISP
+Seen drugs,0.7586206896551724,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,29,DiffCRISP
+Seen drugs,0.675,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,40,DiffCRISP
+Seen drugs,0.625,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,32,DiffCRISP
+Seen drugs,0.6829268292682927,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,41,DiffCRISP
+Seen drugs,0.6938775510204082,Belinostat,0.007092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,49,DiffCRISP
+Seen drugs,0.5641025641025641,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,39,DiffCRISP
+Seen drugs,0.6363636363636364,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,44,DiffCRISP
+Seen drugs,0.24,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,50,DiffCRISP
+Seen drugs,0.5853658536585366,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,41,DiffCRISP
+Seen drugs,0.5227272727272727,Foretinib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,44,DiffCRISP
+Seen drugs,0.5833333333333334,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,36,DiffCRISP
+Seen drugs,0.5806451612903226,LDN193189,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,31,DiffCRISP
+Seen drugs,0.34285714285714286,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,35,DiffCRISP
+Seen drugs,0.4482758620689655,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,29,DiffCRISP
+Seen drugs,0.55,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,40,DiffCRISP
+Seen drugs,0.59375,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,32,DiffCRISP
+Seen drugs,0.6341463414634146,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,41,DiffCRISP
+Seen drugs,0.7755102040816326,Belinostat,0.007092198581560284,NK cells,Natural killer cell,Drop-seq,484,49,DiffCRISP
+Seen drugs,0.5897435897435898,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,39,DiffCRISP
+Seen drugs,0.6363636363636364,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,44,DiffCRISP
+Seen drugs,0.32,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,50,DiffCRISP
+Seen drugs,0.6097560975609756,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,41,DiffCRISP
+Seen drugs,0.5227272727272727,Foretinib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,44,DiffCRISP
+Seen drugs,0.6111111111111112,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,36,DiffCRISP
+Seen drugs,0.6451612903225806,LDN193189,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,31,DiffCRISP
+Seen drugs,0.5428571428571428,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,35,DiffCRISP
+Seen drugs,0.5517241379310345,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,29,DiffCRISP
+Seen drugs,0.725,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,40,DiffCRISP
+Seen drugs,0.71875,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,32,DiffCRISP
+Seen drugs,0.6097560975609756,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,41,DiffCRISP
+Seen drugs,0.5918367346938775,Belinostat,0.007092198581560284,NK cells,Natural killer cell,Smart-seq2,50,49,DiffCRISP
+Seen drugs,0.5384615384615384,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,39,DiffCRISP
+Seen drugs,0.4772727272727273,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,44,DiffCRISP
+Seen drugs,0.34,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,50,DiffCRISP
+Seen drugs,0.5121951219512195,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,41,DiffCRISP
+Seen drugs,0.4318181818181818,Foretinib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,44,DiffCRISP
+Seen drugs,0.5277777777777778,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,36,DiffCRISP
+Seen drugs,0.4838709677419355,LDN193189,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,31,DiffCRISP
+Seen drugs,0.22857142857142856,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,35,DiffCRISP
+Seen drugs,0.4482758620689655,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,29,DiffCRISP
+Seen drugs,0.45,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,40,DiffCRISP
+Seen drugs,0.59375,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,32,DiffCRISP
+Seen drugs,0.5365853658536586,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,41,DiffCRISP
+Seen drugs,0.7755102040816326,Belinostat,0.007092198581560284,NK cells,Natural killer cell,inDrops,147,49,DiffCRISP
+Seen drugs,0.46153846153846156,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,39,DiffCRISP
+Seen drugs,0.4090909090909091,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,44,DiffCRISP
+Seen drugs,0.36,Dabrafenib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,50,DiffCRISP
+Seen drugs,0.5609756097560976,Dactolisib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,41,DiffCRISP
+Seen drugs,0.3409090909090909,Foretinib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,44,DiffCRISP
+Seen drugs,0.3055555555555556,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,36,DiffCRISP
+Seen drugs,0.3870967741935484,LDN193189,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,31,DiffCRISP
+Seen drugs,0.3142857142857143,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,35,DiffCRISP
+Seen drugs,0.3793103448275862,ODemethylatedAdapalene,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,29,DiffCRISP
+Seen drugs,0.3,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,40,DiffCRISP
+Seen drugs,0.34375,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,32,DiffCRISP
+Seen drugs,0.24390243902439024,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,41,DiffCRISP
+Seen drugs,0.7959183673469388,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Seen drugs,0.92,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,50,DiffCRISP
+Seen drugs,0.42857142857142855,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Seen drugs,0.4897959183673469,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Seen drugs,0.6590909090909091,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,44,DiffCRISP
+Seen drugs,0.3469387755102041,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Seen drugs,0.4888888888888889,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,45,DiffCRISP
+Seen drugs,0.5714285714285714,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,28,DiffCRISP
+Seen drugs,0.6595744680851063,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,47,DiffCRISP
+Seen drugs,0.6363636363636364,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,33,DiffCRISP
+Seen drugs,0.5416666666666666,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,48,DiffCRISP
+Seen drugs,0.6896551724137931,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,29,DiffCRISP
+Seen drugs,1.0,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,50,DiffCRISP
+Seen drugs,0.7959183673469388,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Seen drugs,0.88,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,50,DiffCRISP
+Seen drugs,0.5510204081632653,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Seen drugs,0.7045454545454546,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,44,DiffCRISP
+Seen drugs,0.3877551020408163,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Seen drugs,0.5555555555555556,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,45,DiffCRISP
+Seen drugs,0.5,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,28,DiffCRISP
+Seen drugs,0.6808510638297872,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,47,DiffCRISP
+Seen drugs,0.42424242424242425,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,33,DiffCRISP
+Seen drugs,0.5625,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,48,DiffCRISP
+Seen drugs,0.5862068965517241,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,29,DiffCRISP
+Seen drugs,0.98,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,50,DiffCRISP
+Seen drugs,0.7755102040816326,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Seen drugs,0.88,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,50,DiffCRISP
+Seen drugs,0.46938775510204084,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Seen drugs,0.6818181818181818,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,44,DiffCRISP
+Seen drugs,0.3673469387755102,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Seen drugs,0.5777777777777777,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,45,DiffCRISP
+Seen drugs,0.7142857142857143,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,28,DiffCRISP
+Seen drugs,0.6382978723404256,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,47,DiffCRISP
+Seen drugs,0.5757575757575758,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,33,DiffCRISP
+Seen drugs,0.5625,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,48,DiffCRISP
+Seen drugs,0.7241379310344828,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,29,DiffCRISP
+Seen drugs,0.98,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,50,DiffCRISP
+Seen drugs,0.7142857142857143,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Seen drugs,0.88,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,50,DiffCRISP
+Seen drugs,0.3673469387755102,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Seen drugs,0.5909090909090909,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,44,DiffCRISP
+Seen drugs,0.3469387755102041,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Seen drugs,0.4888888888888889,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,45,DiffCRISP
+Seen drugs,0.6071428571428571,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,28,DiffCRISP
+Seen drugs,0.7021276595744681,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,47,DiffCRISP
+Seen drugs,0.5454545454545454,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,33,DiffCRISP
+Seen drugs,0.5416666666666666,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,48,DiffCRISP
+Seen drugs,0.7586206896551724,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,29,DiffCRISP
+Seen drugs,1.0,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,50,DiffCRISP
+Seen drugs,0.7551020408163265,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Seen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,50,DiffCRISP
+Seen drugs,0.4489795918367347,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Seen drugs,0.46938775510204084,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Seen drugs,0.6136363636363636,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,44,DiffCRISP
+Seen drugs,0.3673469387755102,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Seen drugs,0.4888888888888889,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,45,DiffCRISP
+Seen drugs,0.5714285714285714,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,28,DiffCRISP
+Seen drugs,0.6595744680851063,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,47,DiffCRISP
+Seen drugs,0.5151515151515151,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,33,DiffCRISP
+Seen drugs,0.4791666666666667,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,48,DiffCRISP
+Seen drugs,0.5172413793103449,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,29,DiffCRISP
+Seen drugs,0.94,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,50,DiffCRISP
+Seen drugs,0.8163265306122449,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Seen drugs,0.88,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,50,DiffCRISP
+Seen drugs,0.5918367346938775,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Seen drugs,0.5306122448979592,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Seen drugs,0.6590909090909091,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,44,DiffCRISP
+Seen drugs,0.46938775510204084,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Seen drugs,0.5777777777777777,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,45,DiffCRISP
+Seen drugs,0.6071428571428571,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,28,DiffCRISP
+Seen drugs,0.6808510638297872,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,47,DiffCRISP
+Seen drugs,0.696969696969697,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,33,DiffCRISP
+Seen drugs,0.5833333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,48,DiffCRISP
+Seen drugs,0.7241379310344828,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,29,DiffCRISP
+Seen drugs,0.96,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,50,DiffCRISP
+Seen drugs,0.7551020408163265,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Seen drugs,0.82,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,50,DiffCRISP
+Seen drugs,0.4489795918367347,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Seen drugs,0.7045454545454546,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,44,DiffCRISP
+Seen drugs,0.3877551020408163,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Seen drugs,0.5111111111111111,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,45,DiffCRISP
+Seen drugs,0.7142857142857143,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,28,DiffCRISP
+Seen drugs,0.723404255319149,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,47,DiffCRISP
+Seen drugs,0.696969696969697,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,33,DiffCRISP
+Seen drugs,0.5208333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,48,DiffCRISP
+Seen drugs,0.5172413793103449,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,29,DiffCRISP
+Seen drugs,0.98,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,50,DiffCRISP
+Seen drugs,0.7346938775510204,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Seen drugs,0.78,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,50,DiffCRISP
+Seen drugs,0.4489795918367347,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Seen drugs,0.6818181818181818,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,44,DiffCRISP
+Seen drugs,0.32653061224489793,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Seen drugs,0.5333333333333333,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,45,DiffCRISP
+Seen drugs,0.6428571428571429,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,28,DiffCRISP
+Seen drugs,0.6170212765957447,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,47,DiffCRISP
+Seen drugs,0.48484848484848486,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,33,DiffCRISP
+Seen drugs,0.5625,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,48,DiffCRISP
+Seen drugs,0.5172413793103449,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,29,DiffCRISP
+Seen drugs,0.96,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,50,DiffCRISP
+Seen drugs,0.7142857142857143,Belinostat,0.007092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Seen drugs,0.84,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,50,DiffCRISP
+Seen drugs,0.3877551020408163,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Seen drugs,0.5102040816326531,Dabrafenib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Seen drugs,0.6818181818181818,Dactolisib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,44,DiffCRISP
+Seen drugs,0.2653061224489796,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Seen drugs,0.4222222222222222,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,45,DiffCRISP
+Seen drugs,0.39285714285714285,LDN193189,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,28,DiffCRISP
+Seen drugs,0.574468085106383,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,47,DiffCRISP
+Seen drugs,0.6363636363636364,ODemethylatedAdapalene,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,33,DiffCRISP
+Seen drugs,0.5208333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,48,DiffCRISP
+Seen drugs,0.5517241379310345,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,29,DiffCRISP
+Seen drugs,0.98,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,50,DiffCRISP
+Unseen drugs,0.6666666666666666,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,42,DiffCRISP
+Unseen drugs,0.17391304347826086,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,46,DiffCRISP
+Unseen drugs,0.20833333333333334,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,48,DiffCRISP
+Unseen drugs,0.36363636363636365,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,44,DiffCRISP
+Unseen drugs,0.5483870967741935,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,31,DiffCRISP
+Unseen drugs,0.43243243243243246,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,37,DiffCRISP
+Unseen drugs,0.8928571428571429,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,28,DiffCRISP
+Unseen drugs,0.8787878787878788,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,33,DiffCRISP
+Unseen drugs,0.5853658536585366,R428,0.07092198581560284,B cells,B cell,10x Chromium (v2),862,41,DiffCRISP
+Unseen drugs,0.5238095238095238,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,42,DiffCRISP
+Unseen drugs,0.08695652173913043,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,46,DiffCRISP
+Unseen drugs,0.22916666666666666,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,48,DiffCRISP
+Unseen drugs,0.29545454545454547,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,44,DiffCRISP
+Unseen drugs,0.41935483870967744,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,31,DiffCRISP
+Unseen drugs,0.4594594594594595,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,37,DiffCRISP
+Unseen drugs,0.6071428571428571,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,28,DiffCRISP
+Unseen drugs,0.6060606060606061,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,33,DiffCRISP
+Unseen drugs,0.4146341463414634,R428,0.07092198581560284,B cells,B cell,10x Chromium (v2) A,288,41,DiffCRISP
+Unseen drugs,0.5952380952380952,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,42,DiffCRISP
+Unseen drugs,0.13043478260869565,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,46,DiffCRISP
+Unseen drugs,0.22916666666666666,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,48,DiffCRISP
+Unseen drugs,0.25,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,44,DiffCRISP
+Unseen drugs,0.5483870967741935,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,31,DiffCRISP
+Unseen drugs,0.3783783783783784,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,37,DiffCRISP
+Unseen drugs,0.75,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,28,DiffCRISP
+Unseen drugs,0.7878787878787878,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,33,DiffCRISP
+Unseen drugs,0.4878048780487805,R428,0.07092198581560284,B cells,B cell,10x Chromium (v2) B,388,41,DiffCRISP
+Unseen drugs,0.5952380952380952,CHIR99021,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,42,DiffCRISP
+Unseen drugs,0.08695652173913043,Crizotinib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,46,DiffCRISP
+Unseen drugs,0.22916666666666666,Foretinib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,48,DiffCRISP
+Unseen drugs,0.36363636363636365,Idelalisib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,44,DiffCRISP
+Unseen drugs,0.5161290322580645,Linagliptin,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,31,DiffCRISP
+Unseen drugs,0.5135135135135135,Palbociclib,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,37,DiffCRISP
+Unseen drugs,0.7857142857142857,Penfluridol,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,28,DiffCRISP
+Unseen drugs,0.7878787878787878,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,33,DiffCRISP
+Unseen drugs,0.5121951219512195,R428,0.07092198581560284,B cells,B cell,10x Chromium (v3),346,41,DiffCRISP
+Unseen drugs,0.5952380952380952,CHIR99021,0.07092198581560284,B cells,B cell,CEL-Seq2,80,42,DiffCRISP
+Unseen drugs,0.10869565217391304,Crizotinib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,46,DiffCRISP
+Unseen drugs,0.1875,Foretinib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,48,DiffCRISP
+Unseen drugs,0.3409090909090909,Idelalisib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,44,DiffCRISP
+Unseen drugs,0.6774193548387096,Linagliptin,0.07092198581560284,B cells,B cell,CEL-Seq2,80,31,DiffCRISP
+Unseen drugs,0.5135135135135135,Palbociclib,0.07092198581560284,B cells,B cell,CEL-Seq2,80,37,DiffCRISP
+Unseen drugs,0.6785714285714286,Penfluridol,0.07092198581560284,B cells,B cell,CEL-Seq2,80,28,DiffCRISP
+Unseen drugs,0.6363636363636364,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,CEL-Seq2,80,33,DiffCRISP
+Unseen drugs,0.5609756097560976,R428,0.07092198581560284,B cells,B cell,CEL-Seq2,80,41,DiffCRISP
+Unseen drugs,0.5952380952380952,CHIR99021,0.07092198581560284,B cells,B cell,Drop-seq,1405,42,DiffCRISP
+Unseen drugs,0.08695652173913043,Crizotinib,0.07092198581560284,B cells,B cell,Drop-seq,1405,46,DiffCRISP
+Unseen drugs,0.25,Foretinib,0.07092198581560284,B cells,B cell,Drop-seq,1405,48,DiffCRISP
+Unseen drugs,0.38636363636363635,Idelalisib,0.07092198581560284,B cells,B cell,Drop-seq,1405,44,DiffCRISP
+Unseen drugs,0.6129032258064516,Linagliptin,0.07092198581560284,B cells,B cell,Drop-seq,1405,31,DiffCRISP
+Unseen drugs,0.5945945945945946,Palbociclib,0.07092198581560284,B cells,B cell,Drop-seq,1405,37,DiffCRISP
+Unseen drugs,0.7857142857142857,Penfluridol,0.07092198581560284,B cells,B cell,Drop-seq,1405,28,DiffCRISP
+Unseen drugs,0.8787878787878788,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Drop-seq,1405,33,DiffCRISP
+Unseen drugs,0.5365853658536586,R428,0.07092198581560284,B cells,B cell,Drop-seq,1405,41,DiffCRISP
+Unseen drugs,0.47619047619047616,CHIR99021,0.07092198581560284,B cells,B cell,Seq-Well,527,42,DiffCRISP
+Unseen drugs,0.10869565217391304,Crizotinib,0.07092198581560284,B cells,B cell,Seq-Well,527,46,DiffCRISP
+Unseen drugs,0.20833333333333334,Foretinib,0.07092198581560284,B cells,B cell,Seq-Well,527,48,DiffCRISP
+Unseen drugs,0.36363636363636365,Idelalisib,0.07092198581560284,B cells,B cell,Seq-Well,527,44,DiffCRISP
+Unseen drugs,0.41935483870967744,Linagliptin,0.07092198581560284,B cells,B cell,Seq-Well,527,31,DiffCRISP
+Unseen drugs,0.4594594594594595,Palbociclib,0.07092198581560284,B cells,B cell,Seq-Well,527,37,DiffCRISP
+Unseen drugs,0.7142857142857143,Penfluridol,0.07092198581560284,B cells,B cell,Seq-Well,527,28,DiffCRISP
+Unseen drugs,0.8181818181818182,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Seq-Well,527,33,DiffCRISP
+Unseen drugs,0.5121951219512195,R428,0.07092198581560284,B cells,B cell,Seq-Well,527,41,DiffCRISP
+Unseen drugs,0.5952380952380952,CHIR99021,0.07092198581560284,B cells,B cell,Smart-seq2,79,42,DiffCRISP
+Unseen drugs,0.13043478260869565,Crizotinib,0.07092198581560284,B cells,B cell,Smart-seq2,79,46,DiffCRISP
+Unseen drugs,0.3541666666666667,Foretinib,0.07092198581560284,B cells,B cell,Smart-seq2,79,48,DiffCRISP
+Unseen drugs,0.45454545454545453,Idelalisib,0.07092198581560284,B cells,B cell,Smart-seq2,79,44,DiffCRISP
+Unseen drugs,0.6129032258064516,Linagliptin,0.07092198581560284,B cells,B cell,Smart-seq2,79,31,DiffCRISP
+Unseen drugs,0.5675675675675675,Palbociclib,0.07092198581560284,B cells,B cell,Smart-seq2,79,37,DiffCRISP
+Unseen drugs,0.7142857142857143,Penfluridol,0.07092198581560284,B cells,B cell,Smart-seq2,79,28,DiffCRISP
+Unseen drugs,0.6666666666666666,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,Smart-seq2,79,33,DiffCRISP
+Unseen drugs,0.6097560975609756,R428,0.07092198581560284,B cells,B cell,Smart-seq2,79,41,DiffCRISP
+Unseen drugs,0.5476190476190477,CHIR99021,0.07092198581560284,B cells,B cell,inDrops,1045,42,DiffCRISP
+Unseen drugs,0.06521739130434782,Crizotinib,0.07092198581560284,B cells,B cell,inDrops,1045,46,DiffCRISP
+Unseen drugs,0.20833333333333334,Foretinib,0.07092198581560284,B cells,B cell,inDrops,1045,48,DiffCRISP
+Unseen drugs,0.25,Idelalisib,0.07092198581560284,B cells,B cell,inDrops,1045,44,DiffCRISP
+Unseen drugs,0.3548387096774194,Linagliptin,0.07092198581560284,B cells,B cell,inDrops,1045,31,DiffCRISP
+Unseen drugs,0.3783783783783784,Palbociclib,0.07092198581560284,B cells,B cell,inDrops,1045,37,DiffCRISP
+Unseen drugs,0.5714285714285714,Penfluridol,0.07092198581560284,B cells,B cell,inDrops,1045,28,DiffCRISP
+Unseen drugs,0.7272727272727273,PorcnInhibitorIII,0.07092198581560284,B cells,B cell,inDrops,1045,33,DiffCRISP
+Unseen drugs,0.4878048780487805,R428,0.07092198581560284,B cells,B cell,inDrops,1045,41,DiffCRISP
+Unseen drugs,0.5128205128205128,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,39,DiffCRISP
+Unseen drugs,0.4090909090909091,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,44,DiffCRISP
+Unseen drugs,0.36363636363636365,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,44,DiffCRISP
+Unseen drugs,0.5277777777777778,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,36,DiffCRISP
+Unseen drugs,0.37142857142857144,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,35,DiffCRISP
+Unseen drugs,0.575,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,40,DiffCRISP
+Unseen drugs,0.75,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,32,DiffCRISP
+Unseen drugs,0.6585365853658537,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,41,DiffCRISP
+Unseen drugs,0.5806451612903226,R428,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2),219,31,DiffCRISP
+Unseen drugs,0.48717948717948717,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,39,DiffCRISP
+Unseen drugs,0.29545454545454547,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,44,DiffCRISP
+Unseen drugs,0.4318181818181818,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,44,DiffCRISP
+Unseen drugs,0.4166666666666667,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,36,DiffCRISP
+Unseen drugs,0.42857142857142855,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,35,DiffCRISP
+Unseen drugs,0.475,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,40,DiffCRISP
+Unseen drugs,0.5625,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,32,DiffCRISP
+Unseen drugs,0.6585365853658537,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,41,DiffCRISP
+Unseen drugs,0.3225806451612903,R428,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) A,166,31,DiffCRISP
+Unseen drugs,0.5384615384615384,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,39,DiffCRISP
+Unseen drugs,0.38636363636363635,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,44,DiffCRISP
+Unseen drugs,0.4772727272727273,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,44,DiffCRISP
+Unseen drugs,0.5833333333333334,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,36,DiffCRISP
+Unseen drugs,0.4,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,35,DiffCRISP
+Unseen drugs,0.7,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,40,DiffCRISP
+Unseen drugs,0.78125,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,32,DiffCRISP
+Unseen drugs,0.7073170731707317,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,41,DiffCRISP
+Unseen drugs,0.5806451612903226,R428,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v2) B,263,31,DiffCRISP
+Unseen drugs,0.5128205128205128,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,39,DiffCRISP
+Unseen drugs,0.38636363636363635,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,44,DiffCRISP
+Unseen drugs,0.45454545454545453,Foretinib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,44,DiffCRISP
+Unseen drugs,0.6111111111111112,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,36,DiffCRISP
+Unseen drugs,0.37142857142857144,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,35,DiffCRISP
+Unseen drugs,0.7,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,40,DiffCRISP
+Unseen drugs,0.6875,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,32,DiffCRISP
+Unseen drugs,0.7560975609756098,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,41,DiffCRISP
+Unseen drugs,0.4838709677419355,R428,0.07092198581560284,NK cells,Natural killer cell,10x Chromium (v3),194,31,DiffCRISP
+Unseen drugs,0.5897435897435898,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,39,DiffCRISP
+Unseen drugs,0.4090909090909091,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,44,DiffCRISP
+Unseen drugs,0.38636363636363635,Foretinib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,44,DiffCRISP
+Unseen drugs,0.5555555555555556,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,36,DiffCRISP
+Unseen drugs,0.2857142857142857,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,35,DiffCRISP
+Unseen drugs,0.525,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,40,DiffCRISP
+Unseen drugs,0.65625,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,32,DiffCRISP
+Unseen drugs,0.6585365853658537,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,41,DiffCRISP
+Unseen drugs,0.5806451612903226,R428,0.07092198581560284,NK cells,Natural killer cell,CEL-Seq2,42,31,DiffCRISP
+Unseen drugs,0.5128205128205128,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,39,DiffCRISP
+Unseen drugs,0.3181818181818182,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,44,DiffCRISP
+Unseen drugs,0.5454545454545454,Foretinib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,44,DiffCRISP
+Unseen drugs,0.6388888888888888,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,36,DiffCRISP
+Unseen drugs,0.37142857142857144,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,35,DiffCRISP
+Unseen drugs,0.65,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,40,DiffCRISP
+Unseen drugs,0.71875,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,32,DiffCRISP
+Unseen drugs,0.6097560975609756,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,41,DiffCRISP
+Unseen drugs,0.6129032258064516,R428,0.07092198581560284,NK cells,Natural killer cell,Drop-seq,484,31,DiffCRISP
+Unseen drugs,0.5641025641025641,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,39,DiffCRISP
+Unseen drugs,0.4090909090909091,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,44,DiffCRISP
+Unseen drugs,0.45454545454545453,Foretinib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,44,DiffCRISP
+Unseen drugs,0.5555555555555556,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,36,DiffCRISP
+Unseen drugs,0.2571428571428571,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,35,DiffCRISP
+Unseen drugs,0.6,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,40,DiffCRISP
+Unseen drugs,0.5625,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,32,DiffCRISP
+Unseen drugs,0.6829268292682927,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,41,DiffCRISP
+Unseen drugs,0.5161290322580645,R428,0.07092198581560284,NK cells,Natural killer cell,Smart-seq2,50,31,DiffCRISP
+Unseen drugs,0.38461538461538464,CHIR99021,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,39,DiffCRISP
+Unseen drugs,0.25,Crizotinib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,44,DiffCRISP
+Unseen drugs,0.29545454545454547,Foretinib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,44,DiffCRISP
+Unseen drugs,0.2777777777777778,Idelalisib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,36,DiffCRISP
+Unseen drugs,0.22857142857142856,Linagliptin,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,35,DiffCRISP
+Unseen drugs,0.275,Palbociclib,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,40,DiffCRISP
+Unseen drugs,0.40625,Penfluridol,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,32,DiffCRISP
+Unseen drugs,0.34146341463414637,PorcnInhibitorIII,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,41,DiffCRISP
+Unseen drugs,0.5161290322580645,R428,0.07092198581560284,NK cells,Natural killer cell,inDrops,147,31,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,50,DiffCRISP
+Unseen drugs,0.02040816326530612,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Unseen drugs,0.04081632653061224,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,49,DiffCRISP
+Unseen drugs,0.35555555555555557,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,45,DiffCRISP
+Unseen drugs,0.5106382978723404,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,47,DiffCRISP
+Unseen drugs,0.9148936170212766,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,47,DiffCRISP
+Unseen drugs,0.6458333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,48,DiffCRISP
+Unseen drugs,0.6206896551724138,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,29,DiffCRISP
+Unseen drugs,0.66,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,50,DiffCRISP
+Unseen drugs,0.35714285714285715,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2),963,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,50,DiffCRISP
+Unseen drugs,0.04081632653061224,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Unseen drugs,0.061224489795918366,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,49,DiffCRISP
+Unseen drugs,0.4888888888888889,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,45,DiffCRISP
+Unseen drugs,0.5319148936170213,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,47,DiffCRISP
+Unseen drugs,0.9148936170212766,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,47,DiffCRISP
+Unseen drugs,0.5625,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,48,DiffCRISP
+Unseen drugs,0.5517241379310345,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,29,DiffCRISP
+Unseen drugs,0.6,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,50,DiffCRISP
+Unseen drugs,0.30952380952380953,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) A,550,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,50,DiffCRISP
+Unseen drugs,0.04081632653061224,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Unseen drugs,0.061224489795918366,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,49,DiffCRISP
+Unseen drugs,0.4666666666666667,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,45,DiffCRISP
+Unseen drugs,0.5106382978723404,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,47,DiffCRISP
+Unseen drugs,0.9148936170212766,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,47,DiffCRISP
+Unseen drugs,0.5416666666666666,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,48,DiffCRISP
+Unseen drugs,0.6551724137931034,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,29,DiffCRISP
+Unseen drugs,0.56,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,50,DiffCRISP
+Unseen drugs,0.38095238095238093,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v2) B,908,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,50,DiffCRISP
+Unseen drugs,0.08163265306122448,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Unseen drugs,0.061224489795918366,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,49,DiffCRISP
+Unseen drugs,0.4222222222222222,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,45,DiffCRISP
+Unseen drugs,0.5319148936170213,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,47,DiffCRISP
+Unseen drugs,0.8936170212765957,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,47,DiffCRISP
+Unseen drugs,0.5625,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,48,DiffCRISP
+Unseen drugs,0.6896551724137931,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,29,DiffCRISP
+Unseen drugs,0.6,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,50,DiffCRISP
+Unseen drugs,0.3333333333333333,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,10x Chromium (v3),960,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,50,DiffCRISP
+Unseen drugs,0.1836734693877551,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Unseen drugs,0.1836734693877551,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,49,DiffCRISP
+Unseen drugs,0.4666666666666667,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,45,DiffCRISP
+Unseen drugs,0.6170212765957447,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,47,DiffCRISP
+Unseen drugs,0.8936170212765957,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,47,DiffCRISP
+Unseen drugs,0.5833333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,48,DiffCRISP
+Unseen drugs,0.5517241379310345,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,29,DiffCRISP
+Unseen drugs,0.56,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,50,DiffCRISP
+Unseen drugs,0.4523809523809524,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,CEL-Seq2,160,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,50,DiffCRISP
+Unseen drugs,0.08163265306122448,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Unseen drugs,0.10204081632653061,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,49,DiffCRISP
+Unseen drugs,0.4222222222222222,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,45,DiffCRISP
+Unseen drugs,0.5319148936170213,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,47,DiffCRISP
+Unseen drugs,0.9148936170212766,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,47,DiffCRISP
+Unseen drugs,0.5,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,48,DiffCRISP
+Unseen drugs,0.6551724137931034,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,29,DiffCRISP
+Unseen drugs,0.64,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,50,DiffCRISP
+Unseen drugs,0.38095238095238093,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,Drop-seq,2061,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,50,DiffCRISP
+Unseen drugs,0.08163265306122448,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Unseen drugs,0.061224489795918366,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,49,DiffCRISP
+Unseen drugs,0.4222222222222222,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,45,DiffCRISP
+Unseen drugs,0.46808510638297873,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,47,DiffCRISP
+Unseen drugs,0.851063829787234,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,47,DiffCRISP
+Unseen drugs,0.4583333333333333,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,48,DiffCRISP
+Unseen drugs,0.5172413793103449,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,29,DiffCRISP
+Unseen drugs,0.68,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,50,DiffCRISP
+Unseen drugs,0.38095238095238093,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,Seq-Well,566,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,50,DiffCRISP
+Unseen drugs,0.20408163265306123,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Unseen drugs,0.16326530612244897,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,49,DiffCRISP
+Unseen drugs,0.5111111111111111,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,45,DiffCRISP
+Unseen drugs,0.6382978723404256,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,47,DiffCRISP
+Unseen drugs,0.8936170212765957,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,47,DiffCRISP
+Unseen drugs,0.5833333333333334,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,48,DiffCRISP
+Unseen drugs,0.5517241379310345,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,29,DiffCRISP
+Unseen drugs,0.52,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,50,DiffCRISP
+Unseen drugs,0.5,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,Smart-seq2,112,42,DiffCRISP
+Unseen drugs,0.8,CHIR99021,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,50,DiffCRISP
+Unseen drugs,0.04081632653061224,Crizotinib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Unseen drugs,0.061224489795918366,Foretinib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,49,DiffCRISP
+Unseen drugs,0.3111111111111111,Idelalisib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,45,DiffCRISP
+Unseen drugs,0.48936170212765956,Linagliptin,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,47,DiffCRISP
+Unseen drugs,0.851063829787234,MLN2238,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,47,DiffCRISP
+Unseen drugs,0.4375,Palbociclib,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,48,DiffCRISP
+Unseen drugs,0.6206896551724138,Penfluridol,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,29,DiffCRISP
+Unseen drugs,0.8,PorcnInhibitorIII,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,50,DiffCRISP
+Unseen drugs,0.3333333333333333,R428,0.07092198581560284,T cells CD4+,CD4+ T cell,inDrops,1111,42,DiffCRISP

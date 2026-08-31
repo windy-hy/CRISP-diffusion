@@ -1,0 +1,7 @@
+scFoundation/demo
+# data/
+*.h5ad
+
+*.pt
+*.pth
+*.ckpt

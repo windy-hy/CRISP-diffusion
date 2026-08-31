@@ -1,0 +1,19 @@
+split,cell_type,train_treated_cells,ood_treated_cells,train_drugs,ood_drugs
+split,B cells,8863,0,14,0
+split,Myeloid cells,0,11264,0,15
+split,NK cells,42703,0,143,0
+split,T cells CD4+,91344,0,146,0
+split,T cells CD8+,11415,0,140,0
+split,T regulatory cells,0,7418,0,141
+split2,B cells,0,11080,0,14
+split2,Myeloid cells,9011,0,15,0
+split2,NK cells,42694,0,143,0
+split2,T cells CD4+,0,114193,0,146
+split2,T cells CD8+,11410,0,140,0
+split2,T regulatory cells,5927,0,141,0
+split3,B cells,8866,0,14,0
+split3,Myeloid cells,9011,0,15,0
+split3,NK cells,0,53378,0,143
+split3,T cells CD4+,91347,0,146,0
+split3,T cells CD8+,0,14264,0,140
+split3,T regulatory cells,5927,0,141,0

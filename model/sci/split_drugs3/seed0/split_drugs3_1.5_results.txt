@@ -1,0 +1,3 @@
+Epoch	R2_DE	Pearson_Delta_DE	Sinkhorn_DE	Model_File
+150	0.31792974	0.66937482	0.58221179	model_150_split.pt
+200	0.32481280	0.68777479	0.59107054	model_200_split.pt

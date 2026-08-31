@@ -1,0 +1,1 @@
+b, Comparison of unseen cell-type perturbation prediction on the NeurIPS dataset. Box plots summarize nine evaluations for each method using (\mathrm{Pr}_{\Delta}), (R^2), and Sinkhorn distance over the top 50 DE genes. Center lines show medians, boxes indicate the interquartile range, whiskers span the minimum and maximum values, and dots represent individual evaluations.

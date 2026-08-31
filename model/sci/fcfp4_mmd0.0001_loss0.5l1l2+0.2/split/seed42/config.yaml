@@ -1,0 +1,22 @@
+dataset:
+  FM_key: X_scGPT
+  adata_obj: ../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad
+  celltype_key: cell_type
+  control_key: control
+  degs_key: rank_genes_groups_cov
+  dose_key: dose_val
+  pc_cov: cell_type
+  pert_category: cov_drug_dose_name
+  perturbation_key: condition
+  smiles_key: SMILES
+  split_key: split
+  split_ood: true
+model:
+  drug_emb: ../data/drug_embeddings/fcfp4_1024_embedding_lincs_sciplex3.parquet
+  mmd_co: 0.0001
+  seed: 42
+training:
+  checkpoint_freq: 15
+  max_minutes: 1000
+  num_epochs: 301
+  save_dir: ../model/sci/split/seed42

@@ -1,0 +1,32 @@
+2026-08-17 00:19:30,743 INFO: Argument setting: {'dataset': {'FM_key': 'X_scGPT',
+             'adata_obj': '../data/nips/nips_pp_scFM_resplit.h5ad',
+             'celltype_key': 'cell_type',
+             'control_key': 'neg_control',
+             'degs_key': 'rank_genes_groups_cov',
+             'dose_key': 'dose_val',
+             'pc_cov': 'type_donor',
+             'pert_category': 'cov_drug_name',
+             'perturbation_key': 'condition',
+             'smiles_key': 'SMILES',
+             'split_key': 'split2',
+             'split_ood': True},
+ 'model': {'drug_emb': '../data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet',
+           'mmd_co': 0.0,
+           'seed': 0},
+ 'training': {'checkpoint_freq': 10,
+              'max_minutes': 1000,
+              'num_epochs': 201,
+              'save_dir': '../model/nips/fcfp4_mmd0.0_loss/split2/seed0'}}
+2026-08-17 00:19:30,744 INFO: Starting to read in data: ../data/nips/nips_pp_scFM_resplit.h5ad
+...
+2026-08-17 00:19:32,805 INFO: Finished data loading.
+2026-08-17 00:19:49,784 INFO: Finish init dataset
+2026-08-17 00:19:49,967 INFO: Finish init drug embedding
+2026-08-17 00:19:50,358 INFO: Start training
+2026-08-17 00:20:42,225 INFO: 
+{   'epoch': 0,
+    'loss': 1.2814903076523299,
+    'loss_af': 1.561044030551669,
+    'loss_l1': 0.5448717060806715,
+    'loss_mse': 1.705900102895691,
+    'mmdloss': 1.381203907954542}
