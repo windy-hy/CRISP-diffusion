@@ -1,112 +1,99 @@
 # DiffCRISP
 
-**DiffCRISP** is a research implementation for **single-cell drug perturbation response prediction** built on top of the CRISP framework.  
-The main change is to replace direct perturbation-state decoding with a **conditional latent diffusion model**, so that post-perturbation cellular states are generated in a learned low-dimensional gene-expression space.
+**Distribution-aware single-cell drug perturbation prediction with conditional latent diffusion**
 
-> **Status:** research code under active development. The current repository mainly supports experiments on the NeurIPS single-cell perturbation dataset, with SciPlex3-related configuration and code also included.
+DiffCRISP is a research implementation for predicting drug-induced single-cell transcriptional responses. It combines **single-cell foundation-model (scFM) representations of matched untreated cells**, **molecular drug features and dose**, and a **conditional latent diffusion model** to generate plausible post-treatment gene-expression profiles.
+
+DiffCRISP builds on the [CRISP](https://github.com/ml4bio/CRISP) framework. In addition to the diffusion generator, this repository contains deterministic and fixed-variance Gaussian latent predictors for controlled generator comparisons.
+
+> **Reproducibility status.** The repository contains research code and experiment configurations, but it is **not yet a fully self-contained release** of all processed datasets, pretrained checkpoints, or figure-generation pipelines. The included launcher scripts currently target particular experiments and must not be assumed to reproduce every figure in the manuscript without checking their settings. See [Reproducibility notes and known issues](#reproducibility-notes-and-known-issues).
 
 ## Overview
 
-CRISP uses single-cell foundation-model (scFM) representations of control cells together with drug information to predict perturbation responses. DiffCRISP keeps this general idea, but models the perturbation process as **conditional generation in latent space**.
+DiffCRISP uses two stages:
+
+1. **Stage I — gene-expression autoencoder.** Train an encoder and decoder on gene-expression reconstruction for the first 40 epochs, with a loss combining L1, all-gene MSE, and DEG-focused MSE (`AFMSELoss`).
+2. **Stage II — conditional latent generation.** Freeze the expression encoder and decoder. Train a generator to predict treated-cell latents from the paired-control scFM context and drug–dose condition. In the diffusion variant, the generator learns to denoise treated-cell latents corrupted by Gaussian noise.
 
 ```text
-Control-cell scFM embedding ──> projection ──┐
-                                            ├──> semantic condition z_sem
-Drug embedding + dosage ──────> projection ─┘
-                                                │
-Perturbed expression ──> gene encoder ──> z0 ──┤
-                                                ↓
-                                     Conditional Latent Diffusion
-                                                ↓
-                                      generated latent state
-                                                ↓
-                                         gene decoder
-                                                ↓
-                                predicted perturbed expression
+Matched control cells ---> scFM embeddings ---> control projector ---+
+                                                                 |
+Drug molecular features + log1p(dose) ---> drug projector --------+--> semantic condition
+                                                                       |
+Observed treated expression ---> expression encoder ---> treated latent z0
+                                                                       |
+                  Gaussian forward diffusion (training only)           |
+                                                                       v
+                                             conditional latent denoiser
+                                                                       |
+Random Gaussian latent --> DDIM reverse sampling --> generated latent
+                                                                       |
+                                                  frozen gene decoder
+                                                                       |
+                                             predicted treated cells
 ```
 
-## Main Differences from CRISP
+The conditional diffusion backbone uses five residual AdaLN-style MLP blocks. The code uses 1,000 training diffusion timesteps and 20 DDIM inference steps in the main prediction path.
 
-### 1. Latent diffusion for perturbation modeling
+### DMSO-referenced guidance
 
-Instead of directly decoding a concatenated control/drug latent representation into the perturbed expression profile, DiffCRISP learns a **conditional diffusion process** in the gene-expression latent space.
+At inference, diffusion guidance compares the target drug–dose condition against a **DMSO reference with the same cellular context**. The current implementation identifies observations whose drug name is `dmso` (case-insensitive), then obtains the corresponding drug index and reference dose from the dataset's existing drug mapping.
 
-### 2. Two-stage training
+- `DIFFCRISP/model.py`: `configure_dmso()` resolves the index and dose, while `_get_dmso_semantic_condition()` builds the reference condition.
+- `DIFFCRISP/trainer.py`: calls `configure_dmso()` after model initialization and after loading a checkpoint.
+- The current implementation requires exactly **one unique `(DMSO index, dose)` pair** across the dataset subsets supplied to it. Missing or ambiguous DMSO conditions raise an error instead of selecting a hard-coded index.
 
-**Stage I — Gene autoencoder**
+This is **dataset-derived DMSO configuration**, not a fixed NeurIPS or SciPlex3 drug index. When working with different processed datasets or drug mappings, confirm the DMSO condition printed at initialization.
 
-- Encode the observed perturbed gene-expression profile into a low-dimensional latent representation.
-- Reconstruct gene expression with the gene decoder.
-- The current reconstruction objective combines MSE, L1, and AFMSE losses.
-- The current implementation uses a 40-epoch autoencoder warm-up.
+## Generator variants
 
-**Stage II — Conditional latent diffusion**
+`DIFFCRISP/model.py` provides three Stage-II alternatives selected through the module-level `GENERATOR_TYPE` setting:
 
-- Freeze the gene encoder and decoder.
-- Encode the target perturbed state into latent space.
-- Train the diffusion model to predict the noise added to the latent representation.
-- Optimize the diffusion network together with the cellular-context and drug-condition projection layers.
+| `GENERATOR_TYPE` | Model | Latent output |
+| --- | --- | --- |
+| `"diffusion"` | Conditional latent diffusion (DiffCRISP) | DDIM-sampled latent |
+| `"deterministic"` | Deterministic latent predictor | One predicted treated latent |
+| `"gaussian"` | Fixed-variance Gaussian predictor | Predicted mean plus Gaussian noise |
 
-### 3. scFM-conditioned cellular context
+The variants reuse the same Stage-I gene encoder/decoder and cell–drug conditioning design. The Gaussian branch estimates a conditional latent mean using MSE and adds fixed isotropic Gaussian noise during sampling; **its variance is not learned**.
 
-Control-cell representations from a single-cell foundation model are projected into the latent conditioning space.
+**Important:** The checked-in model constructor currently sets `fixed_sigma=0.05` for the Gaussian variant. This is a **code default**, not a verified statement of the sigma used to produce every manuscript result. Verify the exact value against the archived Figure 3 experiment before treating a new run as a reproduction.
 
-The AnnData object should contain the requested scFM embedding in `adata.obsm`, for example:
+For controlled generator-only comparisons, use consistent datasets, splits, seeds, conditioning inputs, autoencoder settings, and evaluation configurations. In particular, note that DMSO guidance may change the comparison; use the documented guidance setting from the corresponding experiment.
 
-```text
-X_scGPT
-X_scGPT_human
-```
-
-The exact key is controlled by `--FM_key`.
-
-### 4. Drug and dosage conditioning
-
-Drug embeddings are combined with dosage information before projection into the conditioning space. Dosage is transformed with `log1p`, and the projected drug representation is concatenated with the projected control-cell representation:
-
-```text
-z_sem = [z_control, z_drug]
-```
-
-### 5. DMSO-based guidance
-
-During inference, the conditional branch represents the target treatment while the reference branch uses the DMSO control condition. The generated perturbation signal is guided using the difference between these two branches.
-
-### 6. DDIM inference
-
-The model supports DDPM-style generation and accelerated **DDIM sampling**. The current prediction path uses DDIM sampling to reduce the reverse process from 1000 diffusion steps to a much smaller number of sampling steps.
-
-## Repository Structure
+## Repository structure
 
 ```text
 CRISP-diffusion/
 ├── DIFFCRISP/
-│   ├── ConditionalDiffusion.py   # conditional diffusion and DDIM/DDPM sampling
-│   ├── model.py                  # gene autoencoder, condition encoders, DiffCRISP model
-│   ├── trainer.py                # training loop
-│   ├── train.py                  # single-run training entry point
-│   ├── run_all.py                # batch experiments over splits/seeds
-│   ├── data.py                   # dataset loading utilities
-│   ├── embedding.py              # drug embedding utilities
-│   ├── scFM.py                   # single-cell foundation-model utilities
-│   ├── losses.py                 # training losses
-│   ├── eval.py                   # evaluation utilities
+│   ├── ConditionalDiffusion.py
+│   ├── DeterministicPredictor.py
+│   ├── GaussianPredictor.py
+│   ├── model.py
+│   ├── trainer.py
+│   ├── data.py
+│   ├── embedding.py
+│   ├── scFM.py
+│   ├── losses.py
+│   ├── eval.py
+│   ├── train.py
 │   ├── test.py
+│   ├── run_all.py
 │   └── test_all.py
-├── data/
 ├── experiments/
-│   ├── configs/
-│   │   ├── nips.yaml
-│   │   └── sci.yaml
-│   ├── scripts/
-│   └── results/
-├── expdata/
-├── model/
+│   └── configs/
+│       ├── nips.yaml
+│       └── sci.yaml
+├── expdata/                 # available experiment/figure materials
 ├── requirement.txt
-└── setup.py
+├── setup.py
+├── LICENSE.txt
+└── README.md
 ```
 
-## Installation
+Local `data/` and `model/` directories are used for inputs and generated checkpoints. They are **not** prerequisites for cloning the repository; create or populate them locally as needed. The exact set of experiment artifacts included in `expdata/` may change as the project is prepared for release.
+
+## Environment and installation
 
 ```bash
 git clone https://github.com/windy-hy/CRISP-diffusion.git
@@ -119,115 +106,127 @@ pip install -r requirement.txt
 pip install -e .
 ```
 
-Make sure the installed PyTorch version is compatible with your CUDA environment.
+The pinned dependencies include PyTorch, Scanpy, AnnData, RDKit, optimal-transport-related libraries, and scientific Python tools. Use a PyTorch installation compatible with your local CUDA runtime. The current data collation code contains CUDA-specific tensor placement and is **not documented as CPU-only compatible**.
 
-## Data Preparation
+## Data inputs
 
-Large `.h5ad` files and model checkpoints are not stored in this repository.
+Training requires **processed AnnData** (`.h5ad`) files with predefined data splits and **precomputed drug embeddings** (`.parquet`). The scripts do not automatically download or reconstruct these inputs from the original raw studies.
 
-For the current NeurIPS workflow, the training code expects files equivalent to:
+The current script conventions include the following local paths:
 
-```text
-data/nips/nips_pp_scFM_resplit.h5ad
-data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet
-experiments/configs/nips.yaml
-```
+| Dataset | Processed AnnData | Drug embeddings |
+| --- | --- | --- |
+| NeurIPS chemical perturbation benchmark | `data/nips/nips_pp_scFM_resplit.h5ad` | `data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet` |
+| SciPlex3 | `data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad` | `data/drug_embeddings/fcfp4_1024_embedding_lincs_sciplex3.parquet` |
 
-The AnnData object must contain the scFM embedding specified by `--FM_key`.
+These are **expected local filenames**, not download URLs. Inspect the respective `experiments/configs/nips.yaml` and `experiments/configs/sci.yaml` for dataset-specific AnnData column names.
+
+The processed AnnData must include, as appropriate:
+
+- Gene-expression matrix `adata.X` and gene identifiers.
+- Drug, dose, cell-type, DMSO/control, pairing, and split metadata in `adata.obs`.
+- The selected scFM embedding in `adata.obsm`, e.g., `X_scGPT` or `X_scGPT_human`.
+- Differential-expression annotations under the configured `adata.uns` key.
+- Split annotations matching the value supplied through `--split` (for example, `split`, `split2`, `split3`, or the drug-holdout split names).
+
+The `--FM_key` argument must match an existing key in `adata.obsm`, and its feature dimension must be compatible with the model configuration and checkpoints.
 
 ## Training
 
-Because the current default paths are relative to the `DIFFCRISP/` directory, the safest way to run the training entry point is:
+The training script uses paths relative to the `DIFFCRISP/` directory. From the repository root:
 
 ```bash
 cd DIFFCRISP
 ```
 
-Example:
+### Single training run (NeurIPS example)
+
+The following command illustrates the public training entry point, assuming the stated local input files exist:
 
 ```bash
 python train.py \
-    --config ../experiments/configs/nips.yaml \
-    --split split \
-    --seed 0 \
-    --savedir ../model/nips/example/split/seed0 \
-    --FM_key X_scGPT_human \
-    --drug_emb ../data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet \
-    --data_path ../data/nips/nips_pp_scFM_resplit.h5ad \
-    --mmd_co 0.0001
+  --config ../experiments/configs/nips.yaml \
+  --split split \
+  --seed 0 \
+  --savedir ../model/nips/example/split/seed0 \
+  --FM_key X_scGPT \
+  --drug_emb ../data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet \
+  --data_path ../data/nips/nips_pp_scFM_resplit.h5ad \
+  --mmd_co 0.0
 ```
 
-For multiple splits and random seeds:
+The script saves resolved arguments in `config.yaml`, writes training logs to `log.txt`, and saves checkpoint files into the output directory according to the trainer's checkpoint logic.
+
+**MMD note:** In the current `model.py`, the implemented Stage-I optimization objective is
+
+\[
+\mathcal{L}_{AE}=0.5\mathcal{L}_{1}+0.5\mathcal{L}_{MSE}+0.2\mathcal{L}_{AFMSE}.
+\]
+
+The MMD term is not part of the optimized loss in this code revision. The `--mmd_co` flag remains in the CLI for compatibility; setting it does **not** enable MMD regularization in this implementation.
+
+### Batch training
 
 ```bash
 python run_all.py
 ```
 
-Before running batch experiments, check the paths, `FM_key`, split list, seeds, and output directory defined in `run_all.py`.
+**Check the script before use.** At the inspected revision, `run_all.py` enables **SciPlex3**, the `split_drugs`, `split_drugs2`, and `split_drugs3` columns, and training seeds **`0`, `42`, and `123`**. That is nine intended runs for the one enabled dataset, **not** the standard unseen-cell-type `split`/`split2`/`split3` grid. The launcher has experiment-specific output paths and an `FM_key` setting. Edit them to match the particular experiment being reproduced.
 
-## Current Model Configuration
+### Latent dimension
 
-| Component | Current setting |
-|---|---|
-| Gene latent dimension | 128 |
-| Gene encoder hidden dims | 2048 → 1024 → 512 |
-| Gene decoder hidden dims | 512 → 1024 → 2048 |
-| Diffusion steps | 1000 |
-| Diffusion backbone | MLP |
-| Diffusion hidden dimension | 4 × latent dimension |
-| Semantic condition | control-cell latent + drug/dose latent |
-| Autoencoder optimizer | AdamW |
-| Diffusion optimizer | AdamW |
-| Autoencoder learning rate | 5e-4 |
-| Diffusion learning rate | 1e-4 |
-| AE warm-up | 40 epochs |
-| Default prediction guidance scale | 1.5 |
-| Default DDIM sampling | 20 steps |
+The checked-in `model.py` sets **64 as the default `lat_dim`** if no explicit model hyperparameter override is supplied. The research manuscript discusses experiments using a **128-dimensional** latent space. Accordingly, the default command above is an **execution example**, not a validated reproduction of the manuscript's 128-dimensional configuration. Use the archived run configuration/checkpoint to determine the setting used for each reported result. Do not assume that changing a filename or output directory changes the model dimension.
 
 ## Evaluation
 
-Evaluation and experiment-analysis scripts are provided under:
+For a saved checkpoint directory, the public `test.py` entry point supports the following command:
 
-```text
-DIFFCRISP/eval.py
-DIFFCRISP/test.py
-DIFFCRISP/test_all.py
-experiments/
-expdata/
+```bash
+python test.py \
+  --config ../experiments/configs/nips.yaml \
+  --split split \
+  --seed 0 \
+  --FM_key X_scGPT \
+  --data_path ../data/nips/nips_pp_scFM_resplit.h5ad \
+  --model_dir ../model/nips/example/split/seed0
 ```
 
-The repository is currently being reorganized, so experiment-specific paths may need to be adjusted before reproduction.
+The script iterates over `model_*.pt` checkpoints in the supplied directory and writes a text file containing the DEG-focused R², perturbation-specific Pearson correlation, and Sinkhorn distance. Evaluation requires a compatible pretrained checkpoint, processed dataset, split, and scFM representation.
 
-## Relationship to CRISP
+> **Batch evaluation caveat:** The checked-in `test_all.py` passes a `--ddim` argument to `test.py`, whereas the current `test.py` argument parser does **not** accept that option. Therefore, `python test_all.py` is **not a verified working batch-evaluation command in this revision**. Reconcile these two scripts before running batch evaluation; do not interpret the launcher's completion message as proof that all experiments succeeded.
 
-DiffCRISP is developed from the open-source **CRISP** framework:
+## Reproducing the manuscript
 
-- Original repository: https://github.com/ml4bio/CRISP
-- Paper: *Predicting drug responses of unseen cell types through transfer learning with foundation models*
-- DOI: https://doi.org/10.1038/s43588-025-00887-6
+The manuscript includes analyses of unseen cell types, unseen drugs, controlled generator ablations, distribution fidelity, responder proportions, cross-platform response-direction transfer, pathway enrichment, and hyperparameter sensitivity. The relevant scripts and output data are not currently organized into a tested, one-command workflow for each manuscript figure.
 
-CRISP provides the foundation-model-assisted framework for cell-type-aware perturbation prediction. DiffCRISP explores a conditional latent diffusion formulation for modeling the distribution of post-perturbation cellular states while retaining the unseen-cell-type / unseen-drug generalization setting.
+For reproducibility, retain the following for each experiment: code commit ID, processed dataset version, molecular embedding file, split name, random seed, model hyperparameters, guidance scale, Gaussian noise level (where applicable), checkpoint, number of generated cells, and evaluation configuration.
 
-## Citation
+Record the code revision with:
 
-If you use the original CRISP framework, please cite:
-
-```bibtex
-@article{wang2025crisp,
-  title   = {Predicting drug responses of unseen cell types through transfer learning with foundation models},
-  author  = {Wang, Yixuan and Liu, Xinyuan and Fan, Yimin and others},
-  journal = {Nature Computational Science},
-  year    = {2025},
-  doi     = {10.1038/s43588-025-00887-6}
-}
+```bash
+git rev-parse HEAD
 ```
 
-A citation for DiffCRISP can be added when the corresponding work is publicly available.
+## Reproducibility notes and known issues
+
+1. **Paper/configuration consistency:** Confirm the actual latent dimension used in the reported experiments. Current code defaults to 64; the manuscript describes a 128-dimensional model.
+2. **Gaussian baseline consistency:** The checked-in Gaussian constructor uses `fixed_sigma=0.05`. Confirm the sigma used to generate the reported controlled-ablation results, which may differ from this code default.
+3. **DMSO matching:** DMSO index and dose are now looked up from the loaded dataset rather than specified as fixed integers. The code assumes exactly one unique DMSO drug–dose pair across the supplied subsets and will fail if it is missing or non-unique. Validate this assumption for each dataset.
+4. **Batch evaluation:** The `--ddim` argument mismatch between `test_all.py` and `test.py` must be corrected before batch evaluation works as advertised.
+5. **Experiment-specific launchers:** `run_all.py` and `test_all.py` have hard-coded experiment choices and output paths. Review these for the experiment you intend to run.
+6. **Checkpoint compatibility:** Checkpoints encode the model variant and some initialization settings. Use the corresponding compatible code and dataset/drug mapping when loading historical models.
+7. **Package metadata:** `setup.py` currently retains the upstream package name `CRISP` rather than `DiffCRISP`; this is a naming/packaging detail to review before a formal software release.
+8. **Artifacts:** The repository does not currently include a verified complete pipeline for downloading/preprocessing every dataset and reconstructing every paper figure.
+
+These notes document the **inspected public implementation**. They are not claims that every manuscript experiment used exactly the present default settings.
+
+## Acknowledgments and citation
+
+This repository builds on the original [CRISP project](https://github.com/ml4bio/CRISP). If you use DiffCRISP or build on its CRISP components, please cite the corresponding original work and follow the license terms of the upstream implementation and external resources.
+
+- **CRISP:** *Predicting drug responses of unseen cell types through transfer learning with foundation models*, *Nature Computational Science*. [DOI: 10.1038/s43588-025-00887-6](https://doi.org/10.1038/s43588-025-00887-6).
+- **DiffCRISP:** Citation information will be added when the corresponding manuscript has a public bibliographic record.
 
 ## License
 
-This repository retains the license included in the project. Please also follow the licensing and attribution requirements of CRISP, external datasets, and pretrained models used by the project.
-
-## Notes
-
-DiffCRISP is currently research-oriented rather than a polished software package. Some dataset-specific constants and paths remain in the experimental code. Reproducibility scripts, pretrained checkpoints, and a more complete data-download guide can be added as the project is cleaned up.
+See [`LICENSE.txt`](LICENSE.txt). Third-party pretrained models, data, and molecular representations may have separate licensing conditions.
