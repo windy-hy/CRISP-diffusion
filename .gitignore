@@ -8,3 +8,5 @@ scFoundation/demo
 
 __pycache__/
 *.pyc
+
+model/
