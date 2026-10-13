@@ -33,7 +33,7 @@ Random Gaussian latent --> DDIM reverse sampling --> generated latent
                                              predicted treated cells
 ```
 
-The conditional diffusion backbone uses five residual AdaLN-style MLP blocks. The code uses 1,000 training diffusion timesteps and 20 DDIM inference steps in the main prediction path.
+The main model uses a **128-dimensional expression latent space** by default and a **256-dimensional combined cell–drug condition**. The conditional diffusion backbone uses five residual AdaLN-style MLP blocks. The code uses 1,000 training diffusion timesteps and 20 DDIM inference steps in the main prediction path.
 
 ### DMSO-referenced guidance
 
@@ -57,7 +57,7 @@ This is **dataset-derived DMSO configuration**, not a fixed NeurIPS or SciPlex3 
 
 The variants reuse the same Stage-I gene encoder/decoder and cell–drug conditioning design. The Gaussian branch estimates a conditional latent mean using MSE and adds fixed isotropic Gaussian noise during sampling; **its variance is not learned**.
 
-**Important:** The checked-in model constructor currently sets `fixed_sigma=0.05` for the Gaussian variant. This is a **code default**, not a verified statement of the sigma used to produce every manuscript result. Verify the exact value against the archived Figure 3 experiment before treating a new run as a reproduction.
+**Gaussian configuration:** The current `model.py` sets `fixed_sigma=0.1` for the fixed-variance Gaussian baseline, matching the value reported for Figure 3. The setting controls Gaussian sampling noise and does not make the variance trainable. Reproduction still requires the original dataset split, seed, checkpoint, and evaluation settings.
 
 For controlled generator-only comparisons, use consistent datasets, splits, seeds, conditioning inputs, autoencoder settings, and evaluation configurations. In particular, note that DMSO guidance may change the comparison; use the documented guidance setting from the corresponding experiment.
 
@@ -84,7 +84,11 @@ CRISP-diffusion/
 │   └── configs/
 │       ├── nips.yaml
 │       └── sci.yaml
-├── expdata/                 # available experiment/figure materials
+├── expdata/
+│   ├── README.md            # Figure 1–10 reproduction guide
+│   ├── fig1/
+│   ├── ...
+│   └── fig10/
 ├── requirement.txt
 ├── setup.py
 ├── LICENSE.txt
@@ -175,7 +179,7 @@ python run_all.py
 
 ### Latent dimension
 
-The checked-in `model.py` sets **64 as the default `lat_dim`** if no explicit model hyperparameter override is supplied. The research manuscript discusses experiments using a **128-dimensional** latent space. Accordingly, the default command above is an **execution example**, not a validated reproduction of the manuscript's 128-dimensional configuration. Use the archived run configuration/checkpoint to determine the setting used for each reported result. Do not assume that changing a filename or output directory changes the model dimension.
+The current `model.py` sets **128 as its default `lat_dim`**, consistent with the main 128-dimensional DiffCRISP architecture described in the manuscript. **Important:** an explicit `hparams` override from a configuration file or checkpoint can supersede this default; verify the resolved configuration before running or evaluating a model. Hyperparameter-sensitivity experiments may intentionally use other latent dimensions. The command above is an execution example, not a guarantee that all figures can be reproduced without their specific data and settings.
 
 ## Evaluation
 
@@ -197,7 +201,7 @@ The script iterates over `model_*.pt` checkpoints in the supplied directory and 
 
 ## Reproducing the manuscript
 
-The manuscript includes analyses of unseen cell types, unseen drugs, controlled generator ablations, distribution fidelity, responder proportions, cross-platform response-direction transfer, pathway enrichment, and hyperparameter sensitivity. The relevant scripts and output data are not currently organized into a tested, one-command workflow for each manuscript figure.
+The manuscript includes analyses of unseen cell types, unseen drugs, controlled generator ablations, distribution fidelity, responder proportions, cross-platform response-direction transfer, pathway enrichment, and hyperparameter sensitivity. Figure-specific explanations and available artifact conventions are documented in [`expdata/README.md`](expdata/README.md), organized by the **10 main manuscript figures** (Figures 1–10). The relevant scripts and output data are not currently organized into a tested, one-command workflow for every figure.
 
 For reproducibility, retain the following for each experiment: code commit ID, processed dataset version, molecular embedding file, split name, random seed, model hyperparameters, guidance scale, Gaussian noise level (where applicable), checkpoint, number of generated cells, and evaluation configuration.
 
@@ -209,8 +213,8 @@ git rev-parse HEAD
 
 ## Reproducibility notes and known issues
 
-1. **Paper/configuration consistency:** Confirm the actual latent dimension used in the reported experiments. Current code defaults to 64; the manuscript describes a 128-dimensional model.
-2. **Gaussian baseline consistency:** The checked-in Gaussian constructor uses `fixed_sigma=0.05`. Confirm the sigma used to generate the reported controlled-ablation results, which may differ from this code default.
+1. **Resolved model configuration:** The source defaults to `lat_dim=128` and `fixed_sigma=0.1` for Gaussian sampling. Explicit hyperparameter overrides and historical checkpoints may differ; always inspect the effective run configuration.
+2. **Figure reproduction:** [`expdata/README.md`](expdata/README.md) explains all 10 main figures and the required artifacts. The availability of every figure's raw inputs and scripts has not been independently verified.
 3. **DMSO matching:** DMSO index and dose are now looked up from the loaded dataset rather than specified as fixed integers. The code assumes exactly one unique DMSO drug–dose pair across the supplied subsets and will fail if it is missing or non-unique. Validate this assumption for each dataset.
 4. **Batch evaluation:** The `--ddim` argument mismatch between `test_all.py` and `test.py` must be corrected before batch evaluation works as advertised.
 5. **Experiment-specific launchers:** `run_all.py` and `test_all.py` have hard-coded experiment choices and output paths. Review these for the experiment you intend to run.

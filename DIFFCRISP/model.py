@@ -277,7 +277,7 @@ class PertAE(torch.nn.Module):
                 hidden_dim=lat_dim * 4,
                 num_layers=5,
                 dropout_prob=0.15,
-                fixed_sigma=0.05,
+                fixed_sigma=0.1,
             )
 
         self.loss_mse = torch.nn.MSELoss()
@@ -330,7 +330,7 @@ class PertAE(torch.nn.Module):
 
     def set_hparams_(self, hparams):
         self.hparams = {
-            "lat_dim": 64,
+            "lat_dim": 128,
             "batch_size": 128,
             "dropout": 0.2,
             "encoder_width": 256,
