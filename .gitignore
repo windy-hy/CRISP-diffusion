@@ -5,3 +5,6 @@ scFoundation/demo
 *.pt
 *.pth
 *.ckpt
+
+__pycache__/
+*.pyc
