@@ -35,6 +35,7 @@ def test_all_epochs():
     parser.add_argument("--FM_key", type=str, default=None, help="key of FM embeddings")
     parser.add_argument("--data_path", type=str, default=data_path, help="Path of adata")
     parser.add_argument("--model_dir", type=str, default=f'../model/{dataset}{arg}/{split}/seed{seed}')
+    parser.add_argument("--ddim", type=int, default=20)
 
     pars_args = parser.parse_args()
     args = load_config(pars_args.config)

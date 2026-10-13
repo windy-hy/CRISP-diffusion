@@ -8,30 +8,43 @@ from DIFFCRISP.utils import load_config
 from DIFFCRISP.trainer import Trainer
 from DIFFCRISP.eval import evaluate
 
+
 # =========================
 # 基本设置
 # =========================
 
-SPLIT_KEY = "split_drugs"
-TARGET_CELL = ""
-if SPLIT_KEY == "split_drugs":
-    TARGET_CELL = "MCF7"
-elif SPLIT_KEY == "split_drugs2":
-    TARGET_CELL = "A549"
-elif SPLIT_KEY == "split_drugs3":
-    TARGET_CELL = "K562"
+SPLITS = [
+    "split_drugs",
+    "split_drugs2",
+    "split_drugs3",
+]
+
+SEEDS = [
+    0,
+    42,
+    123,
+]
+# SEEDS = [
+#     1327,
+#     1337,
+#     1347,
+# ]
 
 
-SEED = 0
-GUIDANCE_SCALE = 1.5
+CELL_MAP = {
+    "split_drugs": "MCF7",
+    "split_drugs2": "A549",
+    "split_drugs3": "K562",
+}
+
+
 CONFIG_PATH = "../../../experiments/configs/sci.yaml"
 
 DATA_PATH = (
-    "../../../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad"
+    "../../../data/sciplex3/"
+    "sciplex3_pp_hvgenes_scFM_resplit.h5ad"
 )
 
-MODEL_PATH = f"../../../model/sci/{SPLIT_KEY}/seed0/model_250_split.pt"
-OUTPUT_PATH =f"SciPlex3_{TARGET_CELL}_DIFFDRISP.csv"
 
 UNSEEN_DRUGS = [
     "Dacinostat",
@@ -49,204 +62,257 @@ UNSEEN_DRUGS = [
 def to_numpy(x):
     if torch.is_tensor(x):
         return x.detach().cpu().numpy()
-
     return np.asarray(x)
 
 
 def to_float(x):
     if torch.is_tensor(x):
         return x.detach().cpu().item()
-
     return float(x)
 
 
+
 # =========================
-# 加载配置
+# 保存所有结果
 # =========================
 
-args = load_config(CONFIG_PATH)
+all_results = []
 
-args["dataset"]["split_key"] = SPLIT_KEY
-args["dataset"]["adata_obj"] = DATA_PATH
-args["model"]["seed"] = SEED
 
 
 # =========================
-# 初始化数据集
+# 9个实验循环
 # =========================
 
-exp = Trainer()
+for SPLIT_KEY in SPLITS:
 
-exp.init_dataset(
-    **args["dataset"],
-    seed=SEED,
-)
-
-treated_dataset = exp.datasets["ood_treated"]
-control_dataset = exp.datasets["ood_control"]
+    TARGET_CELL = CELL_MAP[SPLIT_KEY]
 
 
-# =========================
-# 找到K562的36个组合
-# =========================
-
-pert_categories = np.asarray(
-    treated_dataset.pert_categories
-).astype(str)
-
-cell_types = np.asarray(
-    treated_dataset.celltype
-).astype(str)
-
-drug_names = np.asarray(
-    treated_dataset.drugs_names
-).astype(str)
-
-doses = to_numpy(
-    treated_dataset.dosages
-)
-
-if doses.ndim > 1:
-    doses = doses[:, 0]
+    for SEED in SEEDS:
 
 
-condition_table = pd.DataFrame({
-    "pert_category": pert_categories,
-    "cell_type": cell_types,
-    "condition": drug_names,
-    "dose_val": doses.astype(float),
-})
+        print("\n==============================")
+        print("Running:")
+        print("split =", SPLIT_KEY)
+        print("seed =", SEED)
+        print("cell =", TARGET_CELL)
+        print("==============================\n")
 
 
-condition_table = condition_table[
-    (condition_table["cell_type"] == TARGET_CELL)
-    & condition_table["condition"].isin(UNSEEN_DRUGS)
-].copy()
-
-
-condition_table = (
-    condition_table
-    .drop_duplicates("pert_category")
-    .sort_values(
-        [
-            "condition",
-            "dose_val",
-        ]
-    )
-    .reset_index(drop=True)
-)
-
-
-print("药物数量：", condition_table["condition"].nunique())
-print("组合数量：", len(condition_table))
-
-print(
-    condition_table[
-        [
-            "condition",
-            "dose_val",
-            "pert_category",
-        ]
-    ].to_string(index=False)
-)
-
-
-if condition_table["condition"].nunique() != 9:
-    raise ValueError(
-        "未见药物数量不是9种，实际为："
-        + str(condition_table["condition"].nunique())
-    )
-
-
-if len(condition_table) != 36:
-    raise ValueError(
-        "药物-剂量组合不是36个，实际为："
-        + str(len(condition_table))
-    )
-
-
-# =========================
-# 加载模型
-# =========================
-
-exp.load_model(MODEL_PATH)
-
-exp.autoencoder.to(exp.device)
-exp.autoencoder.eval()
-
-
-# 固定推理随机数
-np.random.seed(0)
-torch.manual_seed(0)
-
-if torch.cuda.is_available():
-    torch.cuda.manual_seed_all(0)
-
-
-# =========================
-# 计算指标
-# =========================
-
-with torch.no_grad():
-
-    metrics_all, eval_score_dict, pred_dict = evaluate(
-        autoencoder=exp.autoencoder,
-        treated_dataset=treated_dataset,
-        control_dataset=control_dataset,
-        guidance_scale=GUIDANCE_SCALE,
-    )
-
-
-# =========================
-# 只提取36个组合
-# =========================
-
-results = []
-
-
-for _, row in condition_table.iterrows():
-
-    pert_category = row["pert_category"]
-
-    if pert_category not in eval_score_dict:
-        raise KeyError(
-            "evaluate结果中没有找到："
-            + pert_category
+        MODEL_PATH = (
+            f"../../../model/sci/fcfp4_mmd0.0_loss0.5l1l2+0.2_64_unseendrugs/"
+            f"{SPLIT_KEY}/seed{SEED}/model_300_split.pt"
         )
 
-    score = eval_score_dict[pert_category]
 
-    results.append({
-        "condition": row["condition"],
-        "dose_val": row["dose_val"],
+        # -------------------------
+        # 加载配置
+        # -------------------------
 
-        "CRISP_R2_DE": to_float(
-            score["r2score_de"]
-        ),
+        args = load_config(CONFIG_PATH)
 
-        "CRISP_Pearson_Delta_DE": to_float(
-            score["pearson_delta_de"]
-        ),
-
-        "CRISP_Sinkhorn_DE": to_float(
-            score["sinkhorn_de"]
-        ),
-    })
+        args["dataset"]["split_key"] = SPLIT_KEY
+        args["dataset"]["adata_obj"] = DATA_PATH
+        args["model"]["seed"] = SEED
 
 
-result_df = pd.DataFrame(results)
+
+        # -------------------------
+        # 初始化数据
+        # -------------------------
+
+        exp = Trainer()
 
 
-if len(result_df) != 36:
-    raise ValueError(
-        "最终保存结果不是36行，实际为："
-        + str(len(result_df))
-    )
+        exp.init_dataset(
+            **args["dataset"],
+            seed=SEED,
+        )
+
+
+        treated_dataset = exp.datasets["ood_treated"]
+        control_dataset = exp.datasets["ood_control"]
+
+
+
+        # -------------------------
+        # 找目标药物
+        # -------------------------
+
+        pert_categories = np.asarray(
+            treated_dataset.pert_categories
+        ).astype(str)
+
+        cell_types = np.asarray(
+            treated_dataset.celltype
+        ).astype(str)
+
+        drug_names = np.asarray(
+            treated_dataset.drugs_names
+        ).astype(str)
+
+
+        doses = to_numpy(
+            treated_dataset.dosages
+        )
+
+
+        if doses.ndim > 1:
+            doses = doses[:,0]
+
+
+        condition_table = pd.DataFrame({
+
+            "pert_category": pert_categories,
+            "cell_type": cell_types,
+            "condition": drug_names,
+            "dose_val": doses.astype(float),
+
+        })
+
+
+        condition_table = condition_table[
+            (condition_table["cell_type"] == TARGET_CELL)
+            &
+            (condition_table["condition"].isin(UNSEEN_DRUGS))
+        ].copy()
+
+
+
+        condition_table = (
+            condition_table
+            .drop_duplicates("pert_category")
+            .sort_values(
+                [
+                    "condition",
+                    "dose_val",
+                ]
+            )
+            .reset_index(drop=True)
+        )
+
+
+
+        print(
+            "drug:",
+            condition_table["condition"].nunique(),
+            "conditions:",
+            len(condition_table)
+        )
+
+
+        if condition_table["condition"].nunique()!=9:
+            raise ValueError(
+                "药物数量错误"
+            )
+
+
+        if len(condition_table)!=36:
+            raise ValueError(
+                "组合数量错误"
+            )
+
+
+
+        # -------------------------
+        # 加载模型
+        # -------------------------
+
+        exp.load_model(
+            MODEL_PATH
+        )
+
+
+        exp.autoencoder.to(
+            exp.device
+        )
+
+        exp.autoencoder.eval()
+
+
+
+        np.random.seed(SEED)
+        torch.manual_seed(SEED)
+
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(SEED)
+
+
+
+        # -------------------------
+        # evaluate
+        # -------------------------
+
+        with torch.no_grad():
+
+            metrics_all, eval_score_dict, pred_dict = evaluate(
+                autoencoder=exp.autoencoder,
+                treated_dataset=treated_dataset,
+                control_dataset=control_dataset,
+            )
+
+
+
+        # -------------------------
+        # 保存36个结果
+        # -------------------------
+
+        for _, row in condition_table.iterrows():
+
+            pert_category = row["pert_category"]
+
+
+            score = eval_score_dict[pert_category]
+
+
+            all_results.append({
+
+                "split": SPLIT_KEY,
+
+                "seed": SEED,
+
+                "cell_type": TARGET_CELL,
+
+                "condition": row["condition"],
+
+                "dose_val": row["dose_val"],
+
+
+                "CRISP_R2_DE":
+                    to_float(
+                        score["r2score_de"]
+                    ),
+
+
+                "CRISP_Pearson_Delta_DE":
+                    to_float(
+                        score["pearson_delta_de"]
+                    ),
+
+
+                "CRISP_Sinkhorn_DE":
+                    to_float(
+                        score["sinkhorn_de"]
+                    ),
+
+            })
+
 
 
 # =========================
-# 保存一个CSV
+# 保存总结果
 # =========================
+
+result_df = pd.DataFrame(
+    all_results
+)
+
+
+OUTPUT_PATH = (
+    "SciPlex3_DIFFCRISP_all_split_seed.csv"
+)
+
 
 result_df.to_csv(
     OUTPUT_PATH,
@@ -254,23 +320,24 @@ result_df.to_csv(
 )
 
 
-print("\n保存完成：", OUTPUT_PATH)
-print("保存行数：", len(result_df))
-print(result_df.to_string(index=False))
-
-print("\n三个指标均值：")
-
+print("\n完成")
 print(
-    "R2_DE：",
-    result_df["CRISP_R2_DE"].mean()
+    "总行数:",
+    len(result_df)
 )
 
-print(
-    "Pearson_Delta_DE：",
-    result_df["CRISP_Pearson_Delta_DE"].mean()
-)
 
 print(
-    "Sinkhorn_DE：",
-    result_df["CRISP_Sinkhorn_DE"].mean()
+    result_df.groupby(
+        [
+            "split",
+            "seed",
+        ]
+    )[
+        [
+            "CRISP_R2_DE",
+            "CRISP_Pearson_Delta_DE",
+            "CRISP_Sinkhorn_DE",
+        ]
+    ].mean()
 )

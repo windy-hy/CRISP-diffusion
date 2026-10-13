@@ -177,6 +177,7 @@ class Trainer:
             # FM_ndim=fm_dim  # <--- 换成刚刚算出来的自适应维度
 
         )
+        self.autoencoder.configure_dmso(self.datasets)
 
     def load_model(self,model_path):
         """
@@ -192,6 +193,7 @@ class Trainer:
                                   drug_embeddings=torch.nn.Embedding.from_pretrained(mo[0]['drug_embeddings.weight']),
                                   device=self.device)
         self.autoencoder.load_state_dict(mo[0])
+        self.autoencoder.configure_dmso(self.datasets)
 
     def get_prediction(self, 
                        adata_ctrl, 
@@ -387,7 +389,7 @@ class Trainer:
             )
 
 
-            if epoch in [100,200,300,400,500,550,600] or stop:
+            if epoch in [150,200,300,400,500,550,600] or stop:
                 file_name = f'model_{epoch}_split.pt'
                 torch.save(
                     (

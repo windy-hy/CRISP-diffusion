@@ -10,24 +10,31 @@ TEST_SCRIPT = PROJECT_ROOT / "test.py"
 
 FM_key = "X_scGPT"
 DATASETS = {
-    "nips": {
-        "data_path": "../data/nips/nips_pp_scFM_resplit.h5ad",
-        "config_path": "../experiments/configs/nips.yaml",
-        "model_root": "../model/nips/fcfp4_mmd0.0_loss0.5l1l2+0.2_128",
-    },
-
-    # "sci": {
-    #     "data_path": "../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad",
-    #     "config_path": "../experiments/configs/sci.yaml",
-    #     "model_root": "../model/sci/fcfp4_mmd0.0_loss0.5l1l2+0.2_64",
+    # "nips": {
+    #     "data_path": "../data/nips/nips_pp_scFM_resplit.h5ad",
+    #     "config_path": "../experiments/configs/nips.yaml",
+    #     "model_root": "../model/nips/fcfp4_mmd0.0_loss0.5l1l2+0.2_128",
     # },
+
+    "sci": {
+        "data_path": "../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad",
+        "config_path": "../experiments/configs/sci.yaml",
+        "model_root": "../model/sci/fcfp4_mmd0.0_loss0.5l1l2+0.2_64_unseendrugs",
+    },
 }
 
+ddim = 20
+
+# SPLITS = [
+#     "split",
+#     "split2",
+#     "split3",
+# ]
 
 SPLITS = [
-    "split",
-    "split2",
-    "split3",
+    "split_drugs",
+    "split_drugs2",
+    "split_drugs3",
 ]
 
 SEEDS = [
@@ -74,7 +81,10 @@ for dataset, config in DATASETS.items():
                 model_dir,
 
                 "--FM_key",
-                FM_key
+                FM_key,
+
+                "--ddim",
+                str(ddim)
             ]
 
             print("\n" + "=" * 70)

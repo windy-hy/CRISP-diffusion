@@ -7,38 +7,39 @@ TRAIN_SCRIPT = PROJECT_ROOT / "train.py"
 
 # 固定MMD
 MMD_CO = 0.0
-arg = f'fcfp4_mmd{MMD_CO}_loss0.5l1l2+0.2_128'
+arg = f'fcfp4_mmd{MMD_CO}_loss0.5l1l2+0.2_64_unseendrugs'
 FM_key = 'X_scGPT'
 DATASETS = {
-    "nips": {
-        "data_path": "../data/nips/nips_pp_scFM_resplit.h5ad",
-        "drug_path": "../data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet",
-        "config_path": "../experiments/configs/nips.yaml",
-    },
-    # "sci": {
-    #     "data_path": "../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad",
-    #     "drug_path": "../data/drug_embeddings/fcfp4_1024_embedding_lincs_sciplex3.parquet",
-    #     "config_path": "../experiments/configs/sci.yaml",
+    # "nips": {
+    #     "data_path": "../data/nips/nips_pp_scFM_resplit.h5ad",
+    #     "drug_path": "../data/drug_embeddings/fcfp4_1024_embedding_lincs_nips.parquet",
+    #     "config_path": "../experiments/configs/nips.yaml",
     # },
+    "sci": {
+        "data_path": "../data/sciplex3/sciplex3_pp_hvgenes_scFM_resplit.h5ad",
+        "drug_path": "../data/drug_embeddings/fcfp4_1024_embedding_lincs_sciplex3.parquet",
+        "config_path": "../experiments/configs/sci.yaml",
+    },
 }
 
 
 # SPLITS = ["zero_split_drugs", "zero_split_drugs2", "zero_split_drugs3"]
-# SPLITS = [ "split"]
 SPLITS = [
-    "split",
-    "split2",
-    "split3"
-]
+        "split_drugs",
+        "split_drugs2",
+        "split_drugs3"
+          ]
+
+# SPLITS = [
+#     "split",
+#     "split2",
+#     "split3"
+# ]
 SEEDS = [
-    # 0,
+    0,
     42,
-    123
+    123,
 ]
-# SEEDS = [0]
-
-
-
 
 
 failed_runs = []

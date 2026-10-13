@@ -279,9 +279,30 @@ def evaluate(autoencoder: PertAE, treated_dataset: SubDataset, control_dataset: 
             continue
 
         if sp.issparse(_sub_ctrl):
-            genes_control_sub = torch.tensor(_sub_ctrl.toarray(), dtype=torch.float32, device='cuda')
+
+            genes_control_sub = torch.tensor(
+                _sub_ctrl.toarray(),
+                dtype=torch.float32,
+                device='cuda'
+            )
+
+        elif torch.is_tensor(_sub_ctrl):
+
+            genes_control_sub = (
+                _sub_ctrl
+                .detach()
+                .clone()
+                .float()
+                .cuda()
+            )
+
         else:
-            genes_control_sub = torch.tensor(_sub_ctrl, dtype=torch.float32, device='cuda')
+
+            genes_control_sub = torch.tensor(
+                _sub_ctrl,
+                dtype=torch.float32,
+                device='cuda'
+            )
 
         n_rows = genes_control_sub.size(0)
 
@@ -298,12 +319,26 @@ def evaluate(autoencoder: PertAE, treated_dataset: SubDataset, control_dataset: 
         # --- 🚀 修复 2：动态解析并解压对照组特征 (兼容 use_FM=False) ---
         _sub_emb = control_dataset.paired_cell_embeddings[control_dataset.celltype == ct]
         if isinstance(_sub_emb, torch.Tensor):
-            cell_embeddings_sub = _sub_emb.to('cuda', dtype=torch.float32)
+
+            cell_embeddings_sub = (
+                _sub_emb
+                .detach()
+                .clone()
+                .float()
+                .cuda()
+            )
+
         elif _sub_emb[0] is None:
-            # use_FM=False时，对照组的特征就是它自己的基因表达
+
             cell_embeddings_sub = genes_control_sub
+
         else:
-            cell_embeddings_sub = torch.tensor(list(_sub_emb), dtype=torch.float32, device='cuda')
+
+            cell_embeddings_sub = torch.tensor(
+                list(_sub_emb),
+                dtype=torch.float32,
+                device='cuda'
+            )
 
         preds = compute_prediction_CRISP(
             autoencoder,
@@ -317,9 +352,28 @@ def evaluate(autoencoder: PertAE, treated_dataset: SubDataset, control_dataset: 
         # --- 🚀 修复 3：安全切片真实处理组基因并解压 ---
         _y_true = genes_true[idx_all, :]
         if sp.issparse(_y_true):
-            y_true = torch.tensor(_y_true.toarray(), dtype=torch.float32)
+
+            y_true = torch.tensor(
+                _y_true.toarray(),
+                dtype=torch.float32
+            )
+
+        elif torch.is_tensor(_y_true):
+
+            y_true = (
+                _y_true
+                .detach()
+                .clone()
+                .float()
+                .cpu()
+            )
+
         else:
-            y_true = torch.tensor(_y_true, dtype=torch.float32)
+
+            y_true = torch.tensor(
+                _y_true,
+                dtype=torch.float32
+            )
 
         preds = preds.detach().to('cpu')
 
