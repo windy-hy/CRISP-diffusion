@@ -1,1 +1,0 @@
-Epoch	R2_DE	Pearson_Delta_DE	Sinkhorn_DE	Model_File
